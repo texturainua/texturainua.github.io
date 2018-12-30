@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Населення on -текстура-</title>
-    <link>http://textura.in.ua/tags/%D0%BD%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F/</link>
+    <link>https://texturainua.github.io/tags/%D0%BD%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F/</link>
     <description>Recent content in Населення on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
     <lastBuildDate>Fri, 28 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://textura.in.ua/tags/%D0%BD%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://texturainua.github.io/tags/%D0%BD%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Візуалізація: Зміна кількості населення України за віковими групами між 1989 та 2018 роками</title>
-      <link>http://textura.in.ua/posts/viz/ukraine-population-change-age-group/</link>
+      <link>https://texturainua.github.io/posts/viz/ukraine-population-change-age-group/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://textura.in.ua/posts/viz/ukraine-population-change-age-group/</guid>
+      <guid>https://texturainua.github.io/posts/viz/ukraine-population-change-age-group/</guid>
       <description>Ше один варіант того, що можна зробити із даними про статево-вікову структуру населення України. Візуалізація зміни вікової структури населення між 1989 та 2018 роками.
  зміна кількості населення України за віковими групами між 1989 та 2018 роками
   Тут, звісно, можна було би намалювати дві лінії - для структури населення 1989 та 2018 року, та запропонувати читачам самим зрозуміти різницю між ними. А можна - як тут - одразу показувати різницю, збільшення або зменшення.</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Візуалізація: Кількість жінок на 100 чоловіків у розрізі вікових груп у 2018 році</title>
-      <link>http://textura.in.ua/posts/viz/ukraine-sex-ratio/</link>
+      <link>https://texturainua.github.io/posts/viz/ukraine-sex-ratio/</link>
       <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://textura.in.ua/posts/viz/ukraine-sex-ratio/</guid>
+      <guid>https://texturainua.github.io/posts/viz/ukraine-sex-ratio/</guid>
       <description>В рамках курсу з візуалізації даних в УКУ дав студентам завдання візуалізувати дані, які стосуються статево-вікової структури населення України. За умовами завдання, студенти самі мали визначити спосіб агрегації та візуалізації даних, відповідно до питань, які у них виникли, або гіпотез, які вони хочуть дослідити.
  кількість жінок на 100 чоловіків у розрізі вікових груп у 2018 році
   Принагідно, я також зробив кілька візуалізацій, аби показати студентам, що можливо зробити із цими даними.</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>Візуалізація: Розподіл народжених в Україні за місяцями, 1980-2014 роки</title>
-      <link>http://textura.in.ua/posts/viz/births-by-month/</link>
+      <link>https://texturainua.github.io/posts/viz/births-by-month/</link>
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://textura.in.ua/posts/viz/births-by-month/</guid>
+      <guid>https://texturainua.github.io/posts/viz/births-by-month/</guid>
       <description>розподіл народжених в Україні за місяцями
   Код і дані на GitHub
 Дані на сайті UNdata</description>
@@ -46,10 +46,10 @@
     
     <item>
       <title>Карта: Середній вік першого шлюбу за регіонами України</title>
-      <link>http://textura.in.ua/posts/viz/average-age-at-marriage-tilegrid/</link>
+      <link>https://texturainua.github.io/posts/viz/average-age-at-marriage-tilegrid/</link>
       <pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://textura.in.ua/posts/viz/average-age-at-marriage-tilegrid/</guid>
+      <guid>https://texturainua.github.io/posts/viz/average-age-at-marriage-tilegrid/</guid>
       <description>Ще одна версія графіки про середній вік першого шлюбу в Україні.
  середній вік першого шлюбу за регіонами України
   Так звана tilegrid map - суміш таблиці та карти. Використовується в якості альтернативи хороплетним картам.
@@ -59,10 +59,10 @@
     
     <item>
       <title>Візуалізація: Середній вік першого шлюбу за регіонами України</title>
-      <link>http://textura.in.ua/posts/viz/average-age-at-marriage/</link>
+      <link>https://texturainua.github.io/posts/viz/average-age-at-marriage/</link>
       <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://textura.in.ua/posts/viz/average-age-at-marriage/</guid>
+      <guid>https://texturainua.github.io/posts/viz/average-age-at-marriage/</guid>
       <description>Експериментальна, скажімо так, візуалізація. Хочу згодом ще зробити анімацію всього процесу - від стандартної конвенційної візуалізації до ось цього.
  середній вік першого шлюбу за регіонами України
   Що тут незвичного?
@@ -71,10 +71,10 @@
     
     <item>
       <title>Візуалізація: Медіанний вік населення в Україні у 1989-2016 роках</title>
-      <link>http://textura.in.ua/posts/viz/ukraine-median-age-geofacet/</link>
+      <link>https://texturainua.github.io/posts/viz/ukraine-median-age-geofacet/</link>
       <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://textura.in.ua/posts/viz/ukraine-median-age-geofacet/</guid>
+      <guid>https://texturainua.github.io/posts/viz/ukraine-median-age-geofacet/</guid>
       <description>Ще одна забавка із бібліотекою geofacet. Принципово ніц нового, але цікава штука в даних - суттєва відмінність даних за 2002 рік від даних за решту років.
  медіанний вік населення в Україні у 1989-2016 роках
   Відмінність зумовлена тим, що дані за 2002 рік подаються за результатами перепису населення від 5 грудня 2001 року (аналогічно, дані за 1989 рік подаються за результатами перепису станом на 12 січня 1989 року).</description>
@@ -82,10 +82,10 @@
     
     <item>
       <title>Візуалізація: Природний приріст/скорочення населення в Україні, 1990-2015</title>
-      <link>http://textura.in.ua/posts/viz/ukraine-population-grown-rate/</link>
+      <link>https://texturainua.github.io/posts/viz/ukraine-population-grown-rate/</link>
       <pubDate>Sun, 25 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://textura.in.ua/posts/viz/ukraine-population-grown-rate/</guid>
+      <guid>https://texturainua.github.io/posts/viz/ukraine-population-grown-rate/</guid>
       <description>Днями Райан Хафен опублікував бібліотеку geofacet, котра є доповненням чи б пак розширенням для ggplot2, і дозволяє створювати власні сітки для розташування панелей із small multiples.
  природний приріст/скорочення населення в Україні
   Тобто на додачу до facet_wrap() та facet_grid() додає функцію facet_geo(), що дозволяє впорядковувати панелі із графіками таким чином, що їхнє розташування буде відтворювати розташування регіонів, країн, штатів, областей, міст на карті.

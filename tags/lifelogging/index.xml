@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lifelogging on -текстура-</title>
+    <link>http://textura.in.ua/tags/lifelogging/</link>
+    <description>Recent content in Lifelogging on -текстура-</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    <lastBuildDate>Sat, 26 Nov 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://textura.in.ua/tags/lifelogging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Що читати: Self-Tracking</title>
+      <link>http://textura.in.ua/posts/ed/self-tracking/</link>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://textura.in.ua/posts/ed/self-tracking/</guid>
+      <description>Хто автори?
+Видавець - The MIT Press - повідомляє нам, що Джина Неф - доцент (точніше associate professor, але в нас ніби такого поняття нема) комунікацій та соціології в Університеті Вашингтона, а Доун Нафус - старший науковий працівник в Intel Labs.
+ Self-Tracking
+  Це не дуже багато пояснює, але принаймні зрозуміло, що люди не з вулиці прийшли книгу писати. Доун також є редактором книги Quantified: Biosensing Technologies in Everyday Life (назва щонайменше цікава).</description>
+    </item>
+    
+  </channel>
+</rss>

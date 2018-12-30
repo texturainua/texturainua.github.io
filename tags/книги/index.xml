@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Книги on -текстура-</title>
+    <link>http://textura.in.ua/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</link>
+    <description>Recent content in Книги on -текстура-</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    <lastBuildDate>Fri, 08 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://textura.in.ua/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Що читати: Making Data Visual</title>
+      <link>http://textura.in.ua/posts/ed/making-data-visual/</link>
+      <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://textura.in.ua/posts/ed/making-data-visual/</guid>
+      <description>Хто автори?
+Деніел Фішер - старший дослідник у Microsoft Research, Мірая Меєр - доцент Університету Юти, керівниця Visualization Design Lab.
+ Making Data Visual
+  Робота Мірая та Деніела зосереджена на тому, аби допомагати компаніям, дослідникам чи науковцям розробляти інструменти для візуалізації даних та пошуку інсайтів у великих масивах даних.
+Для кого ця книга?
+Самі автори відповідають на це питання наступним чином: “Ця книга для тих, хто має доступ до даних та, можливо, набору інструментів для їх обробки, але не дуже розуміє, як перетворити дані на візуальні інсайти”.</description>
+    </item>
+    
+    <item>
+      <title>Що читати: Self-Tracking</title>
+      <link>http://textura.in.ua/posts/ed/self-tracking/</link>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://textura.in.ua/posts/ed/self-tracking/</guid>
+      <description>Хто автори?
+Видавець - The MIT Press - повідомляє нам, що Джина Неф - доцент (точніше associate professor, але в нас ніби такого поняття нема) комунікацій та соціології в Університеті Вашингтона, а Доун Нафус - старший науковий працівник в Intel Labs.
+ Self-Tracking
+  Це не дуже багато пояснює, але принаймні зрозуміло, що люди не з вулиці прийшли книгу писати. Доун також є редактором книги Quantified: Biosensing Technologies in Everyday Life (назва щонайменше цікава).</description>
+    </item>
+    
+  </channel>
+</rss>

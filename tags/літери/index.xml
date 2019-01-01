@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Літери on -текстура-</title>
-    <link>http://textura.in.ua/tags/%D0%BB%D1%96%D1%82%D0%B5%D1%80%D0%B8/</link>
+    <link>https://texturainua.github.io/tags/%D0%BB%D1%96%D1%82%D0%B5%D1%80%D0%B8/</link>
     <description>Recent content in Літери on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
     <lastBuildDate>Wed, 09 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://textura.in.ua/tags/%D0%BB%D1%96%D1%82%D0%B5%D1%80%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://texturainua.github.io/tags/%D0%BB%D1%96%D1%82%D0%B5%D1%80%D0%B8/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Візуалізація: Частотність літер залежно від позиції у слові. Нормалізовані дані</title>
-      <link>http://textura.in.ua/posts/viz/letters-poisition-normalised/</link>
+      <link>https://texturainua.github.io/posts/viz/letters-poisition-normalised/</link>
       <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://textura.in.ua/posts/viz/letters-poisition-normalised/</guid>
+      <guid>https://texturainua.github.io/posts/viz/letters-poisition-normalised/</guid>
       <description>Після публікації візуалізації із частотністю слів залежно від позиції у слові отримав кілька порад нормалізувати дані за довжиною слова. Totally makes sense! Отже, замість оперувати абсолютними позиціями літер у слові, ми тепера оперуємо відносними, зваженими на довжину слова.
  частотність літер залежно від позиції у слові
   Що дає нормалізація в цьому випадку? Всі літери, що вживаються наприкінці слова, в результаті нормалізації отримують однакову позицію - 1, незалежно від довжини слова.</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Візуалізація: Частотність літер залежно від позиції у слові</title>
-      <link>http://textura.in.ua/posts/viz/letters-poisition/</link>
+      <link>https://texturainua.github.io/posts/viz/letters-poisition/</link>
       <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://textura.in.ua/posts/viz/letters-poisition/</guid>
+      <guid>https://texturainua.github.io/posts/viz/letters-poisition/</guid>
       <description>Між іншим, з цього графіку можна дізнатись, що: 1) у словнику української мови нема слів, які починаються з літери “И”;&amp;nbsp; 2) більше ніж в половині випадків літера “П” вживається на початку слова; 3) літера “Я” переважно вживається наприкінці слова.
  частотність літер залежно від позиції у слові
   Код на GitHub</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>Візуалізація: Частотність літер у словнику української мови</title>
-      <link>http://textura.in.ua/posts/viz/letters-distribution/</link>
+      <link>https://texturainua.github.io/posts/viz/letters-distribution/</link>
       <pubDate>Mon, 07 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://textura.in.ua/posts/viz/letters-distribution/</guid>
+      <guid>https://texturainua.github.io/posts/viz/letters-distribution/</guid>
       <description>Спонтанне дослідження, зроблене за пару-трійку вечорів. Замислювалось суто як дата-арт, але не склалось. То ж буде набір візуалізацій. Перша - просто про найбільш вживані літери у словнику української мови.
  частотність літер у словнику української мови
   Звісно, може словник це такі собі лабораторні умови і тре було робити на якомусь великому корпусі (на корпусі статей з Вікіпедії, скажімо). Може згодом так і зроблю, цікаво, наскільки результати будуть відрізнятись.</description>

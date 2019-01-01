@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Відео on -текстура-</title>
-    <link>https://texturainua.github.io/tags/%D0%B2%D1%96%D0%B4%D0%B5%D0%BE/</link>
+    <link>http://textura.in.ua/tags/%D0%B2%D1%96%D0%B4%D0%B5%D0%BE/</link>
     <description>Recent content in Відео on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
     <lastBuildDate>Fri, 28 Nov 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://texturainua.github.io/tags/%D0%B2%D1%96%D0%B4%D0%B5%D0%BE/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://textura.in.ua/tags/%D0%B2%D1%96%D0%B4%D0%B5%D0%BE/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Відео: The Art of Data Visualization</title>
-      <link>https://texturainua.github.io/posts/video/art-of-dataviz/</link>
+      <link>http://textura.in.ua/posts/video/art-of-dataviz/</link>
       <pubDate>Fri, 28 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/video/art-of-dataviz/</guid>
+      <guid>http://textura.in.ua/posts/video/art-of-dataviz/</guid>
       <description>Коротенький фільм про візуалізацію даних. Серед спікерів - Едвард Тафті та Джер Торп.
  </description>
     </item>
     
     <item>
       <title>Відео: The Joy of Stats</title>
-      <link>https://texturainua.github.io/posts/video/joy-of-stats/</link>
+      <link>http://textura.in.ua/posts/video/joy-of-stats/</link>
       <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/video/joy-of-stats/</guid>
+      <guid>http://textura.in.ua/posts/video/joy-of-stats/</guid>
       <description>The Joy Of Stats - дуже хороша документальна стрічка від ВВС 4, в якій голова фонду Gapminder Ганс Рослінг захопливо розповідає про статистику
  </description>
     </item>
     
     <item>
       <title>Відео: Journalism in the Age of Data</title>
-      <link>https://texturainua.github.io/posts/video/journalism-age-of-data/</link>
+      <link>http://textura.in.ua/posts/video/journalism-age-of-data/</link>
       <pubDate>Sat, 07 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/video/journalism-age-of-data/</guid>
+      <guid>http://textura.in.ua/posts/video/journalism-age-of-data/</guid>
       <description>Документальний фільм про журналістику даних Journalism in the Age of Data
  </description>
     </item>

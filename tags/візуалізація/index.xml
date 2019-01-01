@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Візуалізація on -текстура-</title>
-    <link>https://texturainua.github.io/tags/%D0%B2%D1%96%D0%B7%D1%83%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F/</link>
+    <link>http://textura.in.ua/tags/%D0%B2%D1%96%D0%B7%D1%83%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F/</link>
     <description>Recent content in Візуалізація on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://texturainua.github.io/tags/%D0%B2%D1%96%D0%B7%D1%83%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://textura.in.ua/tags/%D0%B2%D1%96%D0%B7%D1%83%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Візуалізація: Кількість жінок та чоловіків в Україні у 1989-2018 роках</title>
-      <link>https://texturainua.github.io/posts/viz/ukraine-population-change/</link>
+      <link>http://textura.in.ua/posts/viz/ukraine-population-change/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/ukraine-population-change/</guid>
+      <guid>http://textura.in.ua/posts/viz/ukraine-population-change/</guid>
       <description>Ше один варіант того, що можна зробити із даними про статево-вікову структуру населення України. Візуалізація кількості жінок та чоловіків у 1989-2018 роках.
  кількість жінок та чоловіків в Україні у 1989-2018 роках
   Тут цікаво було із підписами значень - вони розташовані там, де від них, на мою думку найбільше користі - початкові та кінцеві значення (1989 та 2018 рік), максимальне значення (1993 рік) та підписи, покликані пояснити масштаби зміни, що відбулась у 2014-2015 роках.</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Візуалізація: Зміна кількості населення України за віковими групами між 1989 та 2018 роками</title>
-      <link>https://texturainua.github.io/posts/viz/ukraine-population-change-age-group/</link>
+      <link>http://textura.in.ua/posts/viz/ukraine-population-change-age-group/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/ukraine-population-change-age-group/</guid>
+      <guid>http://textura.in.ua/posts/viz/ukraine-population-change-age-group/</guid>
       <description>Ше один варіант того, що можна зробити із даними про статево-вікову структуру населення України. Візуалізація зміни вікової структури населення між 1989 та 2018 роками.
  зміна кількості населення України за віковими групами між 1989 та 2018 роками
   Тут, звісно, можна було би намалювати дві лінії - для структури населення 1989 та 2018 року, та запропонувати читачам самим зрозуміти різницю між ними. А можна - як тут - одразу показувати різницю, збільшення або зменшення.</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>Візуалізація: Кількість жінок на 100 чоловіків у розрізі вікових груп у 2018 році</title>
-      <link>https://texturainua.github.io/posts/viz/ukraine-sex-ratio/</link>
+      <link>http://textura.in.ua/posts/viz/ukraine-sex-ratio/</link>
       <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/ukraine-sex-ratio/</guid>
+      <guid>http://textura.in.ua/posts/viz/ukraine-sex-ratio/</guid>
       <description>В рамках курсу з візуалізації даних в УКУ дав студентам завдання візуалізувати дані, які стосуються статево-вікової структури населення України. За умовами завдання, студенти самі мали визначити спосіб агрегації та візуалізації даних, відповідно до питань, які у них виникли, або гіпотез, які вони хочуть дослідити.
  кількість жінок на 100 чоловіків у розрізі вікових груп у 2018 році
   Принагідно, я також зробив кілька візуалізацій, аби показати студентам, що можливо зробити із цими даними.</description>
@@ -46,10 +46,10 @@
     
     <item>
       <title>Освіта: Каталоги візуалізації даних</title>
-      <link>https://texturainua.github.io/posts/ed/dataviz-catalogue/</link>
+      <link>http://textura.in.ua/posts/ed/dataviz-catalogue/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/ed/dataviz-catalogue/</guid>
+      <guid>http://textura.in.ua/posts/ed/dataviz-catalogue/</guid>
       <description>Візуальна грамотність загалом, і зокрема та її частина, що стосується уміння читати та інтерпретувати графікі й візуалізації даних, є не вродженою, а набутою. Для засвоєння номенклатури графіків в нагоді можуть стати каталоги візуалізацій даних. За допомоги цих каталогів ви можете навчитись коректно інтерпретувати візуалізації даних, а також правильно обирати вид візуалізації або тип графіку для своїх задач.
 До вашої уваги каталог каталогів візуалізацій даних!
 The Data Visualization Catalogue  The Data Visualization Catalogue</description>
@@ -57,10 +57,10 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
     
     <item>
       <title>Що читати: Making Data Visual</title>
-      <link>https://texturainua.github.io/posts/ed/making-data-visual/</link>
+      <link>http://textura.in.ua/posts/ed/making-data-visual/</link>
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/ed/making-data-visual/</guid>
+      <guid>http://textura.in.ua/posts/ed/making-data-visual/</guid>
       <description>Хто автори?
 Деніел Фішер - старший дослідник у Microsoft Research, Мірая Меєр - доцент Університету Юти, керівниця Visualization Design Lab.
  Making Data Visual
@@ -71,10 +71,10 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
     
     <item>
       <title>Візуалізація: Розподіл народжених в Україні за місяцями, 1980-2014 роки</title>
-      <link>https://texturainua.github.io/posts/viz/births-by-month/</link>
+      <link>http://textura.in.ua/posts/viz/births-by-month/</link>
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/births-by-month/</guid>
+      <guid>http://textura.in.ua/posts/viz/births-by-month/</guid>
       <description>розподіл народжених в Україні за місяцями
   Код і дані на GitHub
 Дані на сайті UNdata</description>
@@ -82,10 +82,10 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
     
     <item>
       <title>Карта: Середній вік першого шлюбу за регіонами України</title>
-      <link>https://texturainua.github.io/posts/viz/average-age-at-marriage-tilegrid/</link>
+      <link>http://textura.in.ua/posts/viz/average-age-at-marriage-tilegrid/</link>
       <pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/average-age-at-marriage-tilegrid/</guid>
+      <guid>http://textura.in.ua/posts/viz/average-age-at-marriage-tilegrid/</guid>
       <description>Ще одна версія графіки про середній вік першого шлюбу в Україні.
  середній вік першого шлюбу за регіонами України
   Так звана tilegrid map - суміш таблиці та карти. Використовується в якості альтернативи хороплетним картам.
@@ -95,10 +95,10 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
     
     <item>
       <title>Візуалізація: Середній вік першого шлюбу за регіонами України</title>
-      <link>https://texturainua.github.io/posts/viz/average-age-at-marriage/</link>
+      <link>http://textura.in.ua/posts/viz/average-age-at-marriage/</link>
       <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/average-age-at-marriage/</guid>
+      <guid>http://textura.in.ua/posts/viz/average-age-at-marriage/</guid>
       <description>Експериментальна, скажімо так, візуалізація. Хочу згодом ще зробити анімацію всього процесу - від стандартної конвенційної візуалізації до ось цього.
  середній вік першого шлюбу за регіонами України
   Що тут незвичного?
@@ -107,10 +107,10 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
     
     <item>
       <title>Візуалізація: Споживання електроенергії впродовж дня</title>
-      <link>https://texturainua.github.io/posts/viz/electricity-consumption-by-hour-month/</link>
+      <link>http://textura.in.ua/posts/viz/electricity-consumption-by-hour-month/</link>
       <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/electricity-consumption-by-hour-month/</guid>
+      <guid>http://textura.in.ua/posts/viz/electricity-consumption-by-hour-month/</guid>
       <description>Другий графік на тему споживання електроенергії в Україні. Цього разу - про споживання в розрізі годин доби та місяців.
  споживання електроенергії впродовж дня
   Цікаво спостерігати не лише зміни рівня споживання від місяця до місяця, але й зміщення денних піків навантаження.
@@ -119,10 +119,10 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
     
     <item>
       <title>Візуалізація: Погода та споживання електроенергії</title>
-      <link>https://texturainua.github.io/posts/viz/electricity-consumption-by-hour-month/</link>
+      <link>http://textura.in.ua/posts/viz/electricity-consumption-by-hour-month/</link>
       <pubDate>Sat, 12 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/electricity-consumption-by-hour-month/</guid>
+      <guid>http://textura.in.ua/posts/viz/electricity-consumption-by-hour-month/</guid>
       <description>Візуалізація на основі даних Укренерго щодо погодинного балансу потужності об’єднаної електроенергетичної системи України та даних щодо середньодобової температури у 2016 році.
  погода та споживання електроенергії
   Дані щодо температури надаються у розрізі метеостанцій, для цієї візуалізації спостереження з метостанцій усереднені.
@@ -134,10 +134,10 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
     
     <item>
       <title>Візуалізація: Частотність літер залежно від позиції у слові. Нормалізовані дані</title>
-      <link>https://texturainua.github.io/posts/viz/letters-poisition-normalised/</link>
+      <link>http://textura.in.ua/posts/viz/letters-poisition-normalised/</link>
       <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/letters-poisition-normalised/</guid>
+      <guid>http://textura.in.ua/posts/viz/letters-poisition-normalised/</guid>
       <description>Після публікації візуалізації із частотністю слів залежно від позиції у слові отримав кілька порад нормалізувати дані за довжиною слова. Totally makes sense! Отже, замість оперувати абсолютними позиціями літер у слові, ми тепера оперуємо відносними, зваженими на довжину слова.
  частотність літер залежно від позиції у слові
   Що дає нормалізація в цьому випадку? Всі літери, що вживаються наприкінці слова, в результаті нормалізації отримують однакову позицію - 1, незалежно від довжини слова.</description>
@@ -145,10 +145,10 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
     
     <item>
       <title>Візуалізація: Частотність літер залежно від позиції у слові</title>
-      <link>https://texturainua.github.io/posts/viz/letters-poisition/</link>
+      <link>http://textura.in.ua/posts/viz/letters-poisition/</link>
       <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/letters-poisition/</guid>
+      <guid>http://textura.in.ua/posts/viz/letters-poisition/</guid>
       <description>Між іншим, з цього графіку можна дізнатись, що: 1) у словнику української мови нема слів, які починаються з літери “И”;&amp;nbsp; 2) більше ніж в половині випадків літера “П” вживається на початку слова; 3) літера “Я” переважно вживається наприкінці слова.
  частотність літер залежно від позиції у слові
   Код на GitHub</description>
@@ -156,10 +156,10 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
     
     <item>
       <title>Візуалізація: Частотність літер у словнику української мови</title>
-      <link>https://texturainua.github.io/posts/viz/letters-distribution/</link>
+      <link>http://textura.in.ua/posts/viz/letters-distribution/</link>
       <pubDate>Mon, 07 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/letters-distribution/</guid>
+      <guid>http://textura.in.ua/posts/viz/letters-distribution/</guid>
       <description>Спонтанне дослідження, зроблене за пару-трійку вечорів. Замислювалось суто як дата-арт, але не склалось. То ж буде набір візуалізацій. Перша - просто про найбільш вживані літери у словнику української мови.
  частотність літер у словнику української мови
   Звісно, може словник це такі собі лабораторні умови і тре було робити на якомусь великому корпусі (на корпусі статей з Вікіпедії, скажімо). Може згодом так і зроблю, цікаво, наскільки результати будуть відрізнятись.</description>
@@ -167,10 +167,10 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
     
     <item>
       <title>Візуалізація: Статистика прослуховування музики: відкриття проти повторення</title>
-      <link>https://texturainua.github.io/posts/viz/lastfm-stats/</link>
+      <link>http://textura.in.ua/posts/viz/lastfm-stats/</link>
       <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/lastfm-stats/</guid>
+      <guid>http://textura.in.ua/posts/viz/lastfm-stats/</guid>
       <description>Нещодавно дивився відео з конференції Plotcon, де один з працівників Spotify розповідав, як вони аналізують дані прослуховування музики своїх користувачів, та в який спосіб вони ці дані візуалізують. Там багато цікавого, але зокрема мені подумалось, що я можу спробувати відтворити візуалізацію, яка розкладає всі сесії прослуховування музики на предмет відкриття нових композицій та повторення вже відомих.
  cтатистика прослуховування музики: відкриття проти повторення
   Задачі, котрі тут стояли: отримати всі дані щодо прослуховування музики (для цього я використав API сервісу Last.</description>
@@ -178,10 +178,10 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
     
     <item>
       <title>Візуалізація: Температура в Києві, 1812-2016 рік</title>
-      <link>https://texturainua.github.io/posts/viz/kyiv-weather-history/</link>
+      <link>http://textura.in.ua/posts/viz/kyiv-weather-history/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/kyiv-weather-history/</guid>
+      <guid>http://textura.in.ua/posts/viz/kyiv-weather-history/</guid>
       <description>Черговий експеримент із візуалізацією розподілу значень на прикладі погодних даних. Тут головна хитрість була в тому, аби трохи модифікувати geom_step() за рахунок дублювання даних за останній місяць. Ну і ще з підписами цікаво було повозитись.
  температура в Києві, 1812-2016 рік
   Код і дані на GitHub.</description>

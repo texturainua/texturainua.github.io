@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Погода on -текстура-</title>
-    <link>https://texturainua.github.io/tags/%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0/</link>
+    <link>http://textura.in.ua/tags/%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0/</link>
     <description>Recent content in Погода on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
     <lastBuildDate>Wed, 12 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://texturainua.github.io/tags/%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://textura.in.ua/tags/%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Візуалізація: Температура в Києві, 1812-2016 рік</title>
-      <link>https://texturainua.github.io/posts/viz/kyiv-weather-history/</link>
+      <link>http://textura.in.ua/posts/viz/kyiv-weather-history/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/kyiv-weather-history/</guid>
+      <guid>http://textura.in.ua/posts/viz/kyiv-weather-history/</guid>
       <description>Черговий експеримент із візуалізацією розподілу значень на прикладі погодних даних. Тут головна хитрість була в тому, аби трохи модифікувати geom_step() за рахунок дублювання даних за останній місяць. Ну і ще з підписами цікаво було повозитись.
  температура в Києві, 1812-2016 рік
   Код і дані на GitHub.</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Візуалізація: Weather Radials</title>
-      <link>https://texturainua.github.io/posts/viz/weather-radials/</link>
+      <link>http://textura.in.ua/posts/viz/weather-radials/</link>
       <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/weather-radials/</guid>
+      <guid>http://textura.in.ua/posts/viz/weather-radials/</guid>
       <description>Пару років тому вже відтворював weather radials за допомоги ggplot2 (саме з тієї візуалізації, можна сказати, і почалось моє захоплення цією бібліотекою і граматикою графіки загалом). Але тоді процес не був стовідсотково reproducible, я трохи наводив лоску у графічному редакторі.
  weather radials
   Тепера дійшли нарешті руки зробити все максимально відтворюваним у коді. Майже спортивний інтерес був.
@@ -36,10 +36,10 @@
     
     <item>
       <title>Візуалізація: Очікувана тривалість життя в Україні в розрізі вікових груп та статей</title>
-      <link>https://texturainua.github.io/posts/viz/life-expectancy/</link>
+      <link>http://textura.in.ua/posts/viz/life-expectancy/</link>
       <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/life-expectancy/</guid>
+      <guid>http://textura.in.ua/posts/viz/life-expectancy/</guid>
       <description>Хтів зробити цю візуалізацію ще пару років тому, навіть чернетка була готова, але все ніяк не був задоволений результатом. Нарешті знайшов час оновити дані і переробити графіку. Справу закрито.
  очікувана тривалість життя в Україні
   Візуально - все просто і ніц особливого, для кожної вікової групи показуємо, умовно кажучи, “скільки лишилось” жити (умовно, бо ж це “очікувана тривалість життя” все ж таки).
@@ -48,10 +48,10 @@
     
     <item>
       <title>Візуалізація: Температура у Києві у розрізі місяців</title>
-      <link>https://texturainua.github.io/posts/viz/kyiv-weather/</link>
+      <link>http://textura.in.ua/posts/viz/kyiv-weather/</link>
       <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/kyiv-weather/</guid>
+      <guid>http://textura.in.ua/posts/viz/kyiv-weather/</guid>
       <description>Чергова вправа, спроба відтворити візуалізацію FiveThirtyEight, натхнену обкладинкою альбому Joy Division&amp;nbsp; ‘Uknown Pleasures’.
  температура у Києві
   Для цього довелось написати свій wrapper для API Weather Underground, оскільки бібліотека rwunderground регулярно видавала помилки (наприклад, стверджувала, що мого ключа АРІ не існує) , або ж повертала дані із пропусками.
@@ -60,10 +60,10 @@
     
     <item>
       <title>Візуалізація: Температура в Києві, 1900-2016 рік</title>
-      <link>https://texturainua.github.io/posts/viz/weather-history/</link>
+      <link>http://textura.in.ua/posts/viz/weather-history/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/weather-history/</guid>
+      <guid>http://textura.in.ua/posts/viz/weather-history/</guid>
       <description>Нещодавно виявив, що на сайті Центральної геофізичної обсерваторії лежать історичні дані щодо температури в Києві з 1812 року (хоча й з певними пропусками). Цими даними було би гріх не скористатись, хоча б для того, аби спробувати відповісти на питання, чи стає у Києві тепліше із часом.
  температура в Києві, 1900-2016 рік
   Пробував різні варіанти візуалізації цих даних, зокрема традиційний scatterplot та heatmap, але найліпше видалось для кожного місяця обчислити середнє за весь період спостережень, а потім демонструвати відхилення від цього середнього у кожному конкретному році.</description>
@@ -71,10 +71,10 @@
     
     <item>
       <title>Візуалізація: Тривалість світлового дня у Києві</title>
-      <link>https://texturainua.github.io/posts/viz/daylight/</link>
+      <link>http://textura.in.ua/posts/viz/daylight/</link>
       <pubDate>Fri, 30 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/daylight/</guid>
+      <guid>http://textura.in.ua/posts/viz/daylight/</guid>
       <description>Минулого тижня Надя Кельм опублікувала у Facebook фотографії свого дата-арту, заснованого на даних щодо тривалості світлового дня.
 Спершу я спробував відтворити його за допомоги ggplot2. Загальну структуру відворити не дуже складно, geom_linerange + scale_y_reversed, але із деталями, звісно, доведеться помучитись.*
  тривалість світлового дня у Києві

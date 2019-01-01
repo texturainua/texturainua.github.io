@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Музика on -текстура-</title>
-    <link>https://texturainua.github.io/tags/%D0%BC%D1%83%D0%B7%D0%B8%D0%BA%D0%B0/</link>
+    <link>http://textura.in.ua/tags/%D0%BC%D1%83%D0%B7%D0%B8%D0%BA%D0%B0/</link>
     <description>Recent content in Музика on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
     <lastBuildDate>Mon, 24 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://texturainua.github.io/tags/%D0%BC%D1%83%D0%B7%D0%B8%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://textura.in.ua/tags/%D0%BC%D1%83%D0%B7%D0%B8%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Візуалізація: Статистика прослуховування музики: відкриття проти повторення</title>
-      <link>https://texturainua.github.io/posts/viz/lastfm-stats/</link>
+      <link>http://textura.in.ua/posts/viz/lastfm-stats/</link>
       <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/lastfm-stats/</guid>
+      <guid>http://textura.in.ua/posts/viz/lastfm-stats/</guid>
       <description>Нещодавно дивився відео з конференції Plotcon, де один з працівників Spotify розповідав, як вони аналізують дані прослуховування музики своїх користувачів, та в який спосіб вони ці дані візуалізують. Там багато цікавого, але зокрема мені подумалось, що я можу спробувати відтворити візуалізацію, яка розкладає всі сесії прослуховування музики на предмет відкриття нових композицій та повторення вже відомих.
  cтатистика прослуховування музики: відкриття проти повторення
   Задачі, котрі тут стояли: отримати всі дані щодо прослуховування музики (для цього я використав API сервісу Last.</description>

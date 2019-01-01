@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Інструменти on -текстура-</title>
-    <link>https://texturainua.github.io/tags/%D1%96%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/</link>
+    <link>http://textura.in.ua/tags/%D1%96%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/</link>
     <description>Recent content in Інструменти on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
     <lastBuildDate>Tue, 06 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://texturainua.github.io/tags/%D1%96%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://textura.in.ua/tags/%D1%96%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Освіта: Як обрати інструмент для візуалізації даних?</title>
-      <link>https://texturainua.github.io/posts/ed/dataviz-tools/</link>
+      <link>http://textura.in.ua/posts/ed/dataviz-tools/</link>
       <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/ed/dataviz-tools/</guid>
+      <guid>http://textura.in.ua/posts/ed/dataviz-tools/</guid>
       <description>Німецька журналістка Ліза-Шарлотта Рост провела цікавий експеримент з візуалізації даних - вона спробувала відтворити один й той самий графік за допомоги 24 різних інструментів (12 програм чи застосунків та 12 бібліотек для візуалізації даних). Про результати експерименту вона написала у замітці What I Learned Recreating One Chart Using 24 Tools.
  Головний висновок експерименту - немає ідеальних інструментів для візуалізації даних загалом, але є хороші інструменти для певних задач у сфері візуалізації даних.</description>
     </item>

@@ -129,10 +129,10 @@ Managing Data Journalism Projects В цьому неймовірном коро�
     
     <item>
       <title>Візуалізація: Погода та споживання електроенергії</title>
-      <link>https://texturainua.github.io/posts/viz/electricity-consumption-by-hour-month/</link>
+      <link>https://texturainua.github.io/posts/viz/weather-electricity-consumption/</link>
       <pubDate>Sat, 12 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://texturainua.github.io/posts/viz/electricity-consumption-by-hour-month/</guid>
+      <guid>https://texturainua.github.io/posts/viz/weather-electricity-consumption/</guid>
       <description>Візуалізація на основі даних Укренерго щодо погодинного балансу потужності об’єднаної електроенергетичної системи України та даних щодо середньодобової температури у 2016 році.
  погода та споживання електроенергії
   Дані щодо температури надаються у розрізі метеостанцій, для цієї візуалізації спостереження з метостанцій усереднені.

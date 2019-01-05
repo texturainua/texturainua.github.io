@@ -82,6 +82,17 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
     </item>
     
     <item>
+      <title>Дата-арт: Скетчі на основі даних про тривалість світлового дня</title>
+      <link>https://texturainua.github.io/posts/viz/data-art-daylight/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/data-art-daylight/</guid>
+      <description>Скетчі на основі даних про тривалість світлового дня, зроблені за допомоги бібліотеки ggplot2
+ 
+ </description>
+    </item>
+    
+    <item>
       <title>Візуалізація: Розподіл народжених в Україні за місяцями, 1980-2014 роки</title>
       <link>https://texturainua.github.io/posts/viz/births-by-month/</link>
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
@@ -175,17 +186,6 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
       <description>Спонтанне дослідження, зроблене за пару-трійку вечорів. Замислювалось суто як дата-арт, але не склалось. То ж буде набір візуалізацій. Перша - просто про найбільш вживані літери у словнику української мови.
  частотність літер у словнику української мови
   Звісно, може словник це такі собі лабораторні умови і тре було робити на якомусь великому корпусі (на корпусі статей з Вікіпедії, скажімо). Може згодом так і зроблю, цікаво, наскільки результати будуть відрізнятись.</description>
-    </item>
-    
-    <item>
-      <title>Візуалізація: Статистика прослуховування музики: відкриття проти повторення</title>
-      <link>https://texturainua.github.io/posts/viz/lastfm-stats/</link>
-      <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://texturainua.github.io/posts/viz/lastfm-stats/</guid>
-      <description>Нещодавно дивився відео з конференції Plotcon, де один з працівників Spotify розповідав, як вони аналізують дані прослуховування музики своїх користувачів, та в який спосіб вони ці дані візуалізують. Там багато цікавого, але зокрема мені подумалось, що я можу спробувати відтворити візуалізацію, яка розкладає всі сесії прослуховування музики на предмет відкриття нових композицій та повторення вже відомих.
- cтатистика прослуховування музики: відкриття проти повторення
-  Задачі, котрі тут стояли: отримати всі дані щодо прослуховування музики (для цього я використав API сервісу Last.</description>
     </item>
     
   </channel>

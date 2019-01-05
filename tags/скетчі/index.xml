@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Скетчі on -текстура-</title>
+    <link>https://texturainua.github.io/tags/%D1%81%D0%BA%D0%B5%D1%82%D1%87%D1%96/</link>
+    <description>Recent content in Скетчі on -текстура-</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    <lastBuildDate>Wed, 17 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://texturainua.github.io/tags/%D1%81%D0%BA%D0%B5%D1%82%D1%87%D1%96/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Дата-арт: Скетчі на основі даних про тривалість світлового дня</title>
+      <link>https://texturainua.github.io/posts/viz/data-art-daylight/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/data-art-daylight/</guid>
+      <description>Скетчі на основі даних про тривалість світлового дня, зроблені за допомоги бібліотеки ggplot2
+ 
+ </description>
+    </item>
+    
+  </channel>
+</rss>

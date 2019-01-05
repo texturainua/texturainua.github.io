@@ -38,6 +38,11 @@
   </url>
   
   <url>
+    <loc>https://texturainua.github.io/posts/viz/data-art-daylight/</loc>
+    <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://texturainua.github.io/posts/viz/births-by-month/</loc>
     <lastmod>2018-01-16T00:00:00+00:00</lastmod>
   </url>
@@ -242,6 +247,12 @@
   </url>
   
   <url>
+    <loc>https://texturainua.github.io/tags/%D0%B4%D0%B0%D1%82%D0%B0-%D0%B0%D1%80%D1%82/</loc>
+    <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://texturainua.github.io/tags/%D0%B5%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D0%BA%D0%B0/</loc>
     <lastmod>2017-08-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -304,6 +315,12 @@
   <url>
     <loc>https://texturainua.github.io/tags/%D1%80%D0%BE%D0%B7%D0%BC%D0%BE%D0%B2%D0%B0/</loc>
     <lastmod>2015-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://texturainua.github.io/tags/%D1%81%D0%BA%D0%B5%D1%82%D1%87%D1%96/</loc>
+    <lastmod>2018-01-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

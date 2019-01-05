@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta property="og:image" content="https://texturainua.github.io/thumbnail.png" />
+	
+<meta itemprop="name" content="Теорія: З чого складається візуалізація даних?">
+<meta itemprop="description" content="В цьому дописі ми розглянемо основні елементи, з яких складається візуалізація даних, а також їх значення для комунікації даних.
+ структура візуалізації даних
+  Кодування даних Інші можлива назва - data encodings, тобто спосіб візуальної презентації даних, який ви обрали (це може бути позиція точок на осі координат та їх колір, як у цьому прикладі, або розмір, довжина тощо). Власне, це і є основа візуалізації даних.
+Заголовок В ідеалі заголовок візуалізації має бути твердженням та висловлювати головну її тезу.">
+
+
+<meta itemprop="datePublished" content="2019-01-05T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-01-05T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="477">
+
+
+
+<meta itemprop="keywords" content="теорія,освіта,візуалізація," />
+<meta property="og:title" content="Теорія: З чого складається візуалізація даних?" />
+<meta property="og:description" content="В цьому дописі ми розглянемо основні елементи, з яких складається візуалізація даних, а також їх значення для комунікації даних.
+ структура візуалізації даних
+  Кодування даних Інші можлива назва - data encodings, тобто спосіб візуальної презентації даних, який ви обрали (це може бути позиція точок на осі координат та їх колір, як у цьому прикладі, або розмір, довжина тощо). Власне, це і є основа візуалізації даних.
+Заголовок В ідеалі заголовок візуалізації має бути твердженням та висловлювати головну її тезу." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://texturainua.github.io/posts/ed/viz-structure/" /><meta property="article:published_time" content="2019-01-05T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-01-05T00:00:00&#43;00:00"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://texturainua.github.io/thumbnail.png"/>
+
+<meta name="twitter:title" content="Теорія: З чого складається візуалізація даних?"/>
+<meta name="twitter:description" content="В цьому дописі ми розглянемо основні елементи, з яких складається візуалізація даних, а також їх значення для комунікації даних.
+ структура візуалізації даних
+  Кодування даних Інші можлива назва - data encodings, тобто спосіб візуальної презентації даних, який ви обрали (це може бути позиція точок на осі координат та їх колір, як у цьому прикладі, або розмір, довжина тощо). Власне, це і є основа візуалізації даних.
+Заголовок В ідеалі заголовок візуалізації має бути твердженням та висловлювати головну її тезу."/>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+	<title>-текстура-</title>
+	<link rel="stylesheet" href="https://texturainua.github.io/css/style.min.e8eb45143fbe384978af8c624bc9641cf39138512edefb3d2a494b743ed28a95.css">
+	
+	<link rel="stylesheet" href="https://texturainua.github.io/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu+Mono" rel="stylesheet">
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://texturainua.github.io/">-текстура-</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					<a href="https://texturainua.github.io/posts/">-дописи-</a>
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="http://us13.campaign-archive1.com/home/?u=3e3ed2b4959dad6721a65f7f5&amp;id=24ba602e3d" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a><a href="https://facebook.com/textura.in.ua" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a><a href="https://twitter.com/AndriyGazin" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/andriy-gazin" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href="https://ua.linkedin.com/in/andriygazin" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></span><button id="menu-btn" class="hdr-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast" style="display: none;">
+		<ul>
+			<li><a href="https://texturainua.github.io/posts/">-дописи-</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<h1>Теорія: З чого складається візуалізація даних?</h1>
+				<div class="post-meta"><span>2019-01-05</span></div>
+			</header>
+			<div class="content">
+				
+
+<p><em>В цьому дописі ми розглянемо основні елементи, з яких складається візуалізація даних, а також їх значення для комунікації даних.</em></p>
+
+<figure class="big">
+    <img src="/img/graphics.png"
+         alt="структура візуалізації даних"/> <figcaption>
+            <p>структура візуалізації даних</p>
+        </figcaption>
+</figure>
+
+
+<h3 id="кодування-даних"><strong>Кодування даних</strong></h3>
+
+<p>Інші можлива назва - data encodings, тобто спосіб візуальної презентації даних, який ви обрали (це може бути позиція точок на осі координат та їх колір, як у цьому прикладі, або розмір, довжина тощо). Власне, це і є основа візуалізації даних.</p>
+
+<h3 id="заголовок"><strong>Заголовок</strong></h3>
+
+<p>В ідеалі заголовок візуалізації має бути твердженням та висловлювати головну її тезу. Заголовок задає спосіб витлумачення візуалізації, пояснює читачам, на що потрібно звертати увагу.</p>
+
+<p><a href="http://www.zcliu.org/vistitles/CHI18-VisTitles.pdf" target="_blank">Нещодавні дослідження</a> показали, що заголовки є дуже важливими для інтерпретації візуалізації, і можна суттєво змінити фокус візуалізації, просто змінивши її заголовок.</p>
+
+<p>Однак &ldquo;заголовок-твердження&rdquo; працює далеко не у всіх випадках, тому подекуди можна використовувати і простий формальний опис візуалізації, щоби читачі швидко могли зрозуміти, про що йдеться на графіку.</p>
+
+<h3 id="підзаголовок"><strong>Підзаголовок</strong></h3>
+
+<p>Підзаголовок більш докладно пояснює та контекстуалізує те, що зображено на графіку, надає додаткову інформацію, необхідну для розуміння візуалізації.</p>
+
+<h3 id="анотація"><strong>Анотація</strong></h3>
+
+<p>Анотація має на меті привернути увагу читачів до найбільш цікавих та важливих елементів візуалізації. Ви можете спробувати передбачити, які питання виникнуть у читачів, і дати відповідь на ці питання за допомоги анотацій. Наприклад, пояснити дивні флуктуації на графіку, зростання, падіння чи плато.</p>
+
+<p>Грамотно розставленими анотаціями можна замінити інтеракцію з візуалізацією - кліки або наведення на точки для отримання додаткової інформації.</p>
+
+<h3 id="легенда"><strong>Легенда</strong></h3>
+
+<p>Легенда має пояснювати читачам спосіб кодування даних, а також давати ключ до відчитування графіку. Якщо ви позначаєте щось кольором - у читачів має бути інструкція, в який спосіб інтрепретувати кольори на графіку. Якщо щось кодуєте розміром бульбашок - читачі мають знати, який розмір якому значенню відповідає.</p>
+
+<p>Іноді легенду можна замінити прямими підписами на графіку (так званий direct labelling). Це може зекономити читачам час та трохи когнітивних ресурсів.</p>
+
+<h3 id="сітка"><strong>Сітка</strong></h3>
+
+<p>Сітка допомагає орієнтуватись на площині, а відтак - порівнювати між собою різні елементи візуалізації даних. Наприклад, маючи сітку, ми можемо порівняти кілька точок на предмет того, як далеко вони знаходяться від певної лінії сітки.</p>
+
+<p>Сітка допоміжний, але все ж другорядний елемент. Не варто робити її дуже яскравою, аби не відволікати від основним елементів. В деяких випадках можна відмовитись від сітки - або ж повністю, або ж частково (наприклад, від горизонтальних чи вертикальних ліній).</p>
+
+<h3 id="підписи-вісей"><strong>Підписи вісей</strong></h3>
+
+<p>Підписи вісей також допомагають читачам витлумачувати візуалізацію. Тут, окрім назв змінних, можна також зазначати одиниці вимірювання, аби читачі одразу розуміли, що по осі Y, скажімо, вага в кілограмах, а не в тоннах.</p>
+
+<p>В деяких випадках можна відмовитись від підписів вісей - наприклад, якщо ви згадаєте їх у підзаголовку візуалізації.</p>
+
+<h3 id="джерело-даних"><strong>Джерело даних</strong></h3>
+
+<p>Дає читачам зрозуміти, що ви не вигадали дані для візуалізації. Також може вказувати на час публікації даних або період, який ними описується.</p>
+
+<p>Якщо у вас є можливість, тут можна дати пряме посилання на джерело даних. В такий спосіб всі бажаючі (не варто сподіватись, що їх буде багато, але все ж) зможуть подивитись на оригінальні дані та перевірити, чи вони є адекватно зображеними на вашій візуалізації.</p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://texturainua.github.io/tags/%D1%82%D0%B5%D0%BE%D1%80%D1%96%D1%8F">теорія</a></span><span class="tag"><a href="https://texturainua.github.io/tags/%D0%BE%D1%81%D0%B2%D1%96%D1%82%D0%B0">освіта</a></span><span class="tag"><a href="https://texturainua.github.io/tags/%D0%B2%D1%96%D0%B7%D1%83%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F">візуалізація</a></span>
+				</p>
+				
+				
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="prev-post" href="https://texturainua.github.io/posts/viz/ukraine-population-change/">
+				<span class="post-nav-label">Старі&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Візуалізація: Кількість жінок та чоловіків в Україні у 1989-2018 роках</span>
+			</a>
+		</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2019 <a href="https://texturainua.github.io/">Андрій Газін</a></p>
+		<p>Зроблено з <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Тема <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://texturainua.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></p>
+	</footer>
+
+	<script>let haveHeader = true;</script>
+
+	<script src="https://texturainua.github.io/js/main.min.7fb60d49ca60edf9439e867daffe2481a9722cacdbe91e2a8b3c84c36d540bab.js"</script>
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-36177403-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+
+</html>

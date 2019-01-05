@@ -6,10 +6,22 @@
     <description>Recent content in Освіта on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Sat, 17 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://texturainua.github.io/tags/%D0%BE%D1%81%D0%B2%D1%96%D1%82%D0%B0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Теорія: З чого складається візуалізація даних?</title>
+      <link>https://texturainua.github.io/posts/ed/viz-structure/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/ed/viz-structure/</guid>
+      <description>В цьому дописі ми розглянемо основні елементи, з яких складається візуалізація даних, а також їх значення для комунікації даних.
+ структура візуалізації даних
+  Кодування даних Інші можлива назва - data encodings, тобто спосіб візуальної презентації даних, який ви обрали (це може бути позиція точок на осі координат та їх колір, як у цьому прикладі, або розмір, довжина тощо). Власне, це і є основа візуалізації даних.
+Заголовок В ідеалі заголовок візуалізації має бути твердженням та висловлювати головну її тезу.</description>
+    </item>
     
     <item>
       <title>Освіта: Каталоги візуалізації даних</title>

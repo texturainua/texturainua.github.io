@@ -6,10 +6,22 @@
     <description>Recent content in Візуалізація on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://texturainua.github.io/tags/%D0%B2%D1%96%D0%B7%D1%83%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Теорія: З чого складається візуалізація даних?</title>
+      <link>https://texturainua.github.io/posts/ed/viz-structure/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/ed/viz-structure/</guid>
+      <description>В цьому дописі ми розглянемо основні елементи, з яких складається візуалізація даних, а також їх значення для комунікації даних.
+ структура візуалізації даних
+  Кодування даних Інші можлива назва - data encodings, тобто спосіб візуальної презентації даних, який ви обрали (це може бути позиція точок на осі координат та їх колір, як у цьому прикладі, або розмір, довжина тощо). Власне, це і є основа візуалізації даних.
+Заголовок В ідеалі заголовок візуалізації має бути твердженням та висловлювати головну її тезу.</description>
+    </item>
     
     <item>
       <title>Візуалізація: Кількість жінок та чоловіків в Україні у 1989-2018 роках</title>
@@ -174,17 +186,6 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
       <description>Нещодавно дивився відео з конференції Plotcon, де один з працівників Spotify розповідав, як вони аналізують дані прослуховування музики своїх користувачів, та в який спосіб вони ці дані візуалізують. Там багато цікавого, але зокрема мені подумалось, що я можу спробувати відтворити візуалізацію, яка розкладає всі сесії прослуховування музики на предмет відкриття нових композицій та повторення вже відомих.
  cтатистика прослуховування музики: відкриття проти повторення
   Задачі, котрі тут стояли: отримати всі дані щодо прослуховування музики (для цього я використав API сервісу Last.</description>
-    </item>
-    
-    <item>
-      <title>Візуалізація: Температура в Києві, 1812-2016 рік</title>
-      <link>https://texturainua.github.io/posts/viz/kyiv-weather-history/</link>
-      <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://texturainua.github.io/posts/viz/kyiv-weather-history/</guid>
-      <description>Черговий експеримент із візуалізацією розподілу значень на прикладі погодних даних. Тут головна хитрість була в тому, аби трохи модифікувати geom_step() за рахунок дублювання даних за останній місяць. Ну і ще з підписами цікаво було повозитись.
- температура в Києві, 1812-2016 рік
-  Код і дані на GitHub.</description>
     </item>
     
   </channel>

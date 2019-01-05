@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Карта on -текстура-</title>
+    <link>https://texturainua.github.io/tags/%D0%BA%D0%B0%D1%80%D1%82%D0%B0/</link>
+    <description>Recent content in Карта on -текстура-</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    <lastBuildDate>Sun, 29 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://texturainua.github.io/tags/%D0%BA%D0%B0%D1%80%D1%82%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Візуалізація: GPS-треки Києва з Openstreetmap</title>
+      <link>https://texturainua.github.io/posts/viz/kyiv-gps-osm/</link>
+      <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/kyiv-gps-osm/</guid>
+      <description>Витяг з Openstreetmap всі GPS-треки у Києві. Для цього написав маленький скрипт на Python (можна було і через JOSM, але ті файли, що повертаються з API, простіше потім розпарсити у потрібний формат). Всього вийшло 2640 треків, звісно, всі вони різної довжини. Якісь треки йдуть із таймстемпом (вони представляють основний інтерес для подальшої роботи), інші - просто з координатами. Загалом 6,5 млн точок.
+ GPS-треки Києва з Openstreetmap
+  Звісно, перше, що зробив - наніс на карту всі треки за допомоги пайтонівської бібліотеки Datashader.</description>
+    </item>
+    
+  </channel>
+</rss>

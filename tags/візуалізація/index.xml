@@ -82,6 +82,22 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
     </item>
     
     <item>
+      <title>Дата-арт: Скетчі на основі даних про землетруси у 2017 році</title>
+      <link>https://texturainua.github.io/posts/viz/earthquakes-dataart/</link>
+      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/earthquakes-dataart/</guid>
+      <description>Скетчі на основі даних про всі землетруси у 2017 році, зроблені за допомоги бібліотеки ggplot2
+ 
+ 
+ 
+ 
+ 
+ 
+ </description>
+    </item>
+    
+    <item>
       <title>Дата-арт: Скетчі на основі даних про тривалість світлового дня</title>
       <link>https://texturainua.github.io/posts/viz/data-art-daylight/</link>
       <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
@@ -175,17 +191,6 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
       <description>Між іншим, з цього графіку можна дізнатись, що: 1) у словнику української мови нема слів, які починаються з літери “И”;&amp;nbsp; 2) більше ніж в половині випадків літера “П” вживається на початку слова; 3) літера “Я” переважно вживається наприкінці слова.
  частотність літер залежно від позиції у слові
   Код на GitHub</description>
-    </item>
-    
-    <item>
-      <title>Візуалізація: Частотність літер у словнику української мови</title>
-      <link>https://texturainua.github.io/posts/viz/letters-distribution/</link>
-      <pubDate>Mon, 07 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://texturainua.github.io/posts/viz/letters-distribution/</guid>
-      <description>Спонтанне дослідження, зроблене за пару-трійку вечорів. Замислювалось суто як дата-арт, але не склалось. То ж буде набір візуалізацій. Перша - просто про найбільш вживані літери у словнику української мови.
- частотність літер у словнику української мови
-  Звісно, може словник це такі собі лабораторні умови і тре було робити на якомусь великому корпусі (на корпусі статей з Вікіпедії, скажімо). Може згодом так і зроблю, цікаво, наскільки результати будуть відрізнятись.</description>
     </item>
     
   </channel>

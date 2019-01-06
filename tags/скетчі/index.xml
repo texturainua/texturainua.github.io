@@ -6,10 +6,26 @@
     <description>Recent content in Скетчі on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Wed, 17 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://texturainua.github.io/tags/%D1%81%D0%BA%D0%B5%D1%82%D1%87%D1%96/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Дата-арт: Скетчі на основі даних про землетруси у 2017 році</title>
+      <link>https://texturainua.github.io/posts/viz/earthquakes-dataart/</link>
+      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/earthquakes-dataart/</guid>
+      <description>Скетчі на основі даних про всі землетруси у 2017 році, зроблені за допомоги бібліотеки ggplot2
+ 
+ 
+ 
+ 
+ 
+ 
+ </description>
+    </item>
     
     <item>
       <title>Дата-арт: Скетчі на основі даних про тривалість світлового дня</title>

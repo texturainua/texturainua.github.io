@@ -81,5 +81,16 @@
   Але зрештою значно цікавішим здалось візуалізувати не лише тривалість світлового дня, а й також його початок та закінчення. В такий спосіб я ледь не вперше наочно зрозумів суть переходу на літній/зимовий час.</description>
     </item>
     
+    <item>
+      <title>Візуалізація: Температура у Києві у 2010-2014 роках</title>
+      <link>https://texturainua.github.io/posts/viz/calendarheat/</link>
+      <pubDate>Tue, 06 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/calendarheat/</guid>
+      <description>Візуалізація температури у Києві у 2010-2014 роках, зроблена за допомоги бібліотеки calendarheat для R та Inkscape.
+ середня температура у Києві у 2010-2014 роках
+  </description>
+    </item>
+    
   </channel>
 </rss>

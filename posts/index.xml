@@ -6,8 +6,33 @@
 		<description>Recent content in Posts on -текстура-</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>uk</language>
-		<lastBuildDate>Sun, 13 Jan 2019 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Sun, 03 Feb 2019 00:00:00 +0000</lastBuildDate>
 		<atom:link href="https://texturainua.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Візуалізація: World&#39;s Oldest Person Titleholders Since 1955</title>
+			<link>https://texturainua.github.io/posts/viz/world-oldest-person/</link>
+			<pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
+			
+			<guid>https://texturainua.github.io/posts/viz/world-oldest-person/</guid>
+			<description>Візуалізація переліку настаріших людей світу з 1955 року для DataViz Battle на Reddit
+ Найстаріші люди світу з 1955 року
+  Код і дані на GitHub</description>
+			<content type="html"><![CDATA[<p><em>Візуалізація переліку настаріших людей світу з 1955 року для <a href="https://www.reddit.com/r/dataisbeautiful/comments/adihze/battle_dataviz_battle_for_the_month_of_january/" target="_blank">DataViz Battle на Reddit</a></em></p>
+
+<figure class="big">
+    <img src="https://raw.githubusercontent.com/andriy-gazin/oldest/master/oldest.png"
+         alt="World&#39;s Oldest Person Titleholders Since 1955"/> <figcaption>
+            <p>Найстаріші люди світу з 1955 року</p>
+        </figcaption>
+</figure>
+
+
+<hr />
+
+<p><a href="https://github.com/andriy-gazin/oldest" target="_blank">Код і дані на GitHub</a></p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Візуалізація: Розподіл депутатів ВР за роком народження та статтю</title>
@@ -612,43 +637,6 @@ Managing Data Journalism Projects В цьому неймовірном коро�
 <hr />
 
 <p><a href="https://github.com/andriy-gazin/electricity" target="_blank">Код і дані обох проектів на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Погода та споживання електроенергії</title>
-			<link>https://texturainua.github.io/posts/viz/weather-electricity-consumption/</link>
-			<pubDate>Sat, 12 Aug 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/weather-electricity-consumption/</guid>
-			<description>Візуалізація на основі даних Укренерго щодо погодинного балансу потужності об’єднаної електроенергетичної системи України та даних щодо середньодобової температури у 2016 році.
- погода та споживання електроенергії
-  Дані щодо температури надаються у розрізі метеостанцій, для цієї візуалізації спостереження з метостанцій усереднені.
-Дивіться також
-Дані щодо споживання електроенергії на Порталі відкритих даних
-Дані щодо середньодобової температури в розрізі метеостанцій на порталі National Oceanic and Atmoshperic Administration
-Код на GitHub</description>
-			<content type="html"><![CDATA[<p><em>Візуалізація на основі даних Укренерго щодо погодинного балансу потужності об’єднаної електроенергетичної системи України та даних щодо середньодобової температури у 2016 році.</em></p>
-
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/electricity/raw/master/weather_vs_consumption.png"
-         alt="погода та споживання електроенергії"/> <figcaption>
-            <p>погода та споживання електроенергії</p>
-        </figcaption>
-</figure>
-
-
-<p>Дані щодо температури надаються у розрізі метеостанцій, для цієї візуалізації спостереження з метостанцій усереднені.</p>
-
-<hr />
-
-<p><strong>Дивіться також</strong></p>
-
-<p><a href="https://data.gov.ua/dataset/31199018-e15e-4e87-bf5e-2a4293151f5c" target="_blank">Дані щодо споживання електроенергії на Порталі відкритих даних</a></p>
-
-<p><a href="https://www.ncdc.noaa.gov/data-access/quick-links#ghcn" target="_blank">Дані щодо середньодобової температури в розрізі метеостанцій на порталі National Oceanic and Atmoshperic Administration</a></p>
-
-<p><a href="https://github.com/andriy-gazin/electricity" target="_blank">Код на GitHub</a></p>
 ]]></content>
 		</item>
 		

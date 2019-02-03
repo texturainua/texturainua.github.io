@@ -6,10 +6,21 @@
     <description>Recent content in Візуалізація on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Sun, 13 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://texturainua.github.io/tags/%D0%B2%D1%96%D0%B7%D1%83%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Візуалізація: World&#39;s Oldest Person Titleholders Since 1955</title>
+      <link>https://texturainua.github.io/posts/viz/world-oldest-person/</link>
+      <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/world-oldest-person/</guid>
+      <description>Візуалізація переліку настаріших людей світу з 1955 року для DataViz Battle на Reddit
+ Найстаріші люди світу з 1955 року
+  Код і дані на GitHub</description>
+    </item>
     
     <item>
       <title>Візуалізація: Розподіл депутатів ВР за роком народження та статтю</title>
@@ -180,17 +191,6 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
 Дані щодо споживання електроенергії на Порталі відкритих даних
 Дані щодо середньодобової температури в розрізі метеостанцій на порталі National Oceanic and Atmoshperic Administration
 Код на GitHub</description>
-    </item>
-    
-    <item>
-      <title>Візуалізація: Частотність літер залежно від позиції у слові. Нормалізовані дані</title>
-      <link>https://texturainua.github.io/posts/viz/letters-poisition-normalised/</link>
-      <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://texturainua.github.io/posts/viz/letters-poisition-normalised/</guid>
-      <description>Після публікації візуалізації із частотністю слів залежно від позиції у слові отримав кілька порад нормалізувати дані за довжиною слова. Totally makes sense! Отже, замість оперувати абсолютними позиціями літер у слові, ми тепера оперуємо відносними, зваженими на довжину слова.
- частотність літер залежно від позиції у слові
-  Що дає нормалізація в цьому випадку? Всі літери, що вживаються наприкінці слова, в результаті нормалізації отримують однакову позицію - 1, незалежно від довжини слова.</description>
     </item>
     
   </channel>

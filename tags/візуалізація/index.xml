@@ -6,10 +6,23 @@
     <description>Recent content in Візуалізація on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Sun, 03 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://texturainua.github.io/tags/%D0%B2%D1%96%D0%B7%D1%83%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Що читати: Data Points</title>
+      <link>https://texturainua.github.io/posts/ed/data-points/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/ed/data-points/</guid>
+      <description>Огляд книги Data Point від автора популярного блогу про візуалізацію даних FlowingData Нейтана Яу
+Хто автор
+Нейтан Яу - автор популярного блогу про візуалізацію даних FlowingData, фахівець зі статистики та візуалізації даних, та свого роду літописець візуалізації даних в інтернеті.
+ Data Points
+  Впродовж останніх десяти років він методично збирає та описує у своєму блозі найцікавіші приклади аналізу та візуалізації даних зі всього світу. Він також робить цікаві візуалізації даних із використанням R та D3.</description>
+    </item>
     
     <item>
       <title>Візуалізація: World&#39;s Oldest Person Titleholders Since 1955</title>
@@ -176,21 +189,6 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
  споживання електроенергії впродовж дня
   Цікаво спостерігати не лише зміни рівня споживання від місяця до місяця, але й зміщення денних піків навантаження.
 Код і дані обох проектів на GitHub</description>
-    </item>
-    
-    <item>
-      <title>Візуалізація: Погода та споживання електроенергії</title>
-      <link>https://texturainua.github.io/posts/viz/weather-electricity-consumption/</link>
-      <pubDate>Sat, 12 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://texturainua.github.io/posts/viz/weather-electricity-consumption/</guid>
-      <description>Візуалізація на основі даних Укренерго щодо погодинного балансу потужності об’єднаної електроенергетичної системи України та даних щодо середньодобової температури у 2016 році.
- погода та споживання електроенергії
-  Дані щодо температури надаються у розрізі метеостанцій, для цієї візуалізації спостереження з метостанцій усереднені.
-Дивіться також
-Дані щодо споживання електроенергії на Порталі відкритих даних
-Дані щодо середньодобової температури в розрізі метеостанцій на порталі National Oceanic and Atmoshperic Administration
-Код на GitHub</description>
     </item>
     
   </channel>

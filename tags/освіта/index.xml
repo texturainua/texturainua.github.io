@@ -6,10 +6,23 @@
     <description>Recent content in Освіта on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://texturainua.github.io/tags/%D0%BE%D1%81%D0%B2%D1%96%D1%82%D0%B0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Що читати: Data Points</title>
+      <link>https://texturainua.github.io/posts/ed/data-points/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/ed/data-points/</guid>
+      <description>Огляд книги Data Point від автора популярного блогу про візуалізацію даних FlowingData Нейтана Яу
+Хто автор
+Нейтан Яу - автор популярного блогу про візуалізацію даних FlowingData, фахівець зі статистики та візуалізації даних, та свого роду літописець візуалізації даних в інтернеті.
+ Data Points
+  Впродовж останніх десяти років він методично збирає та описує у своєму блозі найцікавіші приклади аналізу та візуалізації даних зі всього світу. Він також робить цікаві візуалізації даних із використанням R та D3.</description>
+    </item>
     
     <item>
       <title>Теорія: З чого складається візуалізація даних?</title>

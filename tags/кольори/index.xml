@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Кольори on -текстура-</title>
+    <link>https://texturainua.github.io/tags/%D0%BA%D0%BE%D0%BB%D1%8C%D0%BE%D1%80%D0%B8/</link>
+    <description>Recent content in Кольори on -текстура-</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    <lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://texturainua.github.io/tags/%D0%BA%D0%BE%D0%BB%D1%8C%D0%BE%D1%80%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Посилання: Сервіси для підбору кольорів</title>
+      <link>https://texturainua.github.io/posts/ed/colors/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/ed/colors/</guid>
+      <description>Добірка онлайн-сервісів для пошуку та створення палітр для візуалізації даних (і не тільки).
+Colorbrewer  Colorbrewer
+  Viz Palette  Viz Palette
+  Chroma  Chroma
+  Adobe Color  Adobe Color
+  Coolors  Coolors
+  Читайте також корисну замітку у блозі компанії Datawrapper - &amp;lsquo;What to consider when choosing colors for data visualization&amp;rsquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

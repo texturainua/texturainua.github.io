@@ -6,10 +6,25 @@
     <description>Recent content in Освіта on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://texturainua.github.io/tags/%D0%BE%D1%81%D0%B2%D1%96%D1%82%D0%B0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Посилання: Сервіси для підбору кольорів</title>
+      <link>https://texturainua.github.io/posts/ed/colors/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/ed/colors/</guid>
+      <description>Добірка онлайн-сервісів для пошуку та створення палітр для візуалізації даних (і не тільки).
+Colorbrewer  Colorbrewer
+  Viz Palette  Viz Palette
+  Chroma  Chroma
+  Adobe Color  Adobe Color
+  Coolors  Coolors
+  Читайте також корисну замітку у блозі компанії Datawrapper - &amp;lsquo;What to consider when choosing colors for data visualization&amp;rsquo;.</description>
+    </item>
     
     <item>
       <title>Що читати: Data Points</title>

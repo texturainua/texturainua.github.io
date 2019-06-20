@@ -6,8 +6,91 @@
 		<description>Recent content in Posts on -текстура-</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>uk</language>
-		<lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
 		<atom:link href="https://texturainua.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Посилання: Сервіси для підбору кольорів</title>
+			<link>https://texturainua.github.io/posts/ed/colors/</link>
+			<pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+			
+			<guid>https://texturainua.github.io/posts/ed/colors/</guid>
+			<description>Добірка онлайн-сервісів для пошуку та створення палітр для візуалізації даних (і не тільки).
+Colorbrewer  Colorbrewer
+  Viz Palette  Viz Palette
+  Chroma  Chroma
+  Adobe Color  Adobe Color
+  Coolors  Coolors
+  Читайте також корисну замітку у блозі компанії Datawrapper - &amp;lsquo;What to consider when choosing colors for data visualization&amp;rsquo;.</description>
+			<content type="html"><![CDATA[
+
+<p><em>Добірка онлайн-сервісів для пошуку та створення палітр для візуалізації даних (і не тільки)</em>.</p>
+
+<hr />
+
+<h2 id="colorbrewer-http-colorbrewer2-org"><a href="http://colorbrewer2.org" target="_blank"><strong>Colorbrewer</strong></a></h2>
+
+<figure class="big">
+    <img src="/img/colors/colobrewer.png"
+         alt="http://colorbrewer2.org"/> <figcaption>
+            <p>Colorbrewer</p>
+        </figcaption>
+</figure>
+
+
+<hr />
+
+<h2 id="viz-palette-https-projects-susielu-com-viz-palette"><a href="https://projects.susielu.com/viz-palette" target="_blank"><strong>Viz Palette</strong></a></h2>
+
+<figure class="big">
+    <img src="/img/colors/vizpalette.png"
+         alt="https://projects.susielu.com/viz-palette"/> <figcaption>
+            <p>Viz Palette</p>
+        </figcaption>
+</figure>
+
+
+<hr />
+
+<h2 id="chroma-https-gka-github-io-palettes"><a href="https://gka.github.io/palettes" target="_blank"><strong>Chroma</strong></a></h2>
+
+<figure class="big">
+    <img src="/img/colors/chroma.png"
+         alt="https://gka.github.io/palettes"/> <figcaption>
+            <p>Chroma</p>
+        </figcaption>
+</figure>
+
+
+<hr />
+
+<h2 id="adobe-color-https-color-adobe-com-create"><a href="https://color.adobe.com/create" target="_blank"><strong>Adobe Color</strong></a></h2>
+
+<figure class="big">
+    <img src="/img/colors/adobecolor.png"
+         alt="https://color.adobe.com/create"/> <figcaption>
+            <p>Adobe Color</p>
+        </figcaption>
+</figure>
+
+
+<hr />
+
+<h2 id="coolors-https-coolors-co-app"><a href="https://coolors.co/app" target="_blank"><strong>Coolors</strong></a></h2>
+
+<figure class="big">
+    <img src="/img/colors/coolors.png"
+         alt="https://coolors.co/app"/> <figcaption>
+            <p>Coolors</p>
+        </figcaption>
+</figure>
+
+
+<hr />
+
+<p>Читайте також корисну замітку у блозі компанії Datawrapper - <a href="https://blog.datawrapper.de/colors/" target="_blank">&lsquo;What to consider when choosing colors for data visualization&rsquo;</a>.</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Що читати: Data Points</title>
@@ -624,42 +707,6 @@ Managing Data Journalism Projects В цьому неймовірном коро�
 <hr />
 
 <p><a href="https://forumone.com/ideas/good-data-visualization-practice-tile-grid-maps-0" target="_blank">Замітка про Tilegrid Maps</a></p>
-
-<p><a href="https://github.com/andriy-gazin/marriages" target="_blank">Код і дані на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Середній вік першого шлюбу за регіонами України</title>
-			<link>https://texturainua.github.io/posts/viz/average-age-at-marriage/</link>
-			<pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/average-age-at-marriage/</guid>
-			<description>Експериментальна, скажімо так, візуалізація. Хочу згодом ще зробити анімацію всього процесу - від стандартної конвенційної візуалізації до ось цього.
- середній вік першого шлюбу за регіонами України
-  Що тут незвичного?
-Сітка не по всій площині графіку, а лише там, де є дані. Тобто лише там, де вона насправді. потрібна.&amp;nbsp; Втім, незаповнний простір графіку змушує замислитись про роль сітки не лише як розмітки для орієнтації у площині візуалізації, а й як про спосіб заповнення цієї площині.</description>
-			<content type="html"><![CDATA[<p>Експериментальна, скажімо так, візуалізація. Хочу згодом ще зробити анімацію всього процесу - від стандартної конвенційної візуалізації до ось цього.</p>
-
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/marriages/raw/master/meanagebyregion%26sex.png"
-         alt="Середній вік першого шлюбу за регіонами України"/> <figcaption>
-            <p>середній вік першого шлюбу за регіонами України</p>
-        </figcaption>
-</figure>
-
-
-<p>Що тут незвичного?</p>
-
-<p><strong>Сітка</strong> не по всій площині графіку, а лише там, де є дані. Тобто лише там, де вона насправді. потрібна.&nbsp; Втім, незаповнний простір графіку змушує замислитись про роль сітки не лише як розмітки для орієнтації у площині візуалізації, а й як про спосіб заповнення цієї площині.</p>
-
-<p><strong>Підписи значень на вісях</strong>. Значення вісі Х рознесені на дві вісі - верхню і нижню, за тим же принципом - підписи є лише там, де є дані. Значення вісі Y не вирівняні з лівого боку, як це зазвичай буває, а наближені до точок на графіку. Загальна ідея позиціонування підписів на вісях - покращити ергономіку візуалізації.&nbsp;</p>
-
-<p><strong>Легенда</strong>, зрощена із підзаголовоком. Можна було б, звісно, заповнювати, дірку зліва легендою, але це трохи суперечить ідеї ергономіки візуалізації, тому легенда тут займає дуже мало місця і не від’їдає його у інших частин графіку.</p>
-
-<p>Сприймайте це суто як експеримент. Дослідження можливостей.</p>
-
-<hr />
 
 <p><a href="https://github.com/andriy-gazin/marriages" target="_blank">Код і дані на GitHub</a></p>
 ]]></content>

@@ -6,10 +6,23 @@
     <description>Recent content in Візуалізація on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://texturainua.github.io/tags/%D0%B2%D1%96%D0%B7%D1%83%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Візуалізація: Результати другого туру виборів Президента України 2019 року, geowaffle chart</title>
+      <link>https://texturainua.github.io/posts/viz/geowaffle/</link>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/geowaffle/</guid>
+      <description>Спроба поєднати waffle chart із geofacet.
+ geowaffle chart
+  Як я вже писав раніше, geofaceting дозволяє впорядковувати панелі із графіками таким чином, що їхнє розташування буде відтворювати розташування регіонів, країн, штатів, областей, міст на карті.
+Створені в такий спосіб візуалізації поєднують в собі властивості карти та графіку, вони дозволяють створювати small multiples із великою кількістю даних і при цьому надають можливість простежувати регіональні тренди.
+Разом з тим waffle charts - це доволі непогана альтернатива секторним діаграмам (простіше пай-чартам).</description>
+    </item>
     
     <item>
       <title>Посилання: Сервіси для підбору кольорів</title>
@@ -180,18 +193,6 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
   Так звана tilegrid map - суміш таблиці та карти. Використовується в якості альтернативи хороплетним картам.
 Тут все ще зберігається кодування інформації за допомоги кольору, але всі полігони однакового розміру, що має спростити зчитування інформації.
 З іншого боку, спершу треба звикнути до цієї абстракції географії. Може бути непросто, але не неможливо.</description>
-    </item>
-    
-    <item>
-      <title>Візуалізація: Середній вік першого шлюбу за регіонами України</title>
-      <link>https://texturainua.github.io/posts/viz/average-age-at-marriage/</link>
-      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://texturainua.github.io/posts/viz/average-age-at-marriage/</guid>
-      <description>Експериментальна, скажімо так, візуалізація. Хочу згодом ще зробити анімацію всього процесу - від стандартної конвенційної візуалізації до ось цього.
- середній вік першого шлюбу за регіонами України
-  Що тут незвичного?
-Сітка не по всій площині графіку, а лише там, де є дані. Тобто лише там, де вона насправді. потрібна.&amp;nbsp; Втім, незаповнний простір графіку змушує замислитись про роль сітки не лише як розмітки для орієнтації у площині візуалізації, а й як про спосіб заповнення цієї площині.</description>
     </item>
     
   </channel>

@@ -6,10 +6,21 @@
     <description>Recent content on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Sat, 22 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://texturainua.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Візуалізація: Як оновлювався склад Верховної Ради</title>
+      <link>https://texturainua.github.io/posts/viz/convocations/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/convocations/</guid>
+      <description>Візуалізація кількості старих та нових депутатів у Верховній Раді від першого і до восьмого скликання включно.
+ Як оновлювався склад Верховної Ради
+  Код і дані на GitHub</description>
+    </item>
     
     <item>
       <title>Візуалізація: Результати другого туру виборів Президента України 2019 року, geowaffle chart</title>
@@ -179,17 +190,6 @@ Managing Data Journalism Projects В цьому неймовірном коро�
       <description>Скетчі на основі даних про тривалість світлового дня, зроблені за допомоги бібліотеки ggplot2
  
  </description>
-    </item>
-    
-    <item>
-      <title>Візуалізація: Розподіл народжених в Україні за місяцями, 1980-2014 роки</title>
-      <link>https://texturainua.github.io/posts/viz/births-by-month/</link>
-      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://texturainua.github.io/posts/viz/births-by-month/</guid>
-      <description>розподіл народжених в Україні за місяцями
-  Код і дані на GitHub
-Дані на сайті UNdata</description>
     </item>
     
   </channel>

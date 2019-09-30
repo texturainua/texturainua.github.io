@@ -20,7 +20,7 @@
 			<content type="html"><![CDATA[<p><em>Візуалізація прогнозу ООН щодо кількості населення України до 2100 року</em>.</p>
 
 <figure class="big">
-    <img src="https://github.com/andriy-gazin/population_prospects/raw/master/projections.png"
+    <img src="/img/projections.png"
          alt="Прогноз кількості населення України до 2100 року"/> <figcaption>
             <p>Прогноз кількості населення України до 2100 року</p>
         </figcaption>

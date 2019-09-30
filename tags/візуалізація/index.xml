@@ -6,10 +6,21 @@
     <description>Recent content in візуалізація on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://texturainua.github.io/tags/%D0%B2%D1%96%D0%B7%D1%83%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Візуалізація: Прогноз кількості населення України до 2100 року</title>
+      <link>https://texturainua.github.io/posts/viz/population-prospects/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/population-prospects/</guid>
+      <description>Візуалізація прогнозу ООН щодо кількості населення України до 2100 року.
+ Прогноз кількості населення України до 2100 року
+  Дані</description>
+    </item>
     
     <item>
       <title>Візуалізація: Як оновлювався склад Верховної Ради</title>
@@ -180,17 +191,6 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
       <description>Скетчі на основі даних про тривалість світлового дня, зроблені за допомоги бібліотеки ggplot2
  
  </description>
-    </item>
-    
-    <item>
-      <title>Візуалізація: Розподіл народжених в Україні за місяцями, 1980-2014 роки</title>
-      <link>https://texturainua.github.io/posts/viz/births-by-month/</link>
-      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://texturainua.github.io/posts/viz/births-by-month/</guid>
-      <description>розподіл народжених в Україні за місяцями
-  Код і дані на GitHub
-Дані на сайті UNdata</description>
     </item>
     
   </channel>

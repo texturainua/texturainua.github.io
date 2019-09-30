@@ -6,10 +6,21 @@
     <description>Recent content on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://texturainua.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Візуалізація: Прогноз кількості населення України до 2100 року</title>
+      <link>https://texturainua.github.io/posts/viz/population-prospects/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/population-prospects/</guid>
+      <description>Візуалізація прогнозу ООН щодо кількості населення України до 2100 року.
+ Прогноз кількості населення України до 2100 року
+  Дані</description>
+    </item>
     
     <item>
       <title>Візуалізація: Як оновлювався склад Верховної Ради</title>
@@ -177,17 +188,6 @@ Managing Data Journalism Projects В цьому неймовірном коро�
  
  
  
- 
- </description>
-    </item>
-    
-    <item>
-      <title>Дата-арт: Скетчі на основі даних про тривалість світлового дня</title>
-      <link>https://texturainua.github.io/posts/viz/data-art-daylight/</link>
-      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://texturainua.github.io/posts/viz/data-art-daylight/</guid>
-      <description>Скетчі на основі даних про тривалість світлового дня, зроблені за допомоги бібліотеки ggplot2
  
  </description>
     </item>

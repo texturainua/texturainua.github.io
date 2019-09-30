@@ -5,8 +5,33 @@
 		<description>Recent content in Posts on -текстура-</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>uk</language>
-		<lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
 		<atom:link href="https://texturainua.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Візуалізація: Прогноз кількості населення України до 2100 року</title>
+			<link>https://texturainua.github.io/posts/viz/population-prospects/</link>
+			<pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+			
+			<guid>https://texturainua.github.io/posts/viz/population-prospects/</guid>
+			<description>Візуалізація прогнозу ООН щодо кількості населення України до 2100 року.
+ Прогноз кількості населення України до 2100 року
+  Дані</description>
+			<content type="html"><![CDATA[<p><em>Візуалізація прогнозу ООН щодо кількості населення України до 2100 року</em>.</p>
+
+<figure class="big">
+    <img src="https://github.com/andriy-gazin/population_prospects/raw/master/projections.png"
+         alt="Прогноз кількості населення України до 2100 року"/> <figcaption>
+            <p>Прогноз кількості населення України до 2100 року</p>
+        </figcaption>
+</figure>
+
+
+<hr />
+
+<p><a href="https://population.un.org/wpp/" target="_blank">Дані</a></p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Візуалізація: Як оновлювався склад Верховної Ради</title>

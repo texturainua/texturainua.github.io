@@ -11,26 +11,23 @@
  природний приріст/скорочення населення в Україні
   Тобто на додачу до facet_wrap() та facet_grid() додає функцію facet_geo(), що дозволяє впорядковувати панелі із графіками таким чином, що їхнє розташування буде відтворювати розташування регіонів, країн, штатів, областей, міст на карті.
 Що це дає?
- Кожна панель може репрезентувати масив даних замість одного значення, як на карті.">
-
-
+  Кожна панель може репрезентувати масив даних замість одного значення, як на карті.">
 <meta itemprop="datePublished" content="2017-06-25T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2017-06-25T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="187">
+<meta itemprop="image" content="https://texturainua.github.io/thumbnail.png"/>
 
 
 
-<meta itemprop="keywords" content="візуалізація,статистика,населення," />
-<meta property="og:title" content="Візуалізація: Природний приріст/скорочення населення в Україні, 1990-2015" />
+<meta itemprop="keywords" content="візуалізація,статистика,населення," /><meta property="og:title" content="Візуалізація: Природний приріст/скорочення населення в Україні, 1990-2015" />
 <meta property="og:description" content="Днями Райан Хафен опублікував бібліотеку geofacet, котра є доповненням чи б пак розширенням для ggplot2, і дозволяє створювати власні сітки для розташування панелей із small multiples.
  природний приріст/скорочення населення в Україні
   Тобто на додачу до facet_wrap() та facet_grid() додає функцію facet_geo(), що дозволяє впорядковувати панелі із графіками таким чином, що їхнє розташування буде відтворювати розташування регіонів, країн, штатів, областей, міст на карті.
 Що це дає?
- Кожна панель може репрезентувати масив даних замість одного значення, як на карті." />
+  Кожна панель може репрезентувати масив даних замість одного значення, як на карті." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://texturainua.github.io/posts/viz/ukraine-population-grown-rate/" />
-
-<meta property="og:image" content="https://texturainua.github.io/thumbnail.png" />
+<meta property="og:image" content="https://texturainua.github.io/thumbnail.png"/>
 <meta property="article:published_time" content="2017-06-25T00:00:00+00:00" />
 <meta property="article:modified_time" content="2017-06-25T00:00:00+00:00" />
 <meta name="twitter:card" content="summary_large_image"/>
@@ -41,7 +38,7 @@
  природний приріст/скорочення населення в Україні
   Тобто на додачу до facet_wrap() та facet_grid() додає функцію facet_geo(), що дозволяє впорядковувати панелі із графіками таким чином, що їхнє розташування буде відтворювати розташування регіонів, країн, штатів, областей, міст на карті.
 Що це дає?
- Кожна панель може репрезентувати масив даних замість одного значення, як на карті."/>
+  Кожна панель може репрезентувати масив даних замість одного значення, як на карті."/>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -87,7 +84,6 @@
 			</header>
 			<div class="content">
 				<p><em>Днями Райан Хафен опублікував бібліотеку geofacet, котра є доповненням чи б пак розширенням для ggplot2, і дозволяє створювати власні сітки для розташування панелей із small multiples.</em></p>
-
 <figure class="big">
     <img src="https://github.com/andriy-gazin/population-trends/raw/master/population_trends.png"
          alt="природний приріст/скорочення населення в Україні"/> <figcaption>
@@ -95,30 +91,25 @@
         </figcaption>
 </figure>
 
-
 <p>Тобто на додачу до facet_wrap() та facet_grid() додає функцію facet_geo(), що дозволяє впорядковувати панелі із графіками таким чином, що їхнє розташування буде відтворювати розташування регіонів, країн, штатів, областей, міст на карті.</p>
-
 <p>Що це дає?</p>
-
 <ol>
-<li><p>Кожна панель може репрезентувати масив даних замість одного значення, як на карті.</p></li>
-
-<li><p>Кожна панель може містити будь-яку візуалізацію, котру можна зробити за допомоги ggplot2.</p></li>
-
-<li><p>Розташування панелей може відтворювати будь-яку топологію - країни певного регіону, регіони певної країни чи райони міста.</p></li>
+<li>
+<p>Кожна панель може репрезентувати масив даних замість одного значення, як на карті.</p>
+</li>
+<li>
+<p>Кожна панель може містити будь-яку візуалізацію, котру можна зробити за допомоги ggplot2.</p>
+</li>
+<li>
+<p>Розташування панелей може відтворювати будь-яку топологію - країни певного регіону, регіони певної країни чи райони міста.</p>
+</li>
 </ol>
-
 <p>Створені в такий спосіб візуалізації поєднують в собі властивості карти та графіку, вони дозволяють створювати small multiples із великою кількістю даних і при цьому надають можливість простежувати регіональні тренди.</p>
-
 <p>У самій бібліотеці geofacet є шаблони для розташування американських штатів та країн ЄС. Але на додачу до бібліотеки Райан Хафен опублікував також інструмент Geo Grid Designer, котрий дозволяє конструювати власні сітки для будь-яких топологій. Сконструйовані сітки можна додати в бібліотеку для загального користування.</p>
-
-<hr />
-
-<p><a href="https://github.com/andriy-gazin/population-trends" target="_blank">Код і дані на GitHub</a>.</p>
-
-<p><a href="https://hafen.github.io/geofacet/" target="_blank">Бібліотека geofacet</a>.</p>
-
-<p><a href="https://hafen.github.io/grid-designer/" target="_blank">Geo Grid Designer</a>.</p>
+<hr>
+<p><a href="https://github.com/andriy-gazin/population-trends">Код і дані на GitHub</a>.</p>
+<p><a href="https://hafen.github.io/geofacet/">Бібліотека geofacet</a>.</p>
+<p><a href="https://hafen.github.io/grid-designer/">Geo Grid Designer</a>.</p>
 
 			</div>
 			<hr class="post-end">

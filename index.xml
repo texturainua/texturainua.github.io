@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>-текстура-</title>
@@ -6,10 +6,21 @@
     <description>Recent content on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Sat, 12 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://texturainua.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Подкасти про візуалізацію даних</title>
+      <link>https://texturainua.github.io/posts/viz/podcasts/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/podcasts/</guid>
+      <description>Добірка подкастів про візуалізацію даних
+Data Stories Один з найстаріших подкастів про візуалізацію даних. Ведучі - Енріко Бертіні та Морітц Штефанер. Серед гостей подкасту вже встигли побувати всі більш менш відомі теоретики та практики візуалізації даних, тому Data Stories можуть слугувати гарним зануренням у контекст, ознайомленням зо всіма дійовими особами та проблематикою.
+Policy Viz Ведучий цього подкасту - Джон Швобіш, автор блогу Policy Viz, а також книги Better Presentations. A Guide for Scholars, Researchers, and Wonks.</description>
+    </item>
     
     <item>
       <title>Generative art: Ad Astra</title>
@@ -30,7 +41,7 @@
       <guid>https://texturainua.github.io/posts/viz/population-prospects/</guid>
       <description>Візуалізація прогнозу ООН щодо кількості населення України до 2100 року.
  Прогноз кількості населення України до 2100 року
-  Дані</description>
+   Дані</description>
     </item>
     
     <item>
@@ -41,7 +52,7 @@
       <guid>https://texturainua.github.io/posts/viz/convocations/</guid>
       <description>Візуалізація кількості старих та нових депутатів у Верховній Раді від першого і до восьмого скликання включно.
  Як оновлювався склад Верховної Ради
-  Код і дані на GitHub</description>
+   Код і дані на GitHub</description>
     </item>
     
     <item>
@@ -64,12 +75,12 @@
       
       <guid>https://texturainua.github.io/posts/ed/colors/</guid>
       <description>Добірка онлайн-сервісів для пошуку та створення палітр для візуалізації даних (і не тільки).
-Colorbrewer  Colorbrewer
-  Viz Palette  Viz Palette
-  Chroma  Chroma
-  Adobe Color  Adobe Color
-  Coolors  Coolors
-  Читайте також корисну замітку у блозі компанії Datawrapper - &amp;lsquo;What to consider when choosing colors for data visualization&amp;rsquo;.</description>
+ Colorbrewer  Colorbrewer
+   Viz Palette  Viz Palette
+   Chroma  Chroma
+   Adobe Color  Adobe Color
+   Coolors  Coolors
+   Читайте також корисну замітку у блозі компанії Datawrapper - &amp;lsquo;What to consider when choosing colors for data visualization&amp;rsquo;.</description>
     </item>
     
     <item>
@@ -93,7 +104,7 @@ Colorbrewer  Colorbrewer
       <guid>https://texturainua.github.io/posts/viz/world-oldest-person/</guid>
       <description>Візуалізація переліку настаріших людей світу з 1955 року для DataViz Battle на Reddit
  Найстаріші люди світу з 1955 року
-  Код і дані на GitHub</description>
+   Код і дані на GitHub</description>
     </item>
     
     <item>
@@ -104,7 +115,7 @@ Colorbrewer  Colorbrewer
       <guid>https://texturainua.github.io/posts/viz/mps-age-gender/</guid>
       <description>Розподіл депутатів Верховної Ради восьмого скликання за роком народження та статтю. Дані з Порталу відкритих даних Верховної Ради України.
  Розподіл депутатів ВР за роком народження та статтю
-  Код і дані на GitHub</description>
+   Код і дані на GitHub</description>
     </item>
     
     <item>
@@ -171,20 +182,6 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
       <guid>https://texturainua.github.io/posts/ed/ddj-online-courses/</guid>
       <description>В Україні наразі нема повноцінних навчальних програм з журналістики даних. То ж якщо ви надумали освоїти цю захопливу, але непросту професію, раджу звернутися до наявних онлайн-курсів. Цей огляд стосується трьох курсів, доступних на онлайн-платформі Learno.net.
 Managing Data Journalism Projects В цьому неймовірном короткому (&amp;lt; 20 хв) відеокурсі італійський журналіст-даних Джакоппо Оттавіані розповідає не стільки про змістовну, скільки про організаційну складову проектів з журналістики даних. Зокрема тут йдеться про те, з яких етапів складається розробка проекту з журналістики даних, як налагодити роботу команди журналістів, дизайнерів та розробників, які інструменти можна використовувати для постановки та відстеження виконання задач, а також для створення розробки дизайну проектів.</description>
-    </item>
-    
-    <item>
-      <title>Що читати: Making Data Visual</title>
-      <link>https://texturainua.github.io/posts/ed/making-data-visual/</link>
-      <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://texturainua.github.io/posts/ed/making-data-visual/</guid>
-      <description>Хто автори?
-Деніел Фішер - старший дослідник у Microsoft Research, Мірая Меєр - доцент Університету Юти, керівниця Visualization Design Lab.
- Making Data Visual
-  Робота Мірая та Деніела зосереджена на тому, аби допомагати компаніям, дослідникам чи науковцям розробляти інструменти для візуалізації даних та пошуку інсайтів у великих масивах даних.
-Для кого ця книга?
-Самі автори відповідають на це питання наступним чином: “Ця книга для тих, хто має доступ до даних та, можливо, набору інструментів для їх обробки, але не дуже розуміє, як перетворити дані на візуальні інсайти”.</description>
     </item>
     
   </channel>

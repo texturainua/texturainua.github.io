@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>скетчі on -текстура-</title>
@@ -18,13 +18,7 @@
       
       <guid>https://texturainua.github.io/posts/viz/earthquakes-dataart/</guid>
       <description>Скетчі на основі даних про всі землетруси у 2017 році, зроблені за допомоги бібліотеки ggplot2
- 
- 
- 
- 
- 
- 
- </description>
+       </description>
     </item>
     
     <item>
@@ -34,8 +28,7 @@
       
       <guid>https://texturainua.github.io/posts/viz/data-art-daylight/</guid>
       <description>Скетчі на основі даних про тривалість світлового дня, зроблені за допомоги бібліотеки ggplot2
- 
- </description>
+  </description>
     </item>
     
   </channel>

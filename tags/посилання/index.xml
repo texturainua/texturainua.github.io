@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>посилання on -текстура-</title>
@@ -17,9 +17,9 @@
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://texturainua.github.io/posts/links/handmade-dataviz/</guid>
-      <description> Італійський візуальний журналіст Адріано Аттус робить хендмейд візуалізації даних
+      <description>Італійський візуальний журналіст Адріано Аттус робить хендмейд візуалізації даних
  handmade data visualization
-  Дивитись більше </description>
+  **Дивитись більше** </description>
     </item>
     
     <item>
@@ -28,9 +28,9 @@
       <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>https://texturainua.github.io/posts/links/physical-dataviz/</guid>
-      <description> Проект, який ставить собі за мету зібрати всі приклади фізичних, матеріальних візуалізацій - з давніх давен і до сьогодні.
+      <description>Проект, який ставить собі за мету зібрати всі приклади фізичних, матеріальних візуалізацій - з давніх давен і до сьогодні.
  physical data visualizations
-   Дивитись більше </description>
+  **Дивитись більше** </description>
     </item>
     
   </channel>

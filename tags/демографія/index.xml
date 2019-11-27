@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>демографія on -текстура-</title>
@@ -19,7 +19,7 @@
       <guid>https://texturainua.github.io/posts/viz/world-oldest-person/</guid>
       <description>Візуалізація переліку настаріших людей світу з 1955 року для DataViz Battle на Reddit
  Найстаріші люди світу з 1955 року
-  Код і дані на GitHub</description>
+   Код і дані на GitHub</description>
     </item>
     
   </channel>

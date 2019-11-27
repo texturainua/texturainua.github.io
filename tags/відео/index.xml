@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>відео on -текстура-</title>
@@ -17,8 +17,7 @@
       <pubDate>Fri, 28 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>https://texturainua.github.io/posts/video/art-of-dataviz/</guid>
-      <description>Коротенький фільм про візуалізацію даних. Серед спікерів - Едвард Тафті та Джер Торп.
- </description>
+      <description>Коротенький фільм про візуалізацію даних. Серед спікерів - Едвард Тафті та Джер Торп.</description>
     </item>
     
     <item>
@@ -27,8 +26,7 @@
       <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://texturainua.github.io/posts/video/joy-of-stats/</guid>
-      <description>The Joy Of Stats - дуже хороша документальна стрічка від ВВС 4, в якій голова фонду Gapminder Ганс Рослінг захопливо розповідає про статистику
- </description>
+      <description>The Joy Of Stats - дуже хороша документальна стрічка від ВВС 4, в якій голова фонду Gapminder Ганс Рослінг захопливо розповідає про статистику</description>
     </item>
     
     <item>
@@ -37,8 +35,7 @@
       <pubDate>Sat, 07 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://texturainua.github.io/posts/video/journalism-age-of-data/</guid>
-      <description>Документальний фільм про журналістику даних Journalism in the Age of Data
- </description>
+      <description>Документальний фільм про журналістику даних Journalism in the Age of Data</description>
     </item>
     
   </channel>

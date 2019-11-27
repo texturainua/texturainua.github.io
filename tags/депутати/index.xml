@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>депутати on -текстура-</title>
@@ -19,7 +19,7 @@
       <guid>https://texturainua.github.io/posts/viz/mps-age-gender/</guid>
       <description>Розподіл депутатів Верховної Ради восьмого скликання за роком народження та статтю. Дані з Порталу відкритих даних Верховної Ради України.
  Розподіл депутатів ВР за роком народження та статтю
-  Код і дані на GitHub</description>
+   Код і дані на GitHub</description>
     </item>
     
   </channel>

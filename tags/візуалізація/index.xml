@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>візуалізація on -текстура-</title>
@@ -6,10 +6,21 @@
     <description>Recent content in візуалізація on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://texturainua.github.io/tags/%D0%B2%D1%96%D0%B7%D1%83%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Подкасти про візуалізацію даних</title>
+      <link>https://texturainua.github.io/posts/viz/podcasts/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/podcasts/</guid>
+      <description>Добірка подкастів про візуалізацію даних
+Data Stories Один з найстаріших подкастів про візуалізацію даних. Ведучі - Енріко Бертіні та Морітц Штефанер. Серед гостей подкасту вже встигли побувати всі більш менш відомі теоретики та практики візуалізації даних, тому Data Stories можуть слугувати гарним зануренням у контекст, ознайомленням зо всіма дійовими особами та проблематикою.
+Policy Viz Ведучий цього подкасту - Джон Швобіш, автор блогу Policy Viz, а також книги Better Presentations. A Guide for Scholars, Researchers, and Wonks.</description>
+    </item>
     
     <item>
       <title>Візуалізація: Прогноз кількості населення України до 2100 року</title>
@@ -19,7 +30,7 @@
       <guid>https://texturainua.github.io/posts/viz/population-prospects/</guid>
       <description>Візуалізація прогнозу ООН щодо кількості населення України до 2100 року.
  Прогноз кількості населення України до 2100 року
-  Дані</description>
+   Дані</description>
     </item>
     
     <item>
@@ -30,7 +41,7 @@
       <guid>https://texturainua.github.io/posts/viz/convocations/</guid>
       <description>Візуалізація кількості старих та нових депутатів у Верховній Раді від першого і до восьмого скликання включно.
  Як оновлювався склад Верховної Ради
-  Код і дані на GitHub</description>
+   Код і дані на GitHub</description>
     </item>
     
     <item>
@@ -53,12 +64,12 @@
       
       <guid>https://texturainua.github.io/posts/ed/colors/</guid>
       <description>Добірка онлайн-сервісів для пошуку та створення палітр для візуалізації даних (і не тільки).
-Colorbrewer  Colorbrewer
-  Viz Palette  Viz Palette
-  Chroma  Chroma
-  Adobe Color  Adobe Color
-  Coolors  Coolors
-  Читайте також корисну замітку у блозі компанії Datawrapper - &amp;lsquo;What to consider when choosing colors for data visualization&amp;rsquo;.</description>
+ Colorbrewer  Colorbrewer
+   Viz Palette  Viz Palette
+   Chroma  Chroma
+   Adobe Color  Adobe Color
+   Coolors  Coolors
+   Читайте також корисну замітку у блозі компанії Datawrapper - &amp;lsquo;What to consider when choosing colors for data visualization&amp;rsquo;.</description>
     </item>
     
     <item>
@@ -82,7 +93,7 @@ Colorbrewer  Colorbrewer
       <guid>https://texturainua.github.io/posts/viz/world-oldest-person/</guid>
       <description>Візуалізація переліку настаріших людей світу з 1955 року для DataViz Battle на Reddit
  Найстаріші люди світу з 1955 року
-  Код і дані на GitHub</description>
+   Код і дані на GitHub</description>
     </item>
     
     <item>
@@ -93,7 +104,7 @@ Colorbrewer  Colorbrewer
       <guid>https://texturainua.github.io/posts/viz/mps-age-gender/</guid>
       <description>Розподіл депутатів Верховної Ради восьмого скликання за роком народження та статтю. Дані з Порталу відкритих даних Верховної Ради України.
  Розподіл депутатів ВР за роком народження та статтю
-  Код і дані на GitHub</description>
+   Код і дані на GitHub</description>
     </item>
     
     <item>
@@ -173,24 +184,7 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
       
       <guid>https://texturainua.github.io/posts/viz/earthquakes-dataart/</guid>
       <description>Скетчі на основі даних про всі землетруси у 2017 році, зроблені за допомоги бібліотеки ggplot2
- 
- 
- 
- 
- 
- 
- </description>
-    </item>
-    
-    <item>
-      <title>Дата-арт: Скетчі на основі даних про тривалість світлового дня</title>
-      <link>https://texturainua.github.io/posts/viz/data-art-daylight/</link>
-      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://texturainua.github.io/posts/viz/data-art-daylight/</guid>
-      <description>Скетчі на основі даних про тривалість світлового дня, зроблені за допомоги бібліотеки ggplot2
- 
- </description>
+       </description>
     </item>
     
   </channel>

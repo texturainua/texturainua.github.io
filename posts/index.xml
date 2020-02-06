@@ -5,8 +5,43 @@
 		<description>Recent content in Posts on -текстура-</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>uk</language>
-		<lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
 		<atom:link href="https://texturainua.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Візуалізація: Природний приріст/скорочення населення в Україні, 1990-2018</title>
+			<link>https://texturainua.github.io/posts/viz/ukraine-population-grown-rate/</link>
+			<pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://texturainua.github.io/posts/viz/ukraine-population-grown-rate/</guid>
+			<description>У більшості регіонів України показники смертності перевищують показники народжуваності. Лише в Києві народжуваність переважає смертність.
+ природний приріст/скорочення населення в Україні
+    природний приріст/скорочення населення в Україні
+   Код і дані на GitHub
+Бібліотека geofacet
+Geo Grid Designer</description>
+			<content type="html"><![CDATA[<p><em>У більшості регіонів України показники смертності перевищують показники народжуваності. Лише в Києві народжуваність переважає смертність</em>.</p>
+<figure class="big">
+    <img src="https://github.com/andriy-gazin/population-trends/raw/master/geofacet.png"
+         alt="природний приріст/скорочення населення в Україні"/> <figcaption>
+            <p>природний приріст/скорочення населення в Україні</p>
+        </figcaption>
+</figure>
+
+<hr>
+<figure class="big">
+    <img src="https://github.com/andriy-gazin/population-trends/raw/master/heatmap.png"
+         alt="природний приріст/скорочення населення в Україні"/> <figcaption>
+            <p>природний приріст/скорочення населення в Україні</p>
+        </figcaption>
+</figure>
+
+<hr>
+<p><a href="https://github.com/andriy-gazin/population-trends">Код і дані на GitHub</a></p>
+<p><a href="https://hafen.github.io/geofacet/">Бібліотека geofacet</a></p>
+<p><a href="https://hafen.github.io/grid-designer/">Geo Grid Designer</a></p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Посилання: Подкасти про візуалізацію даних</title>

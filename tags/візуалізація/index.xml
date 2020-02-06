@@ -6,10 +6,24 @@
     <description>Recent content in візуалізація on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://texturainua.github.io/tags/%D0%B2%D1%96%D0%B7%D1%83%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Візуалізація: Природний приріст/скорочення населення в Україні, 1990-2018</title>
+      <link>https://texturainua.github.io/posts/viz/ukraine-population-grown-rate/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/ukraine-population-grown-rate/</guid>
+      <description>У більшості регіонів України показники смертності перевищують показники народжуваності. Лише в Києві народжуваність переважає смертність.
+ природний приріст/скорочення населення в Україні
+    природний приріст/скорочення населення в Україні
+   Код і дані на GitHub
+Бібліотека geofacet
+Geo Grid Designer</description>
+    </item>
     
     <item>
       <title>Посилання: Подкасти про візуалізацію даних</title>
@@ -175,16 +189,6 @@ The Data Visualization Catalogue  The Data Visualization Catalogue</description>
   Робота Мірая та Деніела зосереджена на тому, аби допомагати компаніям, дослідникам чи науковцям розробляти інструменти для візуалізації даних та пошуку інсайтів у великих масивах даних.
 Для кого ця книга?
 Самі автори відповідають на це питання наступним чином: “Ця книга для тих, хто має доступ до даних та, можливо, набору інструментів для їх обробки, але не дуже розуміє, як перетворити дані на візуальні інсайти”.</description>
-    </item>
-    
-    <item>
-      <title>Дата-арт: Скетчі на основі даних про землетруси у 2017 році</title>
-      <link>https://texturainua.github.io/posts/viz/earthquakes-dataart/</link>
-      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://texturainua.github.io/posts/viz/earthquakes-dataart/</guid>
-      <description>Скетчі на основі даних про всі землетруси у 2017 році, зроблені за допомоги бібліотеки ggplot2
-       </description>
     </item>
     
   </channel>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>generative art on -текстура-</title>
-    <link>https://texturainua.github.io/tags/generative-art/</link>
-    <description>Recent content in generative art on -текстура-</description>
+    <title>проєкти on -текстура-</title>
+    <link>https://texturainua.github.io/tags/%D0%BF%D1%80%D0%BE%D1%94%D0%BA%D1%82%D0%B8/</link>
+    <description>Recent content in проєкти on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
     <copyright>© 2021, Андрій Газін</copyright>
-    <lastBuildDate>Mon, 19 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://texturainua.github.io/tags/generative-art/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://texturainua.github.io/tags/%D0%BF%D1%80%D0%BE%D1%94%D0%BA%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Проєкт: Judge a book by its cover</title>
       <link>https://texturainua.github.io/posts/projects/books/</link>
@@ -18,16 +18,6 @@
 Студентка Вікторія Юзьків придумала генерувати обкладинки для книжок на основ їх текстів. Для прикладу вона вирішила взяти серію книжок Йона Колфера про Артеміса Фаула.
   візуалізація структури книг та їх емоційного забарвлення
   Ідея полягала в тому, щоби розпарсити структуру книги і отримати в результаті дерево (глава - абзац - речення). А також принагідно отримати сентимент для кожного абзацу, та ще купу всіляких характеристик (кількість речень в абзаці, довжина речення, кількість слів у реченні, середня довжина слова).</description>
-    </item>
-    
-    <item>
-      <title>Generative art: Ad Astra</title>
-      <link>https://texturainua.github.io/posts/viz/ad-astra-generative/</link>
-      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://texturainua.github.io/posts/viz/ad-astra-generative/</guid>
-      <description>Фільм Ad Astra завершується коротким монологом головного героя:
- I’m steady, calm. I slept well, no bad dreams. I am active and engaged. I’m aware of my surroundings and those in my immediate sphere. I’m attentive. I am focused on the essentials, to the exclusion of all else. I’m unsure of the future, but I’m not concerned. I will rely on those closest to me, and I will share their burdens, as they share mine.</description>
     </item>
     
   </channel>

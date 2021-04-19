@@ -6,19 +6,15 @@
     <description>Recent content in депутати on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Sun, 13 Jan 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://texturainua.github.io/tags/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>© 2021, Андрій Газін</copyright>
+    <lastBuildDate>Sun, 13 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://texturainua.github.io/tags/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Візуалізація: Розподіл депутатів ВР за роком народження та статтю</title>
       <link>https://texturainua.github.io/posts/viz/mps-age-gender/</link>
       <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://texturainua.github.io/posts/viz/mps-age-gender/</guid>
-      <description>Розподіл депутатів Верховної Ради восьмого скликання за роком народження та статтю. Дані з Порталу відкритих даних Верховної Ради України.
- Розподіл депутатів ВР за роком народження та статтю
+      <description>Розподіл депутатів ВР за роком народження та статтю
    Код і дані на GitHub</description>
     </item>
     

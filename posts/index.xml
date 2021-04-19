@@ -1,1527 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Posts on -текстура-</title>
-		<link>https://texturainua.github.io/posts/</link>
-		<description>Recent content in Posts on -текстура-</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>uk</language>
-		<lastBuildDate>Tue, 11 Feb 2020 00:00:00 +0000</lastBuildDate>
-		<atom:link href="https://texturainua.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>Датасет: Пасажиропотік на міжнародному та внутрішньому сполученнях</title>
-			<link>https://texturainua.github.io/posts/data/passengers/</link>
-			<pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/data/passengers/</guid>
-			<description>Цікавий набір даних для аналізу та візуалізації від Укрзалізниці
-На Єдиному державному порталі відкритих даних публікують інформацію про пасажиропотік на міжнародному та внутрішньому залізничному сполученнях. Наразі оприлюднені дані з вересня 2018 року і до січня 2020 року включно.
- пасажирські перевезення на залізниці у 2019 році
-  В кожному файлі міститься інформація про:  Номер поїзда Вид сполучення (внутрішнє чи міжнародне) Дату відправлення поїзда Станцію відправлення Станцію призначення Тип вагона (плацкарт, купе, люкс) Тип документа (повний, пільговий, дитячий) Кількість пасажирів  Що ми можемо дізнатися з цього набору даних?</description>
-			<content type="html"><![CDATA[<p><em>Цікавий набір даних для аналізу та візуалізації від Укрзалізниці</em></p>
-<p>На Єдиному державному порталі відкритих даних публікують <a href="https://data.gov.ua/dataset/eda3baf5-f12c-4330-bbf5-fc419b39f4e2">інформацію про пасажиропотік на міжнародному та внутрішньому залізничному сполученнях</a>. Наразі оприлюднені дані з вересня 2018 року і до січня 2020 року включно.</p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/passengers/raw/master/daily.png"
-         alt="пасажирські перевезення на залізниці у 2019 році"/> <figcaption>
-            <p>пасажирські перевезення на залізниці у 2019 році</p>
-        </figcaption>
-</figure>
-
-<h3 id="в-кожному-файлі-міститься-інформація-про">В кожному файлі міститься інформація про:</h3>
-<ul>
-<li>Номер поїзда</li>
-<li>Вид сполучення (внутрішнє чи міжнародне)</li>
-<li>Дату відправлення поїзда</li>
-<li>Станцію відправлення</li>
-<li>Станцію призначення</li>
-<li>Тип вагона (плацкарт, купе, люкс)</li>
-<li>Тип документа (повний, пільговий, дитячий)</li>
-<li>Кількість пасажирів</li>
-</ul>
-<h3 id="що-ми-можемо-дізнатися-з-цього-набору-даних">Що ми можемо дізнатися з цього набору даних?</h3>
-<ul>
-<li>Скільки пасажирів було перевезено за певний період</li>
-<li>Найбільш завантажені потяги / популярні напрямки</li>
-<li>Дні/тижні/місяці, коли було перевезено найбільше/найменше пасажирів</li>
-<li>Частку пільговиків, дітей або військових у загальній кількості пасажирів</li>
-<li>Структуру перевезень за типами вагонів</li>
-</ul>
-<h3 id="особливості-та-проблеми-набору-даних">Особливості та проблеми набору даних</h3>
-<ul>
-<li>У файлах можуть відрізнятися назви змінних та може бути різна кількість стовпчиків</li>
-<li>У файлах може відрізнятися форматування дат (в одному випадку може вживатися YYYY-MM-DD, в іншому - MM/DD/YYYY)</li>
-<li>У файлах може бути змішані дні з різних місяців (наприклад, у файл за травень 2019 року потрапляють даніза перші два дні червня 2019 року). Це потрібно враховувати під час чищення даних, оскільки впливає на агрегацію</li>
-<li>Відсутні дані за декілька днів 2019 року</li>
-</ul>
-<hr>
-<p>Якщо хочете почати аналізувати цей набір даних в R, <a href="https://github.com/andriy-gazin/passengers">на GitHub можете знайти кілька скриптів для парсингу та агрегації даних</a>.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Природний приріст/скорочення населення в Україні, 1990-2018</title>
-			<link>https://texturainua.github.io/posts/viz/ukraine-population-grown-rate/</link>
-			<pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/ukraine-population-grown-rate/</guid>
-			<description>У більшості регіонів України показники смертності перевищують показники народжуваності. Лише в Києві народжуваність переважає смертність.
- природний приріст/скорочення населення в Україні
-    природний приріст/скорочення населення в Україні
+  <channel>
+    <title>Posts on -текстура-</title>
+    <link>https://texturainua.github.io/posts/</link>
+    <description>Recent content in Posts on -текстура-</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    <copyright>© 2021, Андрій Газін</copyright>
+    <lastBuildDate>Tue, 11 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://texturainua.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Датасет: Пасажиропотік на міжнародному та внутрішньому сполученнях</title>
+      <link>https://texturainua.github.io/posts/data/passengers/</link>
+      <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/data/passengers/</guid>
+      <description>На Єдиному державному порталі відкритих даних публікують інформацію про пасажиропотік на міжнародному та внутрішньому залізничному сполученнях. Наразі оприлюднені дані з вересня 2018 року і до січня 2020 року включно.
+В кожному файлі міститься інформація про:  Номер поїзда Вид сполучення (внутрішнє чи міжнародне) Дату відправлення поїзда Станцію відправлення Станцію призначення Тип вагона (плацкарт, купе, люкс) Тип документа (повний, пільговий, дитячий) Кількість пасажирів  Що ми можемо дізнатися з цього набору даних?</description>
+    </item>
+    
+    <item>
+      <title>Візуалізація: Природний приріст/скорочення населення в Україні, 1990-2018</title>
+      <link>https://texturainua.github.io/posts/viz/ukraine-population-grown-rate/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/ukraine-population-grown-rate/</guid>
+      <description>У більшості регіонів України показники смертності перевищують показники народжуваності. Лише в Києві народжуваність переважає смертність.
+  природний приріст/скорочення населення в Україні
+     природний приріст/скорочення населення в Україні
    Код і дані на GitHub
 Бібліотека geofacet
 Geo Grid Designer</description>
-			<content type="html"><![CDATA[<p><em>У більшості регіонів України показники смертності перевищують показники народжуваності. Лише в Києві народжуваність переважає смертність</em>.</p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/population-trends/raw/master/geofacet.png"
-         alt="природний приріст/скорочення населення в Україні"/> <figcaption>
-            <p>природний приріст/скорочення населення в Україні</p>
-        </figcaption>
-</figure>
-
-<hr>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/population-trends/raw/master/heatmap.png"
-         alt="природний приріст/скорочення населення в Україні"/> <figcaption>
-            <p>природний приріст/скорочення населення в Україні</p>
-        </figcaption>
-</figure>
-
-<hr>
-<p><a href="https://github.com/andriy-gazin/population-trends">Код і дані на GitHub</a></p>
-<p><a href="https://hafen.github.io/geofacet/">Бібліотека geofacet</a></p>
-<p><a href="https://hafen.github.io/grid-designer/">Geo Grid Designer</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Посилання: Подкасти про візуалізацію даних</title>
-			<link>https://texturainua.github.io/posts/ed/podcasts/</link>
-			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/ed/podcasts/</guid>
-			<description>Добірка подкастів про візуалізацію даних
-Data Stories Один з найстаріших подкастів про візуалізацію даних. Ведучі - Енріко Бертіні та Морітц Штефанер. Серед гостей подкасту вже встигли побувати всі більш менш відомі теоретики та практики візуалізації даних, тому Data Stories можуть слугувати гарним зануренням у контекст, ознайомленням зо всіма дійовими особами та проблематикою.
+    </item>
+    
+    <item>
+      <title>Посилання: Подкасти про візуалізацію даних</title>
+      <link>https://texturainua.github.io/posts/ed/podcasts/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/ed/podcasts/</guid>
+      <description>Data Stories Один з найстаріших подкастів про візуалізацію даних. Ведучі - Енріко Бертіні та Морітц Штефанер. Серед гостей подкасту вже встигли побувати всі більш менш відомі теоретики та практики візуалізації даних, тому Data Stories можуть слугувати гарним зануренням у контекст, ознайомленням зо всіма дійовими особами та проблематикою.
 Policy Viz Ведучий цього подкасту - Джон Швобіш, автор блогу Policy Viz, а також книги Better Presentations. A Guide for Scholars, Researchers, and Wonks.</description>
-			<content type="html"><![CDATA[<p><em>Добірка подкастів про візуалізацію даних</em></p>
-<h3 id="data-storieshttpdatastories"><a href="http://datastori.es/">Data Stories</a></h3>
-<p>Один з найстаріших подкастів про візуалізацію даних. Ведучі - Енріко Бертіні та Морітц Штефанер. Серед гостей подкасту вже встигли побувати всі більш менш відомі теоретики та практики візуалізації даних, тому Data Stories можуть слугувати гарним зануренням у контекст, ознайомленням зо всіма дійовими особами та проблематикою.</p>
-<h3 id="policy-vizhttpspolicyvizcompodcast"><a href="https://policyviz.com/podcast/">Policy Viz</a></h3>
-<p>Ведучий цього подкасту - Джон Швобіш, автор блогу Policy Viz, а також книги Better Presentations. A Guide for Scholars, Researchers, and Wonks. Основний формат - коротке інтерв'ю із запрошеними гостями. Тематика не обов'язково стосується лише візуалізації даних, а може заторкати також теми публічних презентацій. Як і у випадку з Data Stories, цей подкаст може бути корисний для загального ознайомлення із дискурсом у сфері візуалізації даних.</p>
-<h3 id="storytelling-with-datahttpswwwstorytellingwithdatacompodcast"><a href="https://www.storytellingwithdata.com/podcast/">Storytelling With Data</a></h3>
-<p>Ведуча цього подкасту - Коул Насбаумер Кнафлік, авторка блогу Storytelling with Data, а також книжок з візуалізації даних Storytelling with Data та Storytelling with Data: Let&rsquo;s Practice. За форматом тут трапляються як і інтерв'ю із теоретиками та практиками візуалізації даних, так і просто роздуми Коул щодо того, де та як навчатися візуалізації, як побудувати свою команду, як правильно обирати тип графіку і т.д.</p>
-<h3 id="data-viz-todayhttpsdataviztodaycom"><a href="https://dataviztoday.com/">Data Viz Today</a></h3>
-<p>Ведуча подкасту - дизайнерка та аналітикиня Алі Торбан. Основний формат тут - How to, тобто кожен епізод зосереджений на вирішенні однієї проблеми. Проблеми трапляються дуже загальні - наприклад, як знайти власний стиль, і дуже конкретні - скажімо, як уникнути перевантаження графіку візуальними елементами.</p>
-<hr>
-<p>Гарного прослуховування!</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Generative art: Ad Astra</title>
-			<link>https://texturainua.github.io/posts/viz/ad-astra-generative/</link>
-			<pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/ad-astra-generative/</guid>
-			<description>Візуалізація монологу з фільму Ad Astra за допомоги nodebox.
-Фільм Ad Astra завершується коротким монологом головного героя:
+    </item>
+    
+    <item>
+      <title>Generative art: Ad Astra</title>
+      <link>https://texturainua.github.io/posts/viz/ad-astra-generative/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/ad-astra-generative/</guid>
+      <description>Фільм Ad Astra завершується коротким монологом головного героя:
  I’m steady, calm. I slept well, no bad dreams. I am active and engaged. I’m aware of my surroundings and those in my immediate sphere. I’m attentive. I am focused on the essentials, to the exclusion of all else. I’m unsure of the future, but I’m not concerned. I will rely on those closest to me, and I will share their burdens, as they share mine.</description>
-			<content type="html"><![CDATA[<p><em>Візуалізація монологу з фільму Ad Astra за допомоги nodebox</em>.</p>
-<p>Фільм Ad Astra завершується коротким монологом головного героя:</p>
-<blockquote>
-<p><em>I’m steady, calm. I slept well, no bad dreams. I am active and engaged. I’m aware of my surroundings and those in my immediate sphere. I’m attentive. I am focused on the essentials, to the exclusion of all else. I’m unsure of the future, but I’m not concerned. I will rely on those closest to me, and I will share their burdens, as they share mine. I will live and love. Submit.</em></p>
-</blockquote>
-<p>Мені настільки сподобався цей момент, що я вирішив спробувати попрацювати з текстом монологу у форматі generative art. Ось кілька ескізів.</p>
-<figure class="big">
-    <img src="/img/adastra/01.png"
-         alt="Ad Astra generative art"/> 
-</figure>
-
-<!-- raw HTML omitted -->
-<figure class="big">
-    <img src="/img/adastra/02.png"
-         alt="Ad Astra generative art"/> 
-</figure>
-
-<!-- raw HTML omitted -->
-<figure class="big">
-    <img src="/img/adastra/03.png"
-         alt="Ad Astra generative art"/> 
-</figure>
-
-<!-- raw HTML omitted -->
-<figure class="big">
-    <img src="/img/adastra/04.png"
-         alt="Ad Astra generative art"/> 
-</figure>
-
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Прогноз кількості населення України до 2100 року</title>
-			<link>https://texturainua.github.io/posts/viz/population-prospects/</link>
-			<pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/population-prospects/</guid>
-			<description>Візуалізація прогнозу ООН щодо кількості населення України до 2100 року.
- Прогноз кількості населення України до 2100 року
+    </item>
+    
+    <item>
+      <title>Візуалізація: Прогноз кількості населення України до 2100 року</title>
+      <link>https://texturainua.github.io/posts/viz/population-prospects/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/population-prospects/</guid>
+      <description>Прогноз кількості населення України до 2100 року
    Дані</description>
-			<content type="html"><![CDATA[<p><em>Візуалізація прогнозу ООН щодо кількості населення України до 2100 року</em>.</p>
-<figure class="big">
-    <img src="/img/projections.png"
-         alt="Прогноз кількості населення України до 2100 року"/> <figcaption>
-            <p>Прогноз кількості населення України до 2100 року</p>
-        </figcaption>
-</figure>
-
-<hr>
-<p><a href="https://population.un.org/wpp/">Дані</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Як оновлювався склад Верховної Ради</title>
-			<link>https://texturainua.github.io/posts/viz/convocations/</link>
-			<pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/convocations/</guid>
-			<description>Візуалізація кількості старих та нових депутатів у Верховній Раді від першого і до восьмого скликання включно.
- Як оновлювався склад Верховної Ради
+    </item>
+    
+    <item>
+      <title>Візуалізація: Як оновлювався склад Верховної Ради</title>
+      <link>https://texturainua.github.io/posts/viz/convocations/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/convocations/</guid>
+      <description>Як оновлювався склад Верховної Ради
    Код і дані на GitHub</description>
-			<content type="html"><![CDATA[<p><em>Візуалізація кількості старих та нових депутатів у Верховній Раді від першого і до восьмого скликання включно</em>.</p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/mps/raw/master/convocations.png"
-         alt="Як оновлювався склад Верховної Ради"/> <figcaption>
-            <p>Як оновлювався склад Верховної Ради</p>
-        </figcaption>
-</figure>
-
-<hr>
-<p><a href="https://github.com/andriy-gazin/mps">Код і дані на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Результати другого туру виборів Президента України 2019 року, geowaffle chart</title>
-			<link>https://texturainua.github.io/posts/viz/geowaffle/</link>
-			<pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/geowaffle/</guid>
-			<description>Спроба поєднати waffle chart із geofacet.
- geowaffle chart
+    </item>
+    
+    <item>
+      <title>Візуалізація: Результати другого туру виборів Президента України 2019 року, geowaffle chart</title>
+      <link>https://texturainua.github.io/posts/viz/geowaffle/</link>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/geowaffle/</guid>
+      <description>geowaffle chart
   Як я вже писав раніше, geofaceting дозволяє впорядковувати панелі із графіками таким чином, що їхнє розташування буде відтворювати розташування регіонів, країн, штатів, областей, міст на карті.
 Створені в такий спосіб візуалізації поєднують в собі властивості карти та графіку, вони дозволяють створювати small multiples із великою кількістю даних і при цьому надають можливість простежувати регіональні тренди.
 Разом з тим waffle charts - це доволі непогана альтернатива секторним діаграмам (простіше пай-чартам).</description>
-			<content type="html"><![CDATA[<p><em>Спроба поєднати waffle chart із geofacet</em>.</p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/geowaffle/raw/master/geowaffle.png"
-         alt="geowaffle chart"/> <figcaption>
-            <p>geowaffle chart</p>
-        </figcaption>
-</figure>
-
-<p><a href="https://textura.in.ua/posts/viz/ukraine-population-grown-rate/">Як я вже писав раніше</a>, geofaceting дозволяє впорядковувати панелі із графіками таким чином, що їхнє розташування буде відтворювати розташування регіонів, країн, штатів, областей, міст на карті.</p>
-<p>Створені в такий спосіб візуалізації поєднують в собі властивості карти та графіку, вони дозволяють створювати small multiples із великою кількістю даних і при цьому надають можливість простежувати регіональні тренди.</p>
-<p>Разом з тим waffle charts - це доволі непогана альтернатива секторним діаграмам (простіше пай-чартам). Якщо ви ще не бачили, є <a href="https://github.com/hrbrmstr/waffle">симпатична бібліотека для R, котра так і називається - waffle</a>. Нова версія бібліотеки запроваджує <code>geom_waffle()</code> для бібліотеки ggplot2. Тож у мене виникла ідея поєднати <code>waffle::geom_waffle()</code> та <code>geofacet::facet_geo()</code>.</p>
-<p>Щоправда, одразу це не спрацювало, оскільки функція <code>waffle::geom_waffle()</code> ще є експериментальною, і не працює з коробки в поєднанні з функцією <code>geofacet::facet_geo()</code>. Але, використовуючи <a href="https://stackoverflow.com/questions/52741666/creating-a-waffle-plot-together-with-facets-in-ggplot2">надані автором бібліотеки waffle приклади коду</a>, я доволі швидко імплементував логіку трансформації даних, необхідну для створення візуалізації.</p>
-<p>Для тесту я обрав результати другого туру виборів Президента України 2019 року, оскільки тут всього дві категорії. Згодом хочу потестувати цей підхід на більшій кількості категорій (наприклад, взяти перший тур виборів Президента, або результати виборів до Верховної Ради). Цікавить, наскільки добре буде читатись така візуалізація, якщо категорій не дві, а, скажімо, чотири чи п'ять. А також в який спосіб розташовувати підписи значень для цих категорій.</p>
-<p>Звісно, ці ж самі дані можна було показати, використовуючи звичайний stacked bar chart. Але мені видається, що waffle chart робить ці дані менш абстрактними - один прямокутник дорівнює одному відсотку. Простий і зрозумілий спосіб кодування. Правда, тут є один недолік - за такого способу кодування &ldquo;з'їдаються&rdquo; десяткові значення. Можна, звісно, дробити прямокутники, але це в свою чергу викличе проблеми з їх вписуванням у сітку.</p>
-<hr>
-<p>Також принагідно я зробив невеличкий наклад поштових карток формату А5 із цим паттерном. Думаю згодом додруковувати, але щоразу з іншими кольорами, тоді кожен наклад буде унікальним.</p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/geowaffle/raw/master/postcard.png"
-         alt="geowaffle postcard"/> <figcaption>
-            <p>geowaffle postcard</p>
-        </figcaption>
-</figure>
-
-<hr>
-<p><a href="https://github.com/andriy-gazin/geowaffle">Код і дані на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Посилання: Сервіси для підбору кольорів</title>
-			<link>https://texturainua.github.io/posts/ed/colors/</link>
-			<pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/ed/colors/</guid>
-			<description>Добірка онлайн-сервісів для пошуку та створення палітр для візуалізації даних (і не тільки).
- Colorbrewer  Colorbrewer
+    </item>
+    
+    <item>
+      <title>Посилання: Сервіси для підбору кольорів</title>
+      <link>https://texturainua.github.io/posts/ed/colors/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/ed/colors/</guid>
+      <description>Colorbrewer  Colorbrewer
    Viz Palette  Viz Palette
    Chroma  Chroma
    Adobe Color  Adobe Color
    Coolors  Coolors
    Читайте також корисну замітку у блозі компанії Datawrapper - &amp;lsquo;What to consider when choosing colors for data visualization&amp;rsquo;.</description>
-			<content type="html"><![CDATA[<p><em>Добірка онлайн-сервісів для пошуку та створення палітр для візуалізації даних (і не тільки)</em>.</p>
-<hr>
-<h2 id="colorbrewerhttpcolorbrewer2org"><a href="http://colorbrewer2.org"><strong>Colorbrewer</strong></a></h2>
-<figure class="big">
-    <img src="/img/colors/colobrewer.png"
-         alt="http://colorbrewer2.org"/> <figcaption>
-            <p>Colorbrewer</p>
-        </figcaption>
-</figure>
-
-<hr>
-<h2 id="viz-palettehttpsprojectssusielucomviz-palette"><a href="https://projects.susielu.com/viz-palette"><strong>Viz Palette</strong></a></h2>
-<figure class="big">
-    <img src="/img/colors/vizpalette.png"
-         alt="https://projects.susielu.com/viz-palette"/> <figcaption>
-            <p>Viz Palette</p>
-        </figcaption>
-</figure>
-
-<hr>
-<h2 id="chromahttpsgkagithubiopalettes"><a href="https://gka.github.io/palettes"><strong>Chroma</strong></a></h2>
-<figure class="big">
-    <img src="/img/colors/chroma.png"
-         alt="https://gka.github.io/palettes"/> <figcaption>
-            <p>Chroma</p>
-        </figcaption>
-</figure>
-
-<hr>
-<h2 id="adobe-colorhttpscoloradobecomcreate"><a href="https://color.adobe.com/create"><strong>Adobe Color</strong></a></h2>
-<figure class="big">
-    <img src="/img/colors/adobecolor.png"
-         alt="https://color.adobe.com/create"/> <figcaption>
-            <p>Adobe Color</p>
-        </figcaption>
-</figure>
-
-<hr>
-<h2 id="coolorshttpscoolorscoapp"><a href="https://coolors.co/app"><strong>Coolors</strong></a></h2>
-<figure class="big">
-    <img src="/img/colors/coolors.png"
-         alt="https://coolors.co/app"/> <figcaption>
-            <p>Coolors</p>
-        </figcaption>
-</figure>
-
-<hr>
-<p>Читайте також корисну замітку у блозі компанії Datawrapper - <a href="https://blog.datawrapper.de/colors/">&lsquo;What to consider when choosing colors for data visualization&rsquo;</a>.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Що читати: Data Points</title>
-			<link>https://texturainua.github.io/posts/ed/data-points/</link>
-			<pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/ed/data-points/</guid>
-			<description>Огляд книги Data Points від автора популярного блогу про візуалізацію даних FlowingData Нейтана Яу.
-Хто автор
+    </item>
+    
+    <item>
+      <title>Що читати: Data Points</title>
+      <link>https://texturainua.github.io/posts/ed/data-points/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/ed/data-points/</guid>
+      <description>Хто автор
 Нейтан Яу - автор популярного блогу про візуалізацію даних FlowingData, фахівець зі статистики та візуалізації даних, та свого роду літописець візуалізації даних в інтернеті.
  Data Points
-  Впродовж останніх десяти років він методично збирає та описує у своєму блозі найцікавіші приклади аналізу та візуалізації даних зі всього світу. Він також робить цікаві візуалізації даних із використанням R та D3.</description>
-			<content type="html"><![CDATA[<p><em>Огляд книги Data Points від автора популярного блогу про візуалізацію даних FlowingData Нейтана Яу</em>.</p>
-<p><strong>Хто автор</strong></p>
-<p>Нейтан Яу - автор популярного блогу про візуалізацію даних <a href="https://flowingdata.com/">FlowingData</a>, фахівець зі статистики та візуалізації даних, та свого роду літописець візуалізації даних в інтернеті.</p>
-<figure class="right">
-    <img src="https://www.datainnovation.org/wp-content/uploads/2013/07/2013-07-15-book.png"
-         alt="Data Points"/> <figcaption>
-            <p>Data Points</p>
-        </figcaption>
-</figure>
-
-<p>Впродовж останніх десяти років він методично збирає та описує у своєму блозі найцікавіші приклади аналізу та візуалізації даних зі всього світу. Він також робить цікаві візуалізації даних із використанням R та D3.</p>
-<p>Нейтан є автором <a href="https://flowingdata.com/books/">двох книжок з візуалізації даних</a>, що вийшли у видавництві Wiley. Перша називається <em>Visualize This: The FlowingData Guide to Design, Visualization, and Statistics</em>, і присвячена значною мірою технічним аспектам візуалізації даних із R, Python та JavaScript.</p>
-<p>Друга - <em>Data Points: Visualization That Means Something</em> розглядає радше процедурні аспекти візуалізації даних (вибір способу візуалізації, редагування графіків для різних задач і т.д.).</p>
-<p><strong>Про що книга</strong></p>
-<p>Data Points дає дуже хороший і структурований вступ до візуалізації даних. Тут розглядаються всі етапи її створення - від аналізу даних до презентації їх у вигляді статистичних графіків для конкретної аудиторії.</p>
-<p>Так, у розділі <em>Understanding Data</em> Нейтан розбирає, чим є дані загалом, що ми маємо знати про наші дані перш ніж братися за візуалізацію, як шукати історії в даних. Далі, у розділі <em>Visualization: The Medium</em> він аналізує різні модуси існування візуалізації: використання її для аналізу, дослідження та презентації даних, для розваги та мистецтва, а також у повсякденному житті. А в розділі <em>Representing Data</em> він розповідає, з яких компонентів складається візуалізація даних.</p>
-<p>Наступні кілька розділів присвячені власне виготовленню візуалізації даних. У главі <em>Exploring Data Visually</em> йдеться про підходи до візуалізації різних типів даних: категоріальних, часових, просторових. А також про методи візуалізації багатовимірних даних. У розділі <em>Visualizing with Clarity</em> він говорить про такі важливі речі, як візуальна ієрархія, читаємість графіків, використання виділень та анотацій для посилення повідомлення. А у розділі <em>Designing for an Audience</em> пояснює, як адаптувати візуалізацію для конкретної аудиторії та уникнути типових помилок.</p>
-<!-- raw HTML omitted -->
-<p><strong>Навіщо читати</strong></p>
-<p>Читати варто в першу чергу, аби отримати добре структурований сценарій роботи над візуалізацією даних. В книзі надані притомні пояснення всіх етапів створення візуалізації. Що важливо - тут дуже багато графічних прикладів, які пояснюють, наприклад, ваші опції для різних візуалізаційних задач (розподіл, зміна в часі, порівняння і т.д.), способи редагування візуалізації, виправлення типових помилок.</p>
-<p><strong>Дивіться також</strong></p>
-<p>Якщо ви хочете трохи більше дізнатися про Нейтана Яу та його підхід до візуалізації даних, <a href="http://datastori.es/126-flowingdata-with-nathan-yau/">послухайте випуск подкасту Data Stories</a>.</p>
-<p>Ви можете придбати книгу Data Points на <a href="https://www.amazon.com/Data-Points-Visualization-Means-Something/dp/111846219X/?tag=flowingdata-20">Amazon</a> або <a href="https://play.google.com/store/books/details/Nathan_Yau_Data_Points">Google Play</a>.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: World&#39;s Oldest Person Titleholders Since 1955</title>
-			<link>https://texturainua.github.io/posts/viz/world-oldest-person/</link>
-			<pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/world-oldest-person/</guid>
-			<description>Візуалізація переліку настаріших людей світу з 1955 року для DataViz Battle на Reddit
- Найстаріші люди світу з 1955 року
+  Впродовж останніх десяти років він методично збирає та описує у своєму блозі найцікавіші приклади аналізу та візуалізації даних зі всього світу. Він також робить цікаві візуалізації даних із використанням R та D3.
+Нейтан є автором двох книжок з візуалізації даних, що вийшли у видавництві Wiley.</description>
+    </item>
+    
+    <item>
+      <title>Візуалізація: World&#39;s Oldest Person Titleholders Since 1955</title>
+      <link>https://texturainua.github.io/posts/viz/world-oldest-person/</link>
+      <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/world-oldest-person/</guid>
+      <description>Найстаріші люди світу з 1955 року
    Код і дані на GitHub</description>
-			<content type="html"><![CDATA[<p><em>Візуалізація переліку настаріших людей світу з 1955 року для <a href="https://www.reddit.com/r/dataisbeautiful/comments/adihze/battle_dataviz_battle_for_the_month_of_january/">DataViz Battle на Reddit</a></em></p>
-<figure class="big">
-    <img src="https://raw.githubusercontent.com/andriy-gazin/oldest/master/oldest.png"
-         alt="World&#39;s Oldest Person Titleholders Since 1955"/> <figcaption>
-            <p>Найстаріші люди світу з 1955 року</p>
-        </figcaption>
-</figure>
-
-<hr>
-<p><a href="https://github.com/andriy-gazin/oldest">Код і дані на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Розподіл депутатів ВР за роком народження та статтю</title>
-			<link>https://texturainua.github.io/posts/viz/mps-age-gender/</link>
-			<pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/mps-age-gender/</guid>
-			<description>Розподіл депутатів Верховної Ради восьмого скликання за роком народження та статтю. Дані з Порталу відкритих даних Верховної Ради України.
- Розподіл депутатів ВР за роком народження та статтю
+    </item>
+    
+    <item>
+      <title>Візуалізація: Розподіл депутатів ВР за роком народження та статтю</title>
+      <link>https://texturainua.github.io/posts/viz/mps-age-gender/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/mps-age-gender/</guid>
+      <description>Розподіл депутатів ВР за роком народження та статтю
    Код і дані на GitHub</description>
-			<content type="html"><![CDATA[<p><em>Розподіл депутатів Верховної Ради восьмого скликання за роком народження та статтю. Дані з Порталу відкритих даних Верховної Ради України.</em></p>
-<figure class="big">
-    <img src="https://raw.githubusercontent.com/andriy-gazin/mps/master/years.png"
-         alt="розподіл депутатів ВР за роком народження та статтю"/> <figcaption>
-            <p>Розподіл депутатів ВР за роком народження та статтю</p>
-        </figcaption>
-</figure>
-
-<hr>
-<p><a href="https://github.com/andriy-gazin/mps">Код і дані на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Теорія: З чого складається візуалізація даних?</title>
-			<link>https://texturainua.github.io/posts/ed/viz-structure/</link>
-			<pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/ed/viz-structure/</guid>
-			<description>В цьому дописі ми розглянемо основні елементи, з яких складається візуалізація даних, а також їх значення для комунікації даних.
- структура візуалізації даних
+    </item>
+    
+    <item>
+      <title>Теорія: З чого складається візуалізація даних?</title>
+      <link>https://texturainua.github.io/posts/ed/viz-structure/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/ed/viz-structure/</guid>
+      <description>структура візуалізації даних
   Кодування даних Інші можлива назва - data encodings, тобто спосіб візуальної презентації даних, який ви обрали (це може бути позиція точок на осі координат та їх колір, як у цьому прикладі, або розмір, довжина тощо). Власне, це і є основа візуалізації даних.
-Заголовок В ідеалі заголовок візуалізації має бути твердженням та висловлювати головну її тезу.</description>
-			<content type="html"><![CDATA[<p><em>В цьому дописі ми розглянемо основні елементи, з яких складається візуалізація даних, а також їх значення для комунікації даних.</em></p>
-<figure class="big">
-    <img src="/img/graphics.png"
-         alt="структура візуалізації даних"/> <figcaption>
-            <p>структура візуалізації даних</p>
-        </figcaption>
-</figure>
-
-<h3 id="кодування-даних"><strong>Кодування даних</strong></h3>
-<p>Інші можлива назва - data encodings, тобто спосіб візуальної презентації даних, який ви обрали (це може бути позиція точок на осі координат та їх колір, як у цьому прикладі, або розмір, довжина тощо). Власне, це і є основа візуалізації даних.</p>
-<h3 id="заголовок"><strong>Заголовок</strong></h3>
-<p>В ідеалі заголовок візуалізації має бути твердженням та висловлювати головну її тезу. Заголовок задає спосіб витлумачення візуалізації, пояснює читачам, на що потрібно звертати увагу.</p>
-<p><a href="http://www.zcliu.org/vistitles/CHI18-VisTitles.pdf">Нещодавні дослідження</a> показали, що заголовки є дуже важливими для інтерпретації візуалізації, і можна суттєво змінити фокус візуалізації, просто змінивши її заголовок.</p>
-<p>Однак &ldquo;заголовок-твердження&rdquo; працює далеко не у всіх випадках, тому подекуди можна використовувати і простий формальний опис візуалізації, щоби читачі швидко могли зрозуміти, про що йдеться на графіку.</p>
-<h3 id="підзаголовок"><strong>Підзаголовок</strong></h3>
-<p>Підзаголовок більш докладно пояснює та контекстуалізує те, що зображено на графіку, надає додаткову інформацію, необхідну для розуміння візуалізації.</p>
-<h3 id="анотація"><strong>Анотація</strong></h3>
-<p>Анотація має на меті привернути увагу читачів до найбільш цікавих та важливих елементів візуалізації. Ви можете спробувати передбачити, які питання виникнуть у читачів, і дати відповідь на ці питання за допомоги анотацій. Наприклад, пояснити дивні флуктуації на графіку, зростання, падіння чи плато.</p>
-<p>Грамотно розставленими анотаціями можна замінити інтеракцію з візуалізацією - кліки або наведення на точки для отримання додаткової інформації.</p>
-<h3 id="легенда"><strong>Легенда</strong></h3>
-<p>Легенда має пояснювати читачам спосіб кодування даних, а також давати ключ до відчитування графіку. Якщо ви позначаєте щось кольором - у читачів має бути інструкція, в який спосіб інтрепретувати кольори на графіку. Якщо щось кодуєте розміром бульбашок - читачі мають знати, який розмір якому значенню відповідає.</p>
-<p>Іноді легенду можна замінити прямими підписами на графіку (так званий direct labelling). Це може зекономити читачам час та трохи когнітивних ресурсів.</p>
-<h3 id="сітка"><strong>Сітка</strong></h3>
-<p>Сітка допомагає орієнтуватись на площині, а відтак - порівнювати між собою різні елементи візуалізації даних. Наприклад, маючи сітку, ми можемо порівняти кілька точок на предмет того, як далеко вони знаходяться від певної лінії сітки.</p>
-<p>Сітка допоміжний, але все ж другорядний елемент. Не варто робити її дуже яскравою, аби не відволікати від основним елементів. В деяких випадках можна відмовитись від сітки - або ж повністю, або ж частково (наприклад, від горизонтальних чи вертикальних ліній).</p>
-<h3 id="підписи-вісей"><strong>Підписи вісей</strong></h3>
-<p>Підписи вісей також допомагають читачам витлумачувати візуалізацію. Тут, окрім назв змінних, можна також зазначати одиниці вимірювання, аби читачі одразу розуміли, що по осі Y, скажімо, вага в кілограмах, а не в тоннах.</p>
-<p>В деяких випадках можна відмовитись від підписів вісей - наприклад, якщо ви згадаєте їх у підзаголовку візуалізації.</p>
-<h3 id="джерело-даних"><strong>Джерело даних</strong></h3>
-<p>Дає читачам зрозуміти, що ви не вигадали дані для візуалізації. Також може вказувати на час публікації даних або період, який ними описується.</p>
-<p>Якщо у вас є можливість, тут можна дати пряме посилання на джерело даних. В такий спосіб всі бажаючі (не варто сподіватись, що їх буде багато, але все ж) зможуть подивитись на оригінальні дані та перевірити, чи вони є адекватно зображеними на вашій візуалізації.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Кількість жінок та чоловіків в Україні у 1989-2018 роках</title>
-			<link>https://texturainua.github.io/posts/viz/ukraine-population-change/</link>
-			<pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/ukraine-population-change/</guid>
-			<description>Ше один варіант того, що можна зробити із даними про статево-вікову структуру населення України. Візуалізація кількості жінок та чоловіків у 1989-2018 роках.
- кількість жінок та чоловіків в Україні у 1989-2018 роках
-  Тут цікаво було із підписами значень - вони розташовані там, де від них, на мою думку найбільше користі - початкові та кінцеві значення (1989 та 2018 рік), максимальне значення (1993 рік) та підписи, покликані пояснити масштаби зміни, що відбулась у 2014-2015 роках.</description>
-			<content type="html"><![CDATA[<p><em>Ше один варіант того, що можна зробити із даними про статево-вікову структуру населення України. Візуалізація кількості жінок та чоловіків у 1989-2018 роках.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/age-gender/raw/master/03_change_in_time.png"
-         alt="кількість жінок та чоловіків в Україні у 1989-2018 роках"/> <figcaption>
-            <p>кількість жінок та чоловіків в Україні у 1989-2018 роках</p>
-        </figcaption>
-</figure>
-
-<p>Тут цікаво було із підписами значень - вони розташовані там, де від них, на мою думку найбільше користі - початкові та кінцеві значення (1989 та 2018 рік), максимальне значення (1993 рік) та підписи, покликані пояснити масштаби зміни, що відбулась у 2014-2015 роках. Підписи на осі Х розташовані за тим же принципом.</p>
-<p>Step-інтерполяція тут застосована, аби була можливість краще відстежувати зміни між роками, а також темп змін.</p>
-<hr>
-<p><a href="https://github.com/andriy-gazin/age-gender">Код і дані на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Зміна кількості населення України за віковими групами між 1989 та 2018 роками</title>
-			<link>https://texturainua.github.io/posts/viz/ukraine-population-change-age-group/</link>
-			<pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/ukraine-population-change-age-group/</guid>
-			<description>Ше один варіант того, що можна зробити із даними про статево-вікову структуру населення України. Візуалізація зміни вікової структури населення між 1989 та 2018 роками.
+Заголовок В ідеалі заголовок візуалізації має бути твердженням та висловлювати головну її тезу. Заголовок задає спосіб витлумачення візуалізації, пояснює читачам, на що потрібно звертати увагу.</description>
+    </item>
+    
+    <item>
+      <title>Візуалізація: Кількість жінок та чоловіків в Україні у 1989-2018 роках</title>
+      <link>https://texturainua.github.io/posts/viz/ukraine-population-change/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/ukraine-population-change/</guid>
+      <description>кількість жінок та чоловіків в Україні у 1989-2018 роках
+  Тут цікаво було із підписами значень - вони розташовані там, де від них, на мою думку найбільше користі - початкові та кінцеві значення (1989 та 2018 рік), максимальне значення (1993 рік) та підписи, покликані пояснити масштаби зміни, що відбулась у 2014-2015 роках. Підписи на осі Х розташовані за тим же принципом.
+Step-інтерполяція тут застосована, аби була можливість краще відстежувати зміни між роками, а також темп змін.</description>
+    </item>
+    
+    <item>
+      <title>Візуалізація: Зміна кількості населення України за віковими групами між 1989 та 2018 роками</title>
+      <link>https://texturainua.github.io/posts/viz/ukraine-population-change-age-group/</link>
+      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/ukraine-population-change-age-group/</guid>
+      <description>Ше один варіант того, що можна зробити із даними про статево-вікову структуру населення України. Візуалізація зміни вікової структури населення між 1989 та 2018 роками.
  зміна кількості населення України за віковими групами між 1989 та 2018 роками
   Тут, звісно, можна було би намалювати дві лінії - для структури населення 1989 та 2018 року, та запропонувати читачам самим зрозуміти різницю між ними. А можна - як тут - одразу показувати різницю, збільшення або зменшення.</description>
-			<content type="html"><![CDATA[<p><em>Ше один варіант того, що можна зробити із <a href="http://textura.in.ua/post/181460833680/genderratiobyage">даними про статево-вікову структуру населення України</a>. Візуалізація зміни вікової структури населення між 1989 та 2018 роками.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/age-gender/raw/master/02_interval_change.png"
-         alt="image"/> <figcaption>
-            <p>зміна кількості населення України за віковими групами між 1989 та 2018 роками</p>
-        </figcaption>
-</figure>
-
-<p>Тут, звісно, можна було би намалювати дві лінії - для структури населення 1989 та 2018 року, та запропонувати читачам самим зрозуміти різницю між ними. А можна - як тут - одразу показувати різницю, збільшення або зменшення.</p>
-<p>З цієї візуалізації все ще можна зрозуміти вікові структури у 1989 та 2018, хоча це не головне її призначення.</p>
-<p>Вісь X, як і <a href="http://textura.in.ua/post/181460833680/genderratiobyage">у попередньому випадку</a>, використовує не рівні інтервали, а скоріше такі, які мають на меті допомогти читачу вербалізувати побачене на графіку. В даному випадку - ідентифікувати, в яких вікових групах відбулося скорочення або приріст населення.</p>
-<p>Окремо варто відзначити легенду - повністю перезібрану кодом, аби краще пояснити спосіб кодування інформації.</p>
-<hr>
-<p><a href="https://github.com/andriy-gazin/age-gender">Код і дані на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Кількість жінок на 100 чоловіків у розрізі вікових груп у 2018 році</title>
-			<link>https://texturainua.github.io/posts/viz/ukraine-sex-ratio/</link>
-			<pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/ukraine-sex-ratio/</guid>
-			<description>В рамках курсу з візуалізації даних в УКУ дав студентам завдання візуалізувати дані, які стосуються статево-вікової структури населення України. За умовами завдання, студенти самі мали визначити спосіб агрегації та візуалізації даних, відповідно до питань, які у них виникли, або гіпотез, які вони хочуть дослідити.
- кількість жінок на 100 чоловіків у розрізі вікових груп у 2018 році
+    </item>
+    
+    <item>
+      <title>Візуалізація: Кількість жінок на 100 чоловіків у розрізі вікових груп у 2018 році</title>
+      <link>https://texturainua.github.io/posts/viz/ukraine-sex-ratio/</link>
+      <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/viz/ukraine-sex-ratio/</guid>
+      <description>В рамках курсу з візуалізації даних в УКУ дав студентам завдання візуалізувати дані, які стосуються статево-вікової структури населення України. За умовами завдання, студенти самі мали визначити спосіб агрегації та візуалізації даних, відповідно до питань, які у них виникли, або гіпотез, які вони хочуть дослідити.
+  кількість жінок на 100 чоловіків у розрізі вікових груп у 2018 році
   Принагідно, я також зробив кілька візуалізацій, аби показати студентам, що можливо зробити із цими даними.</description>
-			<content type="html"><![CDATA[<p><em>В рамках курсу з візуалізації даних в УКУ дав студентам завдання візуалізувати дані, які стосуються статево-вікової структури населення України. За умовами завдання, студенти самі мали визначити спосіб агрегації та візуалізації даних, відповідно до питань, які у них виникли, або гіпотез, які вони хочуть дослідити.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/age-gender/raw/master/01_sex_ratio.png"
-         alt="image"/> <figcaption>
-            <p>кількість жінок на 100 чоловіків у розрізі вікових груп у 2018 році</p>
-        </figcaption>
-</figure>
-
-<p>Принагідно, я також зробив кілька візуалізацій, аби показати студентам, що можливо зробити із цими даними. Потроху буду доводити їх до публікаційної якості та викладати тут.</p>
-<p>Перша візуалізація демонструє кількість жінок на 100 чоловіків у розрізі вікових груп у 2018 році. Сама візуалізація дуже проста, але мені тут важливі дрібнички - такі, як інтервали на осі Y.</p>
-<p>Взагалі мені дедалі більше здається, що інтервали на осях мають бути функціональними, вони мають допомагати читачам вербалізувати те, що вони бачать на графіку, та робити висновки з графіку. Тому підписи на осі можуть по суті працювати як елементи анотацій - підкреслювати те, що є важливим, привертати увагу до певних елементів.</p>
-<hr>
-<p><a href="https://github.com/andriy-gazin/age-gender">Дані і код на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Освіта: Каталоги візуалізації даних</title>
-			<link>https://texturainua.github.io/posts/ed/dataviz-catalogue/</link>
-			<pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/ed/dataviz-catalogue/</guid>
-			<description>Візуальна грамотність загалом, і зокрема та її частина, що стосується уміння читати та інтерпретувати графікі й візуалізації даних, є не вродженою, а набутою. Для засвоєння номенклатури графіків в нагоді можуть стати каталоги візуалізацій даних. За допомоги цих каталогів ви можете навчитись коректно інтерпретувати візуалізації даних, а також правильно обирати вид візуалізації або тип графіку для своїх задач.
-До вашої уваги каталог каталогів візуалізацій даних!
-The Data Visualization Catalogue  The Data Visualization Catalogue</description>
-			<content type="html"><![CDATA[<p><em>Візуальна грамотність загалом, і зокрема та її частина, що стосується уміння читати та інтерпретувати графікі й візуалізації даних, є не вродженою, а набутою. Для засвоєння номенклатури графіків в нагоді можуть стати каталоги візуалізацій даних. За допомоги цих каталогів ви можете навчитись коректно інтерпретувати візуалізації даних, а також правильно обирати вид візуалізації або тип графіку для своїх задач.</em></p>
-<p><em>До вашої уваги каталог каталогів візуалізацій даних!</em></p>
-<h2 id="the-data-visualization-cataloguehttpsdatavizcataloguecom"><a href="https://datavizcatalogue.com/"><strong>The Data Visualization Catalogue</strong></a></h2>
-<figure class="big">
-    <img src="https://66.media.tumblr.com/e02d064a7bc0dcae9f08dc860c8c2e40/tumblr_inline_pi37faqYiz1rzz11c_1280.png"
-         alt="The Data Visualization Catalogue"/> <figcaption>
-            <p>The Data Visualization Catalogue</p>
-        </figcaption>
-</figure>
-
-<p>Один з найперших та найпопулярніших каталогів візуалізації даних. Дозволяє шукати графікі за функцією (наприклад, порівняння, розподіл, зміна в часі, частина в цілому і т.д.).</p>
-<p>Для кожного типу графіку тут є зображення, яке демонструє, як цей графік влаштований, і в який спосіб його слід інтерпретувати. А також невеличкий опис, що пояснює, в яких випадках є сенс використовувати цей графік та на що слід звертати увагу. Тут же наводиться перелік інструментів, за допомоги яких цей графік можна виготовити.</p>
-<hr>
-<h2 id="data-viz-projecthttpsdatavizprojectcom"><a href="https://datavizproject.com/"><strong>Data Viz Project</strong></a></h2>
-<figure class="big">
-    <img src="https://66.media.tumblr.com/84a0ee64dc28e80b1c6b275cd3f83437/tumblr_inline_pi37dpraIC1rzz11c_1280.png"
-         alt="Data Viz Project"/> <figcaption>
-            <p>Data Viz Project</p>
-        </figcaption>
-</figure>
-
-<p>У цього проекту в цілому подібна механіка - список візуалізацій з можливістю шукати за функцією. Дивитися Data Viz Project слід з двох причин. Перша - тут трохи інших набір візуалізацій, ніж на Data Visualization Catalogue, тому ці каталоги один одного добре доповнюють. Друга - тут є можливість шукати візуалізації залежно від того, яка у вас структура даних. У вкладці “Input” можна вибрати приклад таблички, яка найбільше нагадує ту, що у вас, і побачити, які візуалізації підходять для цієї структури даних.</p>
-<p>Сторінка окремої взятої візуалізації тут містить менше інформації, ніж у Data Visualization Catalogue, натомість є купа прикладів цього графіку, теж корисно.</p>
-<hr>
-<h2 id="from-data-to-vizhttpswwwdata-to-vizcom"><a href="https://www.data-to-viz.com/"><strong>From Data to Viz</strong></a></h2>
-<figure class="big">
-    <img src="https://66.media.tumblr.com/3105a6473e6a7daab8aca03aa4128d68/tumblr_inline_pi37c70MZB1rzz11c_1280.png"
-         alt="From Data to Viz"/> <figcaption>
-            <p>From Data to Viz</p>
-        </figcaption>
-</figure>
-
-<p>А от проект From Data to Viz має геть інший принцип роботи. Спершу ви маєте вибрати, які дані хочете візуалізувати (числові, категоріальні, числові і категоріальні, мережеві, геопросторові чи time series). Для обраного типу даних вам запропонують дерево рішень з купою опцій. Вибирайте ті, що найкраще описують ваші дані, та отримуйте вид візуалізації для цих даних.</p>
-<p>Зверніть увагу також на розділ <a href="https://www.data-to-viz.com/#story">Story</a>, де зібрані приклади аналізу та візуалізації даних різних типів. А також на розділ <a href="https://www.data-to-viz.com/#caveats">Caveats,</a> в котрому зібрані та описані найбільш поширені помилки, що виникають під час візуалізації даних, та способи їх виправлення/уникнення.</p>
-<hr>
-<h2 id="diagrammmhttpwwwdiagrammmcom"><a href="http://www.diagrammm.com/"><strong>Diagrammm</strong></a></h2>
-<figure class="big">
-    <img src="https://66.media.tumblr.com/ba28a94e97d627f7ed8fb8ff84a6f1ea/tumblr_inline_pi37k7WRy21rzz11c_1280.png"
-         alt="Diagrammm"/> <figcaption>
-            <p>Diagrammm</p>
-        </figcaption>
-</figure>
-
-<p>Проект Diagrammm (заснований, до речі, львів’янином Романом Сверданом) влаштований подібно до Data Visualization Catalogue та Data Viz Project. Він програє їм за кількістю представлених типів графіків, але перемагає за кількістю інформації про кожен окремий тип візуалізації.Тут дуже добре розписані випадки та особливості застосування кожного графіку та кожної його варіації.</p>
-<hr>
-<p>В якості бонусу подивіться <a href="https://raw.githubusercontent.com/ft-interactive/chart-doctor/master/visual-vocabulary/poster.png">FT Visual Vocabulary</a> - це величенький постер від команди візуалізаторів даних видання Financial Times, який можна роздрукувати та повісити собі на стінку. Тут зібрано багато типів графіків з короткими поясненнями щодо випадків застосування кожного з них. Організовані графіки, як можна очікувати, за функціями. Зручна штукенція!</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Освіта: Онлайн-курси з журналістики даних на Learno</title>
-			<link>https://texturainua.github.io/posts/ed/ddj-online-courses/</link>
-			<pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/ed/ddj-online-courses/</guid>
-			<description>В Україні наразі нема повноцінних навчальних програм з журналістики даних. То ж якщо ви надумали освоїти цю захопливу, але непросту професію, раджу звернутися до наявних онлайн-курсів. Цей огляд стосується трьох курсів, доступних на онлайн-платформі Learno.net.
-Managing Data Journalism Projects В цьому неймовірном короткому (&amp;lt; 20 хв) відеокурсі італійський журналіст-даних Джакоппо Оттавіані розповідає не стільки про змістовну, скільки про організаційну складову проектів з журналістики даних. Зокрема тут йдеться про те, з яких етапів складається розробка проекту з журналістики даних, як налагодити роботу команди журналістів, дизайнерів та розробників, які інструменти можна використовувати для постановки та відстеження виконання задач, а також для створення розробки дизайну проектів.</description>
-			<content type="html"><![CDATA[<p><em>В Україні наразі нема повноцінних навчальних програм з журналістики даних. То ж якщо ви надумали освоїти цю захопливу, але непросту професію, раджу звернутися до наявних онлайн-курсів. Цей огляд стосується трьох курсів, доступних на онлайн-платформі Learno.net.</em></p>
-<h2 id="managing-data-journalism-projectshttpslearnonetcoursesmanaging-data-journalism-projects"><a href="https://learno.net/courses/managing-data-journalism-projects"><strong>Managing Data Journalism Projects</strong></a></h2>
-<p>В цьому неймовірном короткому (&lt; 20 хв) відеокурсі італійський журналіст-даних Джакоппо Оттавіані розповідає не стільки про змістовну, скільки про організаційну складову проектів з журналістики даних. Зокрема тут йдеться про те, з яких етапів складається розробка проекту з журналістики даних, як налагодити роботу команди журналістів, дизайнерів та розробників, які інструменти можна використовувати для постановки та відстеження виконання задач, а також для створення розробки дизайну проектів.</p>
-<p>Цей курс може бути корисним для журналістів, які подумують вв’язатися у роботу з даними - для кращого розуміння процесу розробки проекту з журналістики даних. Але в першу чергу цей проект для медіа-менеджерів та редакторів, які планують створити історію на основі даних.</p>
-<h2 id="doing-journalism-with-data-first-steps-skills-and-toolshttpslearnonetcoursesdoing-journalism-with-data-first-steps-skills-and-tools"><strong><a href="https://learno.net/courses/doing-journalism-with-data-first-steps-skills-and-tools">Doing Journalism With Data: First Steps, Skills, and Tools</a></strong></h2>
-<p>Один з найбільш популярних онлайн-курсів з журналістики даних. Складається з п’яти модулів, для кожного з котрих є свій інструктор.</p>
-<p>Так, Саймон Роджерс (наразі працює в Google News Lab) розповідає про журналістику даних у ньюзрумі: дає загальний вступ до предмету, пояснює, як влаштована команда з журналістики даних, як знаходити історії в даних, а також які є бізнес-моделі для цього виду журналістики.</p>
-<p>Керівник магістерської програми з онлайн-журналістики в Університеті Бірмінгема Пол Бредшоу відповідає за модуль, що стосується пошуку даних для історій. Тут йдеться про просунутий пошук в Google, отримання даних з веб-сторінок за допомоги скрейпінгу, а також різноманітні джерела даних онлайн.</p>
-<p>Професор журналістики в Університеті Арізони Стів Дуіг викладає модуль, що стосується пошуку історій в даних. Тут йдеться про основи математики та статистики, що стануть в нагоді для журналістів, та роботу з табличним редактором Excel.</p>
-<p>Журналіст даних Ніколя Кайзер-Бріл розповідає про очищення даних за допомоги програми Open Refine та Google Spreadsheets.</p>
-<p>А знаний фахівець з візуалізації даних Альберто Каїро завершує курс модулем, що стосується підкріплення історій візуалізаціями даних. Тут йдеться про принципи візуалізації загалом, а також про те, як обрати спосіб візуалізації для своїх даних.</p>
-<p>Цей курс може бути корисний для всіх, хто хоче спробувати себе у жанрі журналістики даних. Він дає непогане уявлення про процес створення історії на основі даних, а також навички, які для цього потрібні.</p>
-<h2 id="bulletproof-data-journalismhttpslearnonetcoursesbulletproof-data-journalism"><strong><a href="https://learno.net/courses/bulletproof-data-journalism">Bulletproof Data Journalism</a></strong></h2>
-<p>У цьому курсі бельгійський журналіст даних і data scientists Стен Дебрауер розповідає про найбільш поширені проблеми, які можуть виникнути під час створення проекту з журналістики даних, а також про те, як цих проблем уникнути. Інакше кажучи, тут йдеться про те, як зробити вашу історію справді обгрунтованою.</p>
-<p>Курс складається з п’яти модулів, в кожному з котрих розбирається певна помилка чи проблема, що може виникнути під час створення історії на основі даних. Мова йде про:</p>
-<ul>
-<li>збіги та випадковості в даних, які журналіст може сприйняти за тренд;</li>
-<li>приховані впливи в даних, про які журналіст може не здогадуватись (confounding variables), а отже - неправильно витлумачувати причинність;</li>
-<li>cherry picking, тобто відбір лише таких даних, що підтверджують гіпотезу;</li>
-<li>проблеми в даних (наприклад, хибна методологія збору або неповнота даних), які викривлюють картину;</li>
-<li>неправильна інтерпретація даних.</li>
-</ul>
-<p>Цей курс буде корисний для тих, хто вже розпочав роботу у журналістиці даних, але прагне покращити якість свого аналізу та впевнитись у тому, що заснована на даних історія є справді обгрунтованою.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Що читати: Making Data Visual</title>
-			<link>https://texturainua.github.io/posts/ed/making-data-visual/</link>
-			<pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/ed/making-data-visual/</guid>
-			<description>Хто автори?
-Деніел Фішер - старший дослідник у Microsoft Research, Мірая Меєр - доцент Університету Юти, керівниця Visualization Design Lab.
- Making Data Visual
-  Робота Мірая та Деніела зосереджена на тому, аби допомагати компаніям, дослідникам чи науковцям розробляти інструменти для візуалізації даних та пошуку інсайтів у великих масивах даних.
-Для кого ця книга?
-Самі автори відповідають на це питання наступним чином: “Ця книга для тих, хто має доступ до даних та, можливо, набору інструментів для їх обробки, але не дуже розуміє, як перетворити дані на візуальні інсайти”.</description>
-			<content type="html"><![CDATA[<p><strong>Хто автори?</strong></p>
-<p>Деніел Фішер - старший дослідник у Microsoft Research, Мірая Меєр - доцент Університету Юти, керівниця Visualization Design Lab.</p>
-<figure class="left">
-    <img src="https://66.media.tumblr.com/11199c3606c9b6293b7121bc334069e3/tumblr_pa0gkuIWxX1t4kv9lo1_1280.png"
-         alt="Making Data Visual"/> <figcaption>
-            <p>Making Data Visual</p>
-        </figcaption>
-</figure>
-
-<p>Робота Мірая та Деніела зосереджена на тому, аби допомагати компаніям, дослідникам чи науковцям розробляти інструменти для візуалізації даних та пошуку інсайтів у великих масивах даних.</p>
-<p><strong>Для кого ця книга?</strong></p>
-<p>Самі автори відповідають на це питання наступним чином: “Ця книга для тих, хто має доступ до даних та, можливо, набору інструментів для їх обробки, але не дуже розуміє, як перетворити дані на візуальні інсайти”.</p>
-<p>Вони кажуть, що багато книг з data science базуються на припущенні, що ви здатні здогадатись, як візуалізувати зібрані дані, а книги з візуалізації даних натомість припускають, що у вас вже є сформоване питання, на яке має відповісти візуалізація.</p>
-<p>Разом з тим, практично немає книг, які б пояснювали візуалізацію даних саме як процес пошуку відповідей на питання. Making Data Visual саме для тих, кому бракує навичок формулювання питань до даних та отримання відповідей на них за допомоги візуалізації.</p>
-<p><strong>Навіщо читати</strong></p>
-<p>Деніел та Мірая пропонують доволі цікаву схему роботи над візуалізацією даних, в основі котрої лежить т.з. операціоналізація - процес переходу від загальної мети до питань, котрі дозволяють досягти цієї мети, а далі до конкретних задач і власне візуалізації даних.</p>
-<p>Вони пояснюють цей процес на простому наборі даних з рейтингами фільмів на IMDB та питанням про те, хто є найкращим кінорежисером? Аби відповісти на це загальне питання, нам потрібно зрозуміти - а хто власне запитує, з якої перспективи, кого можна вважати хорошим режисером, і які змінні в нашому датасеті хоча б наближено відображають цю властивість.</p>
-<p>Ось це “хоча б наближено” в контексті цієї книги є доволі важливим. Деніел та Мірая оперують поняттям proxy.</p>
-<blockquote>
-<p>Проксі - це часткові та недосконалі репрезентації абстрактних речей, у котрих власне і зацікавлений аналітик. Наприклад, високий рейтинг фільму може слугувати проксі для поняття “найкращого фільму”. Вибір та інтерпретація проксі вимагають експертизи для оцінки того, наскільки добре та з якими обмеженнями проксі репрезентують абстрактний концепт, котрий є предметом інтересу.</p>
-</blockquote>
-<p>Використовуючи проксі, наближення, ми можемо перейти від нашого загального, абстрактного питання “Хто є найкращим режисером?” до більш конкретного “Хто є режисером із найвищим середнім рейтингом?”, але при цьому нам, можливо, доведеться застосовувати певні фільтри до наших даних. Наприклад, аналізувати лише тих режисерів, фільми котрих отримали більше ніж, скажімо, 100 оцінок.</p>
-<p>Ця книга важлива саме тим, що на простому прикладі описує процес інтеративного запитування даних, визначення метрик для відповідей на питання, процес переходу від набору даних до візуалізації з обґрунтуванням всіх рішень на шляху.</p>
-<hr>
-<p><a href="http://datastori.es/118-making-data-visual-with-miriah-meyer-and-danyel-fisher/">Випуск подкасту Data Stories</a>, в котрому автори Making Data Visual обговорюють основні ідеї книги.</p>
-<p><a href="https://makingdatavisual.github.io/">Супровідний сайт</a> із візуалізаціями, використаними у книзі, та кодом для їх генерації за допомоги Vega / Vega-Lite.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Дата-арт: Скетчі на основі даних про землетруси у 2017 році</title>
-			<link>https://texturainua.github.io/posts/viz/earthquakes-dataart/</link>
-			<pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/earthquakes-dataart/</guid>
-			<description>Скетчі на основі даних про всі землетруси у 2017 році, зроблені за допомоги бібліотеки ggplot2
-       </description>
-			<content type="html"><![CDATA[<p><em>Скетчі на основі даних про всі землетруси у 2017 році, зроблені за допомоги бібліотеки ggplot2</em></p>
-<figure class="big">
-    <img src="/img/dataart/01.png"
-         alt="Дата-арт: Скетчі на основі даних про землетруси у 2017 році"/> 
-</figure>
-
-<!-- raw HTML omitted -->
-<figure class="big">
-    <img src="/img/dataart/02.png"
-         alt="Дата-арт: Скетчі на основі даних про землетруси у 2017 році"/> 
-</figure>
-
-<!-- raw HTML omitted -->
-<figure class="big">
-    <img src="/img/dataart/03.png"
-         alt="Дата-арт: Скетчі на основі даних про землетруси у 2017 році"/> 
-</figure>
-
-<!-- raw HTML omitted -->
-<figure class="big">
-    <img src="/img/dataart/04.png"
-         alt="Дата-арт: Скетчі на основі даних про землетруси у 2017 році"/> 
-</figure>
-
-<!-- raw HTML omitted -->
-<figure class="big">
-    <img src="/img/dataart/05.png"
-         alt="Дата-арт: Скетчі на основі даних про землетруси у 2017 році"/> 
-</figure>
-
-<!-- raw HTML omitted -->
-<figure class="big">
-    <img src="/img/dataart/06.png"
-         alt="Дата-арт: Скетчі на основі даних про землетруси у 2017 році"/> 
-</figure>
-
-<!-- raw HTML omitted -->
-<figure class="big">
-    <img src="/img/dataart/07.png"
-         alt="Дата-арт: Скетчі на основі даних про землетруси у 2017 році"/> 
-</figure>
-
-]]></content>
-		</item>
-		
-		<item>
-			<title>Дата-арт: Скетчі на основі даних про тривалість світлового дня</title>
-			<link>https://texturainua.github.io/posts/viz/data-art-daylight/</link>
-			<pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/data-art-daylight/</guid>
-			<description>Скетчі на основі даних про тривалість світлового дня, зроблені за допомоги бібліотеки ggplot2
-  </description>
-			<content type="html"><![CDATA[<p><em>Скетчі на основі даних про тривалість світлового дня, зроблені за допомоги бібліотеки ggplot2</em></p>
-<figure class="big">
-    <img src="/img/sketches/01.png"
-         alt="Дата-арт: Скетчі на основі даних про тривалість світлового дня"/> 
-</figure>
-
-<!-- raw HTML omitted -->
-<figure class="big">
-    <img src="/img/sketches/02.png"
-         alt="Дата-арт: Скетчі на основі даних про тривалість світлового дня"/> 
-</figure>
-
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Розподіл народжених в Україні за місяцями, 1980-2014 роки</title>
-			<link>https://texturainua.github.io/posts/viz/births-by-month/</link>
-			<pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/births-by-month/</guid>
-			<description>розподіл народжених в Україні за місяцями
-   Код і дані на GitHub
-Дані на сайті UNdata</description>
-			<content type="html"><![CDATA[<figure class="big">
-    <img src="https://github.com/andriy-gazin/births/raw/master/heatmap_relative.png"
-         alt="розподіл народжених в Україні за місяцями"/> <figcaption>
-            <p>розподіл народжених в Україні за місяцями</p>
-        </figcaption>
-</figure>
-
-<hr>
-<p><a href="https://github.com/andriy-gazin/births">Код і дані на GitHub</a></p>
-<p><a href="http://data.un.org/Data.aspx?d=POP&amp;f=tableCode%3a55%3bcountryCode%3a804&amp;c=2,3,6,8,10,12,13,14&amp;s=_countryEnglishNameOrderBy:asc,refYear:desc,areaCode:asc&amp;v=8">Дані на сайті UNdata</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Карта: Середній вік першого шлюбу за регіонами України</title>
-			<link>https://texturainua.github.io/posts/viz/average-age-at-marriage-tilegrid/</link>
-			<pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/average-age-at-marriage-tilegrid/</guid>
-			<description>Ще одна версія графіки про середній вік першого шлюбу в Україні.
- середній вік першого шлюбу за регіонами України
-  Так звана tilegrid map - суміш таблиці та карти. Використовується в якості альтернативи хороплетним картам.
-Тут все ще зберігається кодування інформації за допомоги кольору, але всі полігони однакового розміру, що має спростити зчитування інформації.
-З іншого боку, спершу треба звикнути до цієї абстракції географії. Може бути непросто, але не неможливо.</description>
-			<content type="html"><![CDATA[<p><em>Ще одна версія графіки про середній вік першого шлюбу в Україні.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/marriages/raw/master/tilegrid_mean.png"
-         alt="середній вік першого шлюбу за регіонами України"/> <figcaption>
-            <p>середній вік першого шлюбу за регіонами України</p>
-        </figcaption>
-</figure>
-
-<p>Так звана tilegrid map - суміш таблиці та карти. Використовується в якості альтернативи хороплетним картам.</p>
-<p>Тут все ще зберігається кодування інформації за допомоги кольору, але всі полігони однакового розміру, що має спростити зчитування інформації.</p>
-<p>З іншого боку, спершу треба звикнути до цієї абстракції географії. Може бути непросто, але не неможливо. Саме тому всі області підписані, на звичайній карті можна було дозволити собі цього не робити.</p>
-<p>Однак є питання щодо подальшого використання таких &ldquo;карт&rdquo; у меншому форматі, де може не бути достатньо місця для повних підписів областей. Чи є усталений скорочений формат запису областей за аналогією із скороченим записом назв штатів? Якщо нема, то може запозичити формат у доменів областей?</p>
-<p>Легенда в цьому конкретному випадку не потрібна, оскільки всюди є підписи значень.</p>
-<hr>
-<p><a href="https://forumone.com/ideas/good-data-visualization-practice-tile-grid-maps-0">Замітка про Tilegrid Maps</a></p>
-<p><a href="https://github.com/andriy-gazin/marriages">Код і дані на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Середній вік першого шлюбу за регіонами України</title>
-			<link>https://texturainua.github.io/posts/viz/average-age-at-marriage/</link>
-			<pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/average-age-at-marriage/</guid>
-			<description>Експериментальна, скажімо так, візуалізація. Хочу згодом ще зробити анімацію всього процесу - від стандартної конвенційної візуалізації до ось цього.
- середній вік першого шлюбу за регіонами України
-  Що тут незвичного?
-Сітка не по всій площині графіку, а лише там, де є дані. Тобто лише там, де вона насправді. потрібна. Втім, незаповнний простір графіку змушує замислитись про роль сітки не лише як розмітки для орієнтації у площині візуалізації, а й як про спосіб заповнення цієї площині.</description>
-			<content type="html"><![CDATA[<p>Експериментальна, скажімо так, візуалізація. Хочу згодом ще зробити анімацію всього процесу - від стандартної конвенційної візуалізації до ось цього.</p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/marriages/raw/master/meanagebyregion%26sex.png"
-         alt="Середній вік першого шлюбу за регіонами України"/> <figcaption>
-            <p>середній вік першого шлюбу за регіонами України</p>
-        </figcaption>
-</figure>
-
-<p>Що тут незвичного?</p>
-<p><strong>Сітка</strong> не по всій площині графіку, а лише там, де є дані. Тобто лише там, де вона насправді. потрібна.  Втім, незаповнний простір графіку змушує замислитись про роль сітки не лише як розмітки для орієнтації у площині візуалізації, а й як про спосіб заповнення цієї площині.</p>
-<p><strong>Підписи значень на вісях</strong>. Значення вісі Х рознесені на дві вісі - верхню і нижню, за тим же принципом - підписи є лише там, де є дані. Значення вісі Y не вирівняні з лівого боку, як це зазвичай буває, а наближені до точок на графіку. Загальна ідея позиціонування підписів на вісях - покращити ергономіку візуалізації. </p>
-<p><strong>Легенда</strong>, зрощена із підзаголовоком. Можна було б, звісно, заповнювати, дірку зліва легендою, але це трохи суперечить ідеї ергономіки візуалізації, тому легенда тут займає дуже мало місця і не від’їдає його у інших частин графіку.</p>
-<p>Сприймайте це суто як експеримент. Дослідження можливостей.</p>
-<hr>
-<p><a href="https://github.com/andriy-gazin/marriages">Код і дані на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Споживання електроенергії впродовж дня</title>
-			<link>https://texturainua.github.io/posts/viz/electricity-consumption-by-hour-month/</link>
-			<pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/electricity-consumption-by-hour-month/</guid>
-			<description>Другий графік на тему споживання електроенергії в Україні. Цього разу - про споживання в розрізі годин доби та місяців.
- споживання електроенергії впродовж дня
-  Цікаво спостерігати не лише зміни рівня споживання від місяця до місяця, але й зміщення денних піків навантаження.
- Код і дані обох проектів на GitHub</description>
-			<content type="html"><![CDATA[<p><em>Другий графік на тему споживання електроенергії в Україні. Цього разу - про споживання в розрізі годин доби та місяців.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/electricity/raw/master/consumption_by_month%26hour.png"
-         alt="споживання електроенергії впродовж дня"/> <figcaption>
-            <p>споживання електроенергії впродовж дня</p>
-        </figcaption>
-</figure>
-
-<p>Цікаво спостерігати не лише зміни рівня споживання від місяця до місяця, але й зміщення денних піків навантаження.</p>
-<hr>
-<p><a href="https://github.com/andriy-gazin/electricity">Код і дані обох проектів на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Погода та споживання електроенергії</title>
-			<link>https://texturainua.github.io/posts/viz/weather-electricity-consumption/</link>
-			<pubDate>Sat, 12 Aug 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/weather-electricity-consumption/</guid>
-			<description>Візуалізація на основі даних Укренерго щодо погодинного балансу потужності об’єднаної електроенергетичної системи України та даних щодо середньодобової температури у 2016 році.
- погода та споживання електроенергії
-  Дані щодо температури надаються у розрізі метеостанцій, для цієї візуалізації спостереження з метостанцій усереднені.
- Дивіться також
-Дані щодо споживання електроенергії на Порталі відкритих даних
-Дані щодо середньодобової температури в розрізі метеостанцій на порталі National Oceanic and Atmoshperic Administration
-Код на GitHub</description>
-			<content type="html"><![CDATA[<p><em>Візуалізація на основі даних Укренерго щодо погодинного балансу потужності об’єднаної електроенергетичної системи України та даних щодо середньодобової температури у 2016 році.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/electricity/raw/master/weather_vs_consumption.png"
-         alt="погода та споживання електроенергії"/> <figcaption>
-            <p>погода та споживання електроенергії</p>
-        </figcaption>
-</figure>
-
-<p>Дані щодо температури надаються у розрізі метеостанцій, для цієї візуалізації спостереження з метостанцій усереднені.</p>
-<hr>
-<p><strong>Дивіться також</strong></p>
-<p><a href="https://data.gov.ua/dataset/31199018-e15e-4e87-bf5e-2a4293151f5c">Дані щодо споживання електроенергії на Порталі відкритих даних</a></p>
-<p><a href="https://www.ncdc.noaa.gov/data-access/quick-links#ghcn">Дані щодо середньодобової температури в розрізі метеостанцій на порталі National Oceanic and Atmoshperic Administration</a></p>
-<p><a href="https://github.com/andriy-gazin/electricity">Код на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Частотність літер залежно від позиції у слові. Нормалізовані дані</title>
-			<link>https://texturainua.github.io/posts/viz/letters-poisition-normalised/</link>
-			<pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/letters-poisition-normalised/</guid>
-			<description>Після публікації візуалізації із частотністю слів залежно від позиції у слові отримав кілька порад нормалізувати дані за довжиною слова. Totally makes sense! Отже, замість оперувати абсолютними позиціями літер у слові, ми тепера оперуємо відносними, зваженими на довжину слова.
- частотність літер залежно від позиції у слові
-  Що дає нормалізація в цьому випадку? Всі літери, що вживаються наприкінці слова, в результаті нормалізації отримують однакову позицію - 1, незалежно від довжини слова.</description>
-			<content type="html"><![CDATA[<p><em>Після публікації візуалізації із частотністю слів залежно від позиції у слові отримав кілька порад нормалізувати дані за довжиною слова. Totally makes sense! Отже, замість оперувати абсолютними позиціями літер у слові, ми тепера оперуємо відносними, зваженими на довжину слова.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/letters/raw/master/letters_distribution_normalized_density.png"
-         alt="частотність літер залежно від позиції у слові"/> <figcaption>
-            <p>частотність літер залежно від позиції у слові</p>
-        </figcaption>
-</figure>
-
-<p>Що дає нормалізація в цьому випадку? Всі літери, що вживаються наприкінці слова, в результаті нормалізації отримують однакову позицію - 1, незалежно від довжини слова. Всі літери, що вживаються в середині слова, отримують позицію 0.5, незалежно від довжини слова.</p>
-<p>В першу чергу це працює на краще виявлення паттернів закінчень слів. Зверніть увагу на Й, Ь та Я. Ще, здається, можна помітити подвоєне Н.</p>
-<p>З технічної точки зору - замість ribbon тепера density, у зв’язку з чим змінилося позиціонування літер. Новий варіант подобається значно більше за попередній. Power of iteration!</p>
-<hr>
-<p><a href="https://github.com/andriy-gazin/letters">Код на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Частотність літер залежно від позиції у слові</title>
-			<link>https://texturainua.github.io/posts/viz/letters-poisition/</link>
-			<pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/letters-poisition/</guid>
-			<description>Між іншим, з цього графіку можна дізнатись, що: 1) у словнику української мови нема слів, які починаються з літери “И”; 2) більше ніж в половині випадків літера “П” вживається на початку слова; 3) літера “Я” переважно вживається наприкінці слова.
- частотність літер залежно від позиції у слові
-   Код на GitHub</description>
-			<content type="html"><![CDATA[<p><em>Між іншим, з цього графіку можна дізнатись, що: 1) у словнику української мови нема слів, які починаються з літери “И”;  2) більше ніж в половині випадків літера “П” вживається на початку слова; 3) літера “Я” переважно вживається наприкінці слова.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/letters/raw/master/letters_distribution_ribbon.png"
-         alt="частотність літер залежно від позиції у слові"/> <figcaption>
-            <p>частотність літер залежно від позиції у слові</p>
-        </figcaption>
-</figure>
-
-<hr>
-<p><a href="https://github.com/andriy-gazin/letters">Код на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Частотність літер у словнику української мови</title>
-			<link>https://texturainua.github.io/posts/viz/letters-distribution/</link>
-			<pubDate>Mon, 07 Aug 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/letters-distribution/</guid>
-			<description>Спонтанне дослідження, зроблене за пару-трійку вечорів. Замислювалось суто як дата-арт, але не склалось. То ж буде набір візуалізацій. Перша - просто про найбільш вживані літери у словнику української мови.
- частотність літер у словнику української мови
-  Звісно, може словник це такі собі лабораторні умови і тре було робити на якомусь великому корпусі (на корпусі статей з Вікіпедії, скажімо). Може згодом так і зроблю, цікаво, наскільки результати будуть відрізнятись.</description>
-			<content type="html"><![CDATA[<p><em>Спонтанне дослідження, зроблене за пару-трійку вечорів. Замислювалось суто як дата-арт, але не склалось. То ж буде набір візуалізацій. Перша - просто про найбільш вживані літери у словнику української мови.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/letters/raw/master/letters_distribution_bar.png"
-         alt="частотність літер у словнику української мови"/> <figcaption>
-            <p>частотність літер у словнику української мови</p>
-        </figcaption>
-</figure>
-
-<p>Звісно, може словник це такі собі лабораторні умови і тре було робити на якомусь великому корпусі (на корпусі статей з Вікіпедії, скажімо). Може згодом так і зроблю, цікаво, наскільки результати будуть відрізнятись.</p>
-<hr>
-<p><a href="https://github.com/andriy-gazin/letters">Код на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Статистика прослуховування музики: відкриття проти повторення</title>
-			<link>https://texturainua.github.io/posts/viz/lastfm-stats/</link>
-			<pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/lastfm-stats/</guid>
-			<description>Нещодавно дивився відео з конференції Plotcon, де один з працівників Spotify розповідав, як вони аналізують дані прослуховування музики своїх користувачів, та в який спосіб вони ці дані візуалізують. Там багато цікавого, але зокрема мені подумалось, що я можу спробувати відтворити візуалізацію, яка розкладає всі сесії прослуховування музики на предмет відкриття нових композицій та повторення вже відомих.
- cтатистика прослуховування музики: відкриття проти повторення
-  Задачі, котрі тут стояли: отримати всі дані щодо прослуховування музики (для цього я використав API сервісу Last.</description>
-			<content type="html"><![CDATA[<p><em>Нещодавно дивився відео з конференції Plotcon, де один з працівників Spotify розповідав, як вони аналізують дані прослуховування музики своїх користувачів, та в який спосіб вони ці дані візуалізують. Там багато цікавого, але зокрема мені подумалось, що я можу спробувати відтворити візуалізацію, яка розкладає всі сесії прослуховування музики на предмет відкриття нових композицій та повторення вже відомих.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/lastfm/raw/master/blokski_sessions.png"
-         alt="cтатистика прослуховування музики: відкриття проти повторення"/> <figcaption>
-            <p>cтатистика прослуховування музики: відкриття проти повторення</p>
-        </figcaption>
-</figure>
-
-<p>Задачі, котрі тут стояли: <strong>отримати всі дані</strong> щодо прослуховування музики (для цього я використав API сервісу Last.fm, спочатку вправлялвся на своїх даних, потім взявся за своїх друзів); <strong>розбити прослуховування на сесії</strong> (тут був простий критерій - якщо між двома композиціями є пауза більше ніж в 15 хвилин, тоді вважається, що ці композиції належать до двох окремих сесій; звісно, цю класифікацію ще можна покращувати); <strong>класифікувати всі треки на “новий” та “вже відомий”</strong> (тут є нюанс, що спершу всі треки класифікуються як “нові”).</p>
-<p>Принцип дуже простий - кожна лінія це окрема сесія прослуховування музики. Довжина лінії відповідає кількості композицій у сесії. Положення точки, за якою відмальовується лінія, на осі Y відповідає порядковому номеру композиції у сесії. Положення точки, за якою відмальовується лінія, на осі X визначається статусом “нова” чи “вже відома” композиція. Якщо користувач слухає композицію, котрої ще нема в його базі, лінія зміщується на одну позицію вправо. Якщо користувач слухає композицію, котра вже є в його базі, лінія зміщується на одну позицію вліво. Колір лінії присвоюється на підставі статусу сесії - “відкриття” чи “повторення”, тобто на підставі того, яких композицій - нових чи вже відомих - було більше у цій сесії.</p>
-<p>Суто з технічної точки зору для мене стало приємним відкриттям, що у бібліотеці ggplot2 можливо використовувати geom_line() в поєднанні з position=‘jitter’. Ця комбінація власне і визначила значною мірою вигляд візуалізації.</p>
-<hr>
-<p><a href="https://github.com/andriy-gazin/lastfm">Код на GitHub</a></p>
-<p><a href="https://www.youtube.com/watch?v=hh3X6CT-9-U">Відео - Edward Lee, Visualizing 100,000,000 Music Fans</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Температура в Києві, 1812-2016 рік</title>
-			<link>https://texturainua.github.io/posts/viz/kyiv-weather-history/</link>
-			<pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/kyiv-weather-history/</guid>
-			<description>Черговий експеримент із візуалізацією розподілу значень на прикладі погодних даних. Тут головна хитрість була в тому, аби трохи модифікувати geom_step() за рахунок дублювання даних за останній місяць. Ну і ще з підписами цікаво було повозитись.
- температура в Києві, 1812-2016 рік
-  Код і дані на GitHub.</description>
-			<content type="html"><![CDATA[<p><em>Черговий експеримент із візуалізацією розподілу значень на прикладі погодних даних. Тут головна хитрість була в тому, аби трохи модифікувати geom_step() за рахунок дублювання даних за останній місяць. Ну і ще з підписами цікаво було повозитись.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/kyiv-weather-geom-barcode/raw/master/weather_static_step.png"
-         alt="температура в Києві, 1812-2016 рік"/> <figcaption>
-            <p>температура в Києві, 1812-2016 рік</p>
-        </figcaption>
-</figure>
-
-<p><a href="https://github.com/andriy-gazin/kyiv-weather-geom-barcode">Код і дані на GitHub</a>.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Медіанний вік населення в Україні у 1989-2016 роках</title>
-			<link>https://texturainua.github.io/posts/viz/ukraine-median-age-geofacet/</link>
-			<pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/ukraine-median-age-geofacet/</guid>
-			<description>Ще одна забавка із бібліотекою geofacet. Принципово ніц нового, але цікава штука в даних - суттєва відмінність даних за 2002 рік від даних за решту років.
- медіанний вік населення в Україні у 1989-2016 роках
-  Відмінність зумовлена тим, що дані за 2002 рік подаються за результатами перепису населення від 5 грудня 2001 року (аналогічно, дані за 1989 рік подаються за результатами перепису станом на 12 січня 1989 року).</description>
-			<content type="html"><![CDATA[<p><em>Ще одна забавка із бібліотекою geofacet. Принципово ніц нового, але цікава штука в даних - суттєва відмінність даних за 2002 рік від даних за решту років.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/median-age/raw/master/median_age.png"
-         alt="медіанний вік населення в Україні у 1989-2016 роках"/> <figcaption>
-            <p>медіанний вік населення в Україні у 1989-2016 роках</p>
-        </figcaption>
-</figure>
-
-<p>Відмінність зумовлена тим, що дані за 2002 рік подаються за результатами перепису населення від 5 грудня 2001 року (аналогічно, дані за 1989 рік подаються за результатами перепису станом на 12 січня 1989 року).</p>
-<p>У всі інші роки показники надходять зі “спеціальних обстежень”, актів реєстрації цивільного стану, талонів реєстрації (та зняття з реєстрації) мігрантів.</p>
-<hr>
-<p><a href="https://github.com/andriy-gazin/median-age">Код і дані на GitHub</a>.</p>
-<p><a href="http://database.ukrcensus.gov.ua/PXWEB2007/">Джерело даних</a>.</p>
-<p><a href="http://ukrstat.gov.ua/metod_polog/metod_doc/nas/nas_04.pdf">Як Держстат обчислює медіанний вік населення</a>.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Освіта: Як обрати інструмент для візуалізації даних?</title>
-			<link>https://texturainua.github.io/posts/ed/dataviz-tools/</link>
-			<pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/ed/dataviz-tools/</guid>
-			<description>Німецька журналістка Ліза-Шарлотта Рост провела цікавий експеримент з візуалізації даних - вона спробувала відтворити один й той самий графік за допомоги 24 різних інструментів (12 програм чи застосунків та 12 бібліотек для візуалізації даних). Про результати експерименту вона написала у замітці What I Learned Recreating One Chart Using 24 Tools.
- Головний висновок експерименту - немає ідеальних інструментів для візуалізації даних загалом, але є хороші інструменти для певних задач у сфері візуалізації даних.</description>
-			<content type="html"><![CDATA[<p><em>Німецька журналістка Ліза-Шарлотта Рост провела цікавий експеримент з візуалізації даних - вона спробувала відтворити один й той самий графік за допомоги 24 різних інструментів (12 програм чи застосунків та 12 бібліотек для візуалізації даних). Про результати експерименту вона написала у замітці <a href="https://source.opennews.org/articles/what-i-learned-recreating-one-chart-using-24-tools/">What I Learned Recreating One Chart Using 24 Tools</a>.</em></p>
-<figure class="big">
-    <img src="https://66.media.tumblr.com/43599ecaf5d401c7d74ac713a43b2298/tumblr_inline_or4eqyE9hw1rzz11c_1280.png"/> 
-</figure>
-
-<p>Головний висновок експерименту - <strong>немає ідеальних інструментів для візуалізації даних загалом, але є хороші інструменти для певних задач у сфері візуалізації даних</strong>. Отже, вибираючи інструмент для візуалізації даних, слід чітко усвідомлювати, які задачі ви намагаєтесь вирішити.</p>
-<p>Зокрема слід зрозуміти, <strong>для чого вам візуалізація даних - для аналізу чи презентації?</strong> Візуалізація потрібна вам для себе, для дослідження даних, вирізнення в них тренду чи паттерну? Чи ви хочете створити щось для певної аудиторії?</p>
-<p><strong>Чи потрібно вам робити якісь операції із даними під час візуалізації?</strong> Тому що деякі інструменти чи бібліотеки для візуалізації даних дозволяють обчислювати нові змінні чи агрегувати дані на льоту, а інші вимагають вже максимально підготовлених для візуалізації даних. Тобто вам доведеться зробити всі обчислення деінде і вже імпортувати до програми підготовлені дані.</p>
-<p><strong>Вам достатньо типових графіків чи ви хочете щось дуже нестандартне, специфічне?</strong> Деякі інструменти дозволяють дуже швидко зробити типові візуалізації (стовпчикові діаграми, лінійні графіки, діаграми розсіяння і т.д.), але найдрібніша кастомізація при цьому займе у вас дуже багато часу. Інші потребують трохи більше часу навіть для стандартних графіків, але при цьому дуже гнучкі та дозволяють робити дуже нетипові штуки.</p>
-<figure class="big">
-    <img src="https://66.media.tumblr.com/fea1270c685ab2f0869c2fc7d752a072/tumblr_inline_or4g6jo4f21rzz11c_1280.png"/> 
-</figure>
-
-<p><strong>Вам достатньо статичної графіки чи обов’язково мати інтерактив?</strong> Відповідаючи на це питання, зважайте на нещодавню дискусію щодо доцільності використання інтерактивності у візуалізаціях. Не ховайте важливі дані, не змушуйте користувачів клікати чи наводити курсор на візуальні елементи, аби отримати справді важливі дані, використовуйте анотації, анімацію та transitions.</p>
-<p><em>Хочете дізнатись про інші висновки з цього експерименту? Читайте оригінал замітки Лізи-Шарлотти Рост <a href="https://source.opennews.org/articles/what-i-learned-recreating-one-chart-using-24-tools/">What I Learned Recreating One Chart Using 24 Tools</a>.</em></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Weather Radials</title>
-			<link>https://texturainua.github.io/posts/viz/weather-radials/</link>
-			<pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/weather-radials/</guid>
-			<description>Пару років тому вже відтворював weather radials за допомоги ggplot2 (саме з тієї візуалізації, можна сказати, і почалось моє захоплення цією бібліотекою і граматикою графіки загалом). Але тоді процес не був стовідсотково reproducible, я трохи наводив лоску у графічному редакторі.
- weather radials
-  Тепера дійшли нарешті руки зробити все максимально відтворюваним у коді. Майже спортивний інтерес був.
-Кожен сегмент на графіку показує діапазон температур впродовж доби, колір сегменту позначає середньодобову температуру.</description>
-			<content type="html"><![CDATA[<p><em>Пару років тому вже відтворював <a href="http://weather-radials.com/">weather radials</a> за допомоги ggplot2 (саме з тієї візуалізації, можна сказати, і почалось моє захоплення цією бібліотекою і граматикою графіки загалом). Але тоді процес не був стовідсотково reproducible, я трохи наводив лоску у графічному редакторі.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/weather-radials/raw/master/weather-radials.gif"
-         alt="weather radials"/> <figcaption>
-            <p>weather radials</p>
-        </figcaption>
-</figure>
-
-<p>Тепера дійшли нарешті руки зробити все максимально відтворюваним у коді. Майже спортивний інтерес був.</p>
-<p>Кожен сегмент на графіку показує діапазон температур впродовж доби, колір сегменту позначає середньодобову температуру. Дані - за 2016 рік.</p>
-<p>Дані отримані через АРІ <a href="https://www.wunderground.com">Weather Underground.</a></p>
-<p><a href="https://github.com/andriy-gazin/weather-radials">Код для генерації візуалізацій на Github</a>.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Очікувана тривалість життя в Україні в розрізі вікових груп та статей</title>
-			<link>https://texturainua.github.io/posts/viz/life-expectancy/</link>
-			<pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/life-expectancy/</guid>
-			<description>Хтів зробити цю візуалізацію ще пару років тому, навіть чернетка була готова, але все ніяк не був задоволений результатом. Нарешті знайшов час оновити дані і переробити графіку. Справу закрито.
- очікувана тривалість життя в Україні
-  Візуально - все просто і ніц особливого, для кожної вікової групи показуємо, умовно кажучи, “скільки лишилось” жити (умовно, бо ж це “очікувана тривалість життя” все ж таки).
-Тепера ще тре зробити розподіл померлих за віком.</description>
-			<content type="html"><![CDATA[<p><em>Хтів зробити цю візуалізацію ще пару років тому, навіть чернетка була готова, але все ніяк не був задоволений результатом. Нарешті знайшов час оновити дані і переробити графіку. Справу закрито.</em></p>
-<figure class="big">
-    <img src="https://raw.githubusercontent.com/andriy-gazin/lifeexpectancy/master/expectancy.png"
-         alt="очікувана тривалість життя в Україні"/> <figcaption>
-            <p>очікувана тривалість життя в Україні</p>
-        </figcaption>
-</figure>
-
-<p>Візуально - все просто і ніц особливого, для кожної вікової групи показуємо, умовно кажучи, “скільки лишилось” жити (умовно, бо ж це “очікувана тривалість життя” все ж таки).</p>
-<p>Тепера ще тре зробити розподіл померлих за віком.</p>
-<p>Дані - із статистичного щорічника “Населення України”, він в pdf, але Tabula рятує.</p>
-<hr>
-<p><a href="https://github.com/andriy-gazin/lifeexpectancy">Код і дані на GitHub</a></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: GPS-треки Києва з Openstreetmap</title>
-			<link>https://texturainua.github.io/posts/viz/kyiv-gps-osm/</link>
-			<pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/kyiv-gps-osm/</guid>
-			<description>Витяг з Openstreetmap всі GPS-треки у Києві. Для цього написав маленький скрипт на Python (можна було і через JOSM, але ті файли, що повертаються з API, простіше потім розпарсити у потрібний формат). Всього вийшло 2640 треків, звісно, всі вони різної довжини. Якісь треки йдуть із таймстемпом (вони представляють основний інтерес для подальшої роботи), інші - просто з координатами. Загалом 6,5 млн точок.
- GPS-треки Києва з Openstreetmap
-  Звісно, перше, що зробив - наніс на карту всі треки за допомоги пайтонівської бібліотеки Datashader.</description>
-			<content type="html"><![CDATA[<p><em>Витяг з Openstreetmap всі GPS-треки у Києві. Для цього написав маленький скрипт на Python (можна було і через JOSM, але ті файли, що повертаються з API, простіше потім розпарсити у потрібний формат). Всього вийшло 2640 треків, звісно, всі вони різної довжини. Якісь треки йдуть із таймстемпом (вони представляють основний інтерес для подальшої роботи), інші - просто з координатами. Загалом 6,5 млн точок.</em></p>
-<figure class="big">
-    <img src="/img/gps/02.png"
-         alt="GPS-треки Києва з Openstreetmap"/> <figcaption>
-            <p>GPS-треки Києва з Openstreetmap</p>
-        </figcaption>
-</figure>
-
-<p>Звісно, перше, що зробив - наніс на карту всі треки за допомоги пайтонівської бібліотеки Datashader. Вона призначена саме для візуалізації великих масивів даних, і впоралась із цією задачею дуже швидко.</p>
-<figure class="big">
-    <img src="/img/gps/01.png"
-         alt="GPS-треки Києва з Openstreetmap"/> <figcaption>
-            <p>GPS-треки Києва з Openstreetmap</p>
-        </figcaption>
-</figure>
-
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Температура у Києві у розрізі місяців</title>
-			<link>https://texturainua.github.io/posts/viz/kyiv-weather/</link>
-			<pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/kyiv-weather/</guid>
-			<description>Чергова вправа, спроба відтворити візуалізацію FiveThirtyEight, натхнену обкладинкою альбому Joy Division ‘Uknown Pleasures’.
- температура у Києві
-  Для цього довелось написати свій wrapper для API Weather Underground, оскільки бібліотека rwunderground регулярно видавала помилки (наприклад, стверджувала, що мого ключа АРІ не існує) , або ж повертала дані із пропусками.
-Із цікавих задач, пов’язаних суто з візуалізацією - позиціонування графіків таким чином, аби вони накладались один на одного (там, де це можливо); позиціонування підписів місяців (виявилось, що geom_text в ggplot2 працює не дуже красиво, якщо використовувати facets, тому довелось шукати workarounds); позиціонування ліній, котрі позначаюь медіанну температуру для кожного місяця.</description>
-			<content type="html"><![CDATA[<p><em>Чергова вправа, спроба відтворити візуалізацію <a href="https://fivethirtyeight.com/features/the-most-conservative-and-most-liberal-elite-law-schools/">FiveThirtyEight</a>, натхнену обкладинкою альбому Joy Division  ‘Uknown Pleasures’.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/weatherviz/raw/master/joy.png"
-         alt="температура у Києві"/> <figcaption>
-            <p>температура у Києві</p>
-        </figcaption>
-</figure>
-
-<p>Для цього довелось написати свій wrapper для API <a href="https://www.wunderground.com/">Weather Underground</a>, оскільки бібліотека <a href="https://cran.r-project.org/web/packages/rwunderground/index.html">rwunderground</a> регулярно видавала помилки (наприклад, стверджувала, що мого ключа АРІ не існує) , або ж повертала дані із пропусками.</p>
-<p>Із цікавих задач, пов’язаних суто з візуалізацією - позиціонування графіків таким чином, аби вони накладались один на одного (там, де це можливо); позиціонування підписів місяців (виявилось, що geom_text в ggplot2 працює не дуже красиво, якщо використовувати  facets, тому довелось шукати workarounds); позиціонування ліній, котрі позначаюь медіанну температуру для кожного місяця.</p>
-<hr>
-<p><a href="https://github.com/andriy-gazin/weatherviz">Код і дані на GitHub</a>.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Хроніка чистки банківської системи України</title>
-			<link>https://texturainua.github.io/posts/viz/banks/</link>
-			<pubDate>Sat, 14 Jan 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/banks/</guid>
-			<description>Задля практики вирішив візуалізувати датасет Нацбанку про реорганізацію та ліквідацію банків, простіше - про чистку банківської системи. Не найцікавіший у світі датасет, звісно, але у мене була ідея для візуалізації, і цікаво було перевірити, чи вона спрацює на реальному наборі даних.
- хроніка чистки банківської системи України
-  Отже, тут є спроба подивитись на ліквідацію банків як на процес. Котрий починається зазвичай (але не обов’язково) із визнання банку неплатоспроможним та запровадження у ньому тимчасової адміністрації.</description>
-			<content type="html"><![CDATA[<p><em>Задля практики вирішив візуалізувати <a href="https://bank.gov.ua/control/uk/publish/article?art_id=75535">датасет Нацбанку про реорганізацію та ліквідацію банків</a>, простіше - про чистку банківської системи. Не найцікавіший у світі датасет, звісно, але у мене була ідея для візуалізації, і цікаво було перевірити, чи вона спрацює на реальному наборі даних.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/banks/raw/master/banks.png"
-         alt="хроніка чистки банківської системи України"/> <figcaption>
-            <p>хроніка чистки банківської системи України</p>
-        </figcaption>
-</figure>
-
-<p>Отже, тут є спроба подивитись на ліквідацію банків як на процес. Котрий починається зазвичай (але не обов’язково) із визнання банку неплатоспроможним та запровадження у ньому тимчасової адміністрації. В разі, якщо тимчасова адміністрація розуміє, що “тут вже нічого не виправити” (з інвесторами банку домовитись не виходить, ніякої стабілізації роботи фінустанови не буде), НБУ ухвалює рішення про ліквідацію банку.</p>
-<p>На графіку показані всі банки, ліквідовані НБУ з 2014 року (тобто не показані ті, які було визнано неплатоспроможними, але не ліквідовано). Очевидно, що у 2016 році Нацбанк почав приймати рішення про ліквідацію банку швидше (себто скоротився період від запровадження тимчасової адміністрації до прийняття рішення про ліквідацію).</p>
-<p>Але у випадку із цією візуалізацією мені не так цікаві самі дані, як маленькі рішення на зразок положення осей (зверху і зправа замість традиційних знизу і зліва),  оберненої осі Y та інтервалів на цій осі (jenks замість звичних рівних інтервалів типу 0, 100, 200, 300, 400 - дозволяє ліпше зрозуміти розподіл величин).</p>
-<hr>
-<p><a href="https://github.com/andriy-gazin/banks">Код і дані на GitHub</a>.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Температура в Києві, 1900-2016 рік</title>
-			<link>https://texturainua.github.io/posts/viz/weather-history/</link>
-			<pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/weather-history/</guid>
-			<description>Нещодавно виявив, що на сайті Центральної геофізичної обсерваторії лежать історичні дані щодо температури в Києві з 1812 року (хоча й з певними пропусками). Цими даними було би гріх не скористатись, хоча б для того, аби спробувати відповісти на питання, чи стає у Києві тепліше із часом.
- температура в Києві, 1900-2016 рік
-  Пробував різні варіанти візуалізації цих даних, зокрема традиційний scatterplot та heatmap, але найліпше видалось для кожного місяця обчислити середнє за весь період спостережень, а потім демонструвати відхилення від цього середнього у кожному конкретному році.</description>
-			<content type="html"><![CDATA[<p><em>Нещодавно виявив, що на сайті <a href="http://cgo.kiev.ua/index.php?fn=k_klimat&amp;f=kyiv&amp;p=1">Центральної геофізичної обсерваторії</a> лежать історичні дані щодо температури в Києві з 1812 року (хоча й з певними пропусками). Цими даними було би гріх не скористатись, хоча б для того, аби спробувати відповісти на питання, чи стає у Києві тепліше із часом.</em></p>
-<figure class="big">
-    <img src="https://github.com/andriy-gazin/weatheR/raw/master/weather.png"
-         alt="температура в Києві, 1900-2016 рік"/> <figcaption>
-            <p>температура в Києві, 1900-2016 рік</p>
-        </figcaption>
-</figure>
-
-<p>Пробував різні варіанти візуалізації цих даних, зокрема традиційний scatterplot та heatmap, але найліпше видалось для кожного місяця обчислити середнє за весь період спостережень, а потім демонструвати відхилення від цього середнього у кожному конкретному році.</p>
-<p>Ось ця лінія, котра демонструє середнє значення для кожного місяця, ніби утворює окрему точку відліку. І це дозволяє ніби сумістити на одному графіку два рівні ієрархії - єдину вісь Y для всіх місяців, та окремі вісі для місяців.</p>
-<p>Вибірку скоротив до 1900-2016 років, аби ліпше читались дані на графіку, хоча ще, звісно, хочу повернутись до цього датасету у нескороченому вигляді.</p>
-<p>Думав також про те, аби пододавати підписи до окремих років. Але візуально графік видається й так доволі насиченим. Можливо згодом зроблю його інтерактивним, аби всю додаткову інформацію можна було отримувати через hover чи click.</p>
-<p>Весь процес - отримання, трансформація та візуалізація даних - відвторюваний, <a href="https://github.com/andriy-gazin/weatheR">код на Github</a>.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Тривалість світлового дня у Києві</title>
-			<link>https://texturainua.github.io/posts/viz/daylight/</link>
-			<pubDate>Fri, 30 Dec 2016 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/daylight/</guid>
-			<description>Минулого тижня Надя Кельм опублікувала у Facebook фотографії свого дата-арту, заснованого на даних щодо тривалості світлового дня.
-Спершу я спробував відтворити його за допомоги ggplot2. Загальну структуру відворити не дуже складно, geom_linerange + scale_y_reversed, але із деталями, звісно, доведеться помучитись.*
- тривалість світлового дня у Києві
-  Але зрештою значно цікавішим здалось візуалізувати не лише тривалість світлового дня, а й також його початок та закінчення. В такий спосіб я ледь не вперше наочно зрозумів суть переходу на літній/зимовий час.</description>
-			<content type="html"><![CDATA[<p><em>Минулого тижня Надя Кельм <a href="https://www.facebook.com/nadja.kelm/posts/1562245883791847">опублікувала у Facebook фотографії свого дата-арту</a>, заснованого на даних щодо тривалості світлового дня.</em></p>
-<p>Спершу я спробував відтворити його за допомоги ggplot2. Загальну структуру відворити не дуже складно, geom_linerange + scale_y_reversed, але із деталями, звісно, доведеться помучитись.*</p>
-<figure class="big">
-    <img src="https://raw.githubusercontent.com/andriy-gazin/daylight/master/daylight.png"
-         alt="тривалість світлового дня у Києві"/> <figcaption>
-            <p>тривалість світлового дня у Києві</p>
-        </figcaption>
-</figure>
-
-<p>Але зрештою значно цікавішим здалось візуалізувати не лише тривалість світлового дня, а й також його початок та закінчення. В такий спосіб я ледь не вперше наочно зрозумів суть переходу на літній/зимовий час.</p>
-<p>Весь процес reproducible as hell, <a href="https://github.com/andriy-gazin/daylight">на Github виклав скрипти для отримання, процесингу та візуалізації даних</a>. Аналогічний графік можна створити для інших міст.</p>
-<p>Згодом хочу також зробити порівняння кількох міст на одному графіку.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Що читати: Self-Tracking</title>
-			<link>https://texturainua.github.io/posts/ed/self-tracking/</link>
-			<pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/ed/self-tracking/</guid>
-			<description>Хто автори?
-Видавець - The MIT Press - повідомляє нам, що Джина Неф - доцент (точніше associate professor, але в нас ніби такого поняття нема) комунікацій та соціології в Університеті Вашингтона, а Доун Нафус - старший науковий працівник в Intel Labs.
- Self-Tracking
-  Це не дуже багато пояснює, але принаймні зрозуміло, що люди не з вулиці прийшли книгу писати. Доун також є редактором книги Quantified: Biosensing Technologies in Everyday Life (назва щонайменше цікава).</description>
-			<content type="html"><![CDATA[<p><strong>Хто автори?</strong></p>
-<p>Видавець - The MIT Press - повідомляє нам, що Джина Неф - доцент (точніше associate professor, але в нас ніби такого поняття нема) комунікацій та соціології в Університеті Вашингтона, а Доун Нафус - старший науковий працівник в Intel Labs.</p>
-<figure class="left">
-    <img src="https://66.media.tumblr.com/070c1eb4f7d94134aa2ee912b52312ec/tumblr_oh9dqmvK8W1t4kv9lo1_1280.jpg"
-         alt="Self-Tracking"/> <figcaption>
-            <p>Self-Tracking</p>
-        </figcaption>
-</figure>
-
-<p>Це не дуже багато пояснює, але принаймні зрозуміло, що люди не з вулиці прийшли книгу писати. Доун також є редактором книги Quantified: Biosensing Technologies in Everyday Life (назва щонайменше цікава).</p>
-<p><strong>Про що книга?</strong></p>
-<p>Self-tracking досліджує практики спостереження за собою, збору власних даних про фізичну активність, харчування, фізіологічні показники, хороші та погані звички, настрій та способи проведення часу, етцетера, етцетера.</p>
-<p>Феномен збору власних даних тут досліджується в кількох аспектах:</p>
-<ul>
-<li>
-<p><strong>Практики:</strong> в який спосіб і навіщо люди збирають власні дані, тут зокрема йдеться  про просту цікавість, зміну поведінки, формування корисних звичок та краще розуміння фізіологічних процесів.  </p>
-</li>
-<li>
-<p><strong>Інструменти:</strong> як фітнес-трекери формують уявлення про норму (наприклад, необхідність робити 10 000 кроків на день), оскільки виходять з образу певної середньостатистичної людини (молодої, здорової та активної).</p>
-</li>
-<li>
-<p><strong>Ком’юніті:</strong> як навколо практики збору власних даних формуються спільноти - скажімо, спільноти Quantified Self, де люди створюють власні інструменти збору даних, або спільноти людей, котрій допомагають один одному інтерпретувати дані. А також - як начебто персональна справа (збір власних даних) перетворюється на справу соціальну (щонайменше через те, що дані можуть стосуватись не лише людини, котра їх збирає, але й інших людей).</p>
-</li>
-<li>
-<p><strong>Індустрія:</strong> як технологічні компанії позиціонують різноманітні трекери на ринку (товари для здорового способу життя, інструменти для спортсменів, модні аксесуари), як вони використовують дані користувачів (і хто взагалі є власником цих даних?).</p>
-</li>
-</ul>
-<p><strong>Навіщо читати?</strong></p>
-<p>Self-tracking є сенс читати, якщо ви вже збираєте власні дані (бодай просто рахуєте кроки за допомоги смартфону чи фітнес-трекеру) або ж плануєте почати. Книга задає непоганий контекст для феномену збору власних даних та містить хороші поради щодо організації процесу.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Теорія: Що таке візуальна грамота</title>
-			<link>https://texturainua.github.io/posts/ed/visual-literacy/</link>
-			<pubDate>Tue, 06 Sep 2016 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/ed/visual-literacy/</guid>
-			<description>Що таке візуальна грамота?
-Давайте спершу розберемось, що таке грамота загалом? Під грамотою, як мені видається, ми зазвичай розуміємо уміння читати і писати. Тобто вміння сприймати та комунікувати інформацію. При цьому, важливою ознакою грамоти є уміння комунікувати інформацію без помилок, щонайменше - граматичних. Відповідно, однією з ознак грамотності подекуди вважається уміння ці помилки помічати (і виправляти).
-Далі вже можна говорити про розвинення цих навичок: про розмір особистого словника, розуміння довгих складнопідрядних і складносурядних речень, знання спеціалізованої термінології, уміння формулювати свої думки чітко, просто, витончено та красиво, пояснювати складні речі просто і т.</description>
-			<content type="html"><![CDATA[<p>Що таке візуальна грамота?</p>
-<p>Давайте спершу розберемось, що таке грамота загалом? Під грамотою, як мені видається, ми зазвичай розуміємо уміння читати і писати. Тобто вміння сприймати та комунікувати інформацію. При цьому, важливою ознакою грамоти є уміння комунікувати інформацію без помилок, щонайменше - граматичних. Відповідно, однією з ознак грамотності подекуди вважається уміння ці помилки помічати (і виправляти).</p>
-<p>Далі вже можна говорити про розвинення цих навичок: про розмір особистого словника, розуміння довгих складнопідрядних і складносурядних речень, знання спеціалізованої термінології, уміння формулювати свої думки чітко, просто, витончено та красиво, пояснювати складні речі просто і т.д.</p>
-<p>Як ми можемо застосувати це визначення для пояснення концепту візуальної грамоти? Дуже просто. Візуальна грамота це уміння інтерпретувати різноманітні графіки та діаграми, уміння виявляти та виправляти у візуалізаціях помилки, а також уміння візуалізувати дані самостійно.</p>
-<p>Розберемо по пунктах.</p>
-<p><strong>Уміння читати графіки</strong></p>
-<p>Візуальна грамота починається з уміння читати графіку, інтерпретувати діаграми та отримувати з них інформацію. Звісно, все починається із простих форм - стовпчикова діаграма, лінійна діаграма, кругова діаграма. Далі складніше - гістограма, діаграма розсіяння, графік густини, мережеві візуалізації. А потім вже всілякі екзотичні та неконвенційні речі (обличчя Чернова, діаграми Вороного?).</p>
-<p>Уміння інтерпретувати візуалізації даних можна напрацювати, регулярно розглядаючи (уважно та прискіпливо) різноманітні діаграми та карти у матеріалах провідних видань (на зразок New York Times, Washington Post), намагаючись зрозуміти хід думок та мотивацію, що стоїть за тією чи іншою візуалізацією.</p>
-<p><strong>Уміння бачити та виправляти помилки</strong></p>
-<p>Дуже важливо випрацювати у собі звичку критично ставитись до візуалізації даних, навчитись виявляти слабкі риси або помилки у візуалізаціях та графіках. Поганий вибір способу кодування інформації, неправильний вибір діаграми, порушення принципів візуалізації (масштабів, наприклад), порушення конвенцій сприйнятя інформації (поганий вибір кольорів, скажімо),  відсутність візуальної ієрархії, візуальний шум та сміття.</p>
-<p>Погані приклади візуалізацій таким чином для напрацювання візуальної грамоти не менш важливі, ніж хороші. Їх є сенс розбирати на предмет того, що ускладнює сприйняття інформації, що і як можна виправити, аби полегшити та прискорити комунікацію даних.</p>
-<p><strong>Уміння створювати візуалізації</strong></p>
-<p>Аналогом письма чи мовлення тут виступає уміння комунікувати дані за допомоги візуалізації. Розуміння того, як структурувати дані для візуалізації, та які дані взагалі є сенс візуалізувати, вміння обирати спосіб кодування інформації, який передає дані найбільш ефективно та уникає їх викривлення, уміння правильно підбирати вид діаграми - залежно від даних та задач візуалізації, уміння відсікати зайві елементи у візуалізації з метою зменшення шуму та посилення сигналу.</p>
-<p>Тут, звісно, без практики ніяк. Треба робити візуалізації - в будь-який доступний спосіб (графічний редактор, табличний редактор, різноманітні сервіси для візуалізації даних, програмування), аналізувати їх, перероблювати, покращувати. Показувати друзям чи колегам та з’ясовувати, чи все їм зрозуміло у вашій візуалізації, знову переробляти.</p>
-<p>Важливо зрозуміти, що візуальна грамота - не вроджена якість, а набута властивість. А отже, її можна і потрібно розвивати.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Розмова з Олегом Олашиним</title>
-			<link>https://texturainua.github.io/posts/talk/oleg-olashyn-interview/</link>
-			<pubDate>Sat, 10 Oct 2015 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/talk/oleg-olashyn-interview/</guid>
-			<description>Після тривалої перерви продовжуємо рубрику «Розмова з&amp;hellip;». В другому випуску - розмова з ужгородським дизайнером Олегом Олашиним, засновником агенції Brandsmithy та платформи Infographics [UA].
-Перш за все - розкажіть трохи про себе? Як давно і за яких обставин ви почали робити інфографіку? Як можете описати свій прогрес у цій сфері?
-Я графічний дизайнер та арт-директор, засновник невеликої брендингової агенції та медіа-платформи Infographics [UA]. Професійно займаюсь графічним дизайном близько 8 років. Проживаю в місті Ужгород.</description>
-			<content type="html"><![CDATA[<p><em>Після тривалої перерви продовжуємо рубрику «Розмова з&hellip;». В другому випуску - розмова з ужгородським дизайнером Олегом Олашиним, засновником агенції Brandsmithy та платформи <a href="https://twitter.com/infographics_ua">Infographics [UA]</a>.</em></p>
-<p><strong>Перш за все - розкажіть трохи про себе? Як давно і за яких обставин ви почали робити інфографіку? Як можете описати свій прогрес у цій сфері?</strong></p>
-<p>Я графічний дизайнер та арт-директор, засновник невеликої брендингової агенції та медіа-платформи Infographics [UA]. Професійно займаюсь графічним дизайном близько 8 років. Проживаю в місті Ужгород.</p>
-<figure class="left">
-    <img src="https://66.media.tumblr.com/289817bbb7f16c9936324078e2efc5df/tumblr_inline_nvzxs5uuFk1rzz11c_540.png"/> 
-</figure>
-
-<p>Інфографікою займаюсь відносно короткий відрізок часу – трохи більше року. Першу варту уваги інфографіку розроблено влітку 2014 року. Це була некомерційна робота, виготовлена для Руху підтримки закарпатських військових. Волонтери у соцмережах розшукували людину, яка б допомогла візуалізувати необхідне спорядження для військових, на яке вони збирали кошти. Я відгукнувся на цей заклик. Так з’явилась інфографіка «Вартість спорядження бійця АТО», яка і досі мандрує у вигляді великого стенду по всіх волонтерських заходах в Ужгороді.</p>
-<p>Станом на сьогодні мною створено близько двох сотень різнопланових інфографік. Так як в мене за плечима досить серйозна дизайн-школа, з розробкою інфографіки не було і нема жодних технічних складнощів, але зараз почав більше зосереджуватись на заповненні прогалин у знаннях в сфері візуалізації даних та картографії.</p>
-<p><strong>Ви є засновником агенції Brandsmithy, що займається графічним дизайном та розробкою айдентики, але я не побачив у переліку послуг власне інфографіки. Це для вас дві окремі сфери діяльності? Як ви гадаєте, чи вже склався в Україні ринок інфографіки?</strong></p>
-<p>Так, наразі бренд-дизайн та розробка інфографіки – це два окремі напрямки. Перший -  на 100% комерційна сфера, де вже напрацьований великий досвід, де вже склались певні стосунки із замовниками та партнерами. Що стосується розробки інфографіки – це зовсім інший, новий та незалежний напрям, який розвивається своїм власним шляхом.</p>
-<p>На мою думку, ринок інфографіки в Україні перебуває у зародковому стані. Взагалі, рівень інфографічних робіт, які виготовяють і публікуть більшість інформаційних агенції та видань дуже низький – м’яко кажучи, аматорський. Інший приклад – у нас нема великих професійних студій чи агенцій, які спеціалізуються виключно на інфографіці та візуалізаціях, і які надавали б такі послуги інтернет-виданням чи друкованим ЗМІ. Ця ніша практично не заповнена.  </p>
-<p><strong>З якими виданнями чи організаціями ви працюєте? Мені здається, що частину робіт ви робите не для конкретного замовника, а просто так, а вже потім ЗМІ підхоплюють і тиражують її? What’s the point?</strong></p>
-<p>З вересня 2014 року до червня 2015 я тісно співпрацював з інформаційною агенцією «Слово і Діло». Також працював з Комітетом виборців України, розробляв інфографіки для проекту Free Crimea та ряду інших видань.</p>
-<p>Дійсно, роботи під брендом Infographics [UA], які публікуються у одноіменному твіттер-акаунті, виготовляються не на замовлення. Це соціальна ініціатива і власний некомерційний проект. Інфографіка – це цифри і факти, тому вона є  дуже ефективним інструментом протидії фейкам, різним інформаційним вкидам та пропаганді. Складні питання потребують простих відповідей, які можна сформулювати виключно візуальною мовою.</p>
-<p>Твіттер-акаунт Infographics [UA] започаткований у січні 2015 року в якості експерименту. Вже за місяць він мав більше двох тисяч підписників, серед яких топові українські медіа, зокрема «Українська Правда», «Укрінформ», «Радіо Свобода», «5-ий канал» та інші. За 8 місяців аудиторія виросла і наближається до 5 тисяч фоловерів. Це не дуже багато, але завдяки вірусності контенту, щомісячна кількість переглядів сягає 1 млн. Тому, де-факто Infographics [UA] – це ЗМІ. Соціальне ЗМІ із соціальною функцією.</p>
-<p>Невдовзі ми з партнером плануємо зробити ренеймінг та ребрендинг Infographics [UA], а також  запустити інший майданчик та об’єднати його з твіттер-каналом. Це буде веб-сайт – концептуально новий, якщо порівнювати з класичними онлайн-медіа.</p>
-<p><strong>І також - наскільки я розумію, у таких випадках вам доводиться самостійно збирати дані та робити з них історію. Тобто це вже не лише дизайнерська, а й журналістська робота. Як взагалі вам комфортніше працювати - коли вам дають готові дані, чи коли збираєте самі?</strong></p>
-<p>Звісно, на пошук та аналіз даних йде інколи більше часу, ніж на дизайнерську частину роботи. Але комфортніше самостійно шукати інформацію – я одразу бачу, де можна використати ті чи інші дані і як вибудувати структуру інфографіки. Також траплялись випадки, коли замовники надвали неякісні дані – неповні чи з неавторитетних джерел. Це ще одна причина, щоб самому проводити збір даних і тримати все під контролем.</p>
-<p><strong>Помітив, що певні свої роботи перекладаєте іншими мовами? Це власна ініціатива? Чи знаходиться читач на ці переклади?</strong></p>
-<figure class="left">
-    <img src="https://66.media.tumblr.com/ba599476ce952c3e4993cb9fc0459f25/tumblr_inline_nvzxswtnp61rzz11c_540.png"/> 
-</figure>
-
-<p>Так, переклади – власна ініціатива.</p>
-<p>Серед фоловерів медіа-платформи Infographics [UA] більше двох десятків офіційних акаунтів дипломатичних представництв України у різних країнах – посольств та консульств, також акаунти Міністерства закордонних справ України, постпреда України в ООН Юрія Сєргеєва, багатьох українських дипломатів та журналістів провідних європейських медіа. Саме вони формують той пул підписників, які активно поширюють англомовну інфографіку серед своєї читацької аудиторії.</p>
-<p>Також віднедавна налагоджена співпраця з міжнародною волонтерською групою «InformNapalm», яка допомагає перекладати інфографіку на різні мови.</p>
-<p><strong>Як побудований ваш робочий процес виготовлення інфографіки? Які поради ви могли б дати з приводу організації робочого процесу? Який ваш основний інструментарій? Чи не плануєте згодом розвиватись у напрямку інтерактивної графіки?</strong></p>
-<p>Процес виготовлення інфографіки в мене складається з двох етапів. Перший етап – пошук теми та інформації. Спочатку я знаходжу актуальні та цікаві теми. Для цього доводиться моніторити як українські медіа, так і зарубіжні. Інколи роблю переклади та адаптацію вже готових англомовних інфографік. Буває, що трапляється якась резонансна подія – тоді «вмикаю секундомір» і роблю так звану оперативну інфографіку. Так, наприклад, створювалась інфографіка про вбивсто Бориса Нємцова.</p>
-<figure class="left">
-    <img src="https://66.media.tumblr.com/8ad7c59b7d4172938f011f01b9b18a5f/tumblr_inline_nvzyfppAwS1rzz11c_540.png"/> 
-</figure>
-
-<p>Коли тема визначена, розпочинаю збір даних для інфографіки. Знайти потрібну інформацію, перевірити її достовірність, досконало вивчити тему – це все кропітка робота, що потребує часу та терпіння.</p>
-<p>Наступний етап  – це створення історії та структури інфографіки, а також безпосередньо дизайн. Я працюю без попередніх скетчів. Вся структура інфографіки вибудовується в голові ще на етапі збору даних, і потім залишається лише її «оцифрувати».</p>
-<p>В роботі використовую стандартні векторні та растрові графічні редактори – Adobe Illustrator, Corel Draw та Adobe Photoshop.</p>
-<p>У напрямку інтерактивної інфографіки є бажання розвиватись, але очевидно, що твітер-платформа для цього не підходить. Також бракує знань та навичок програмування. В останню сферу нема планів заглиблюватись, тому, можливо, інтерактивні роботи з’являться у кооперації з іншою людиною чи командою.</p>
-<p><strong>У вас загалом є доволі впізнаваний стиль - набір кольорів, layout і т.д. Як він сформувався? Чи можете відзначити якісь впливи? Мені от, скажімо, у ваших інфографіках відчувається вплив “РИА Новости” (композиційно) та FiveThirtyEight (header і footer).</strong></p>
-<p>Цей стиль сформувався практично одразу з першою комерційною роботою. Мінімалізм, чисті лінії, м’які приглушені палітри походять від стилю «<em>flat</em>_ __design_», що кілька останніх років панував у графічному дизайні та дизайні користувацьких інтерфейсів (UI). І, дійсно, на мій стиль сильно вплинули роботи студії інфографіки «РИА Новости». Ще можу відзначити роботи таких авторів та студій, як [Франческо Франкі]((<a href="http://www.francescofranchi.com">www.francescofranchi.com</a>), <a href="www.feltron.com">Ніколас Фелтон</a>, агенцій <a href="www.accurat.it">Accurat</a> та <a href="www.thedesignsurgery.co.uk">The Design Surgery</a>.</p>
-<p>Ну, і звісно не можу не згадати про  <a href="http://fivethirtyeight.com/">FiveThirtyEight</a>. Щодо наявності хедера та футера в інфографіках – це обов’язкові компоненти, так як мої роботи наразі не використовуються в контексті якихось новин, статей чи аналітичних матеріалів. Вони є самодостатніми, і за умови  тиражування іншими ЗМІ є потреба в назві та роз’ясненні (хедер), а також у зазначенні копірайтів та власної веб-адреси (футер).</p>
-<p><strong>Ви збираєте роботи інших видань у твіттері Infographic[UA] - чи є якийсь принцип відбору? Очевидно, ви доволі добре розумієте стан справ в українській інфографіці - можете назвати кілька яскравих команд чи дизайнерів? Які найбільші проблеми в роботі з інфографікою в українських видань ви вбачаєте?</strong></p>
-<p>Головні критерії відбору робіт інших видань – якісний дизайн, актуальність, достовірність даних. Втім, якщо раніше акаунт працював у форматі ручної агрегації і частка власних робіт була невеликою, то зараз йде тенденція до поступового нарощування об’єму власного контенту. Відтак відбір «чужих» робіт стає жосткішим, щоб відповідати певній планці якості.</p>
-<p>Всі українські дизайнери інфографіки чи журналісти даних, про яких мені відомо і в яких можна чомусь повчитись, так чи інакше пов’язані з «Текстами».</p>
-<p>Найбільшою проблемою в роботі з інфографікою в українських виданнях є те, що редактори дуже часто не розуміють, що таке інфографіка. Інколи навіть просто зображення, на якому окрім тексту нічого нема, називають інфографікою. Інша проблема – це низька якість дизайну. Переважна більшість онлайн-медіа генерує відверто слабку інфографіку. Досить часто зустрічаю роботи, в яких розробники намагалися максимально заповнити вільний простір візуальним сміттям – і на фоні якісь там фото, і купа недоречних ілюстрацій, і кумедні шрифти. Це все зайве, бо інфографіка одразу втрачає головну функцію – полегшення сприйняття викладеної інформації.</p>
-<p><strong>Які книжки, фільми чи курси лекцій ви би порадили тим, хто починає працювати з інфографікою?</strong></p>
-<p>Все залежить від того, звідки людина прийшла в інформаційний дизайн – з журналістики чи з графічного дизайну. Якщо з дизайну, то  спочатку варто ознайомитись з основними принципами інформаційного дизайну та методами візуалізацій. Якщо з журналістики, то спочатку – принципи візуалізації даних, а вже потім обов’язково курс молодого бійця з дизайну – навчитись основам композиції, колористики, типографіки та отримати базові навички верстки.</p>
-<p>Одним з найкращих фахівців сучасності у сфері візуалізації даних є <a href="http://www.thefunctionalart.com/">Альберто Каїро</a>, тому сміливо можна розпочати свій інфографічний шлях з його книги «The Functional Art».</p>
-<p>Початківцям також можу порекомендувати  короткостроковий курс з основ візуалізації , який щорічно проводить МГО «Інтерньюз-Україна» – так звану <a href="https://www.facebook.com/groups/infographicschool/">Школу інфографіки</a>. Там можна отримати певні базові знання та перейняти досвід від  українських фахівців з графічного дизайну та інфографіки, а вже потім можна зайнятись самоосвітою. Ще важливо відстежувати та аналізувати роботи відомих авторів, студій чи інформаційних агенцій. Раджу підписатись на їх акаунти у соцмережах.</p>
-<p>Головне – постійно розвиватись, вдосконалюватись і не зупинятись на якихось тимчасових досягненнях.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Розмова з Яриною Михайлишин</title>
-			<link>https://texturainua.github.io/posts/talk/yaryna-mykhailyshyn-interview/</link>
-			<pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/talk/yaryna-mykhailyshyn-interview/</guid>
-			<description>“Текстура” виникла не в останню чергу з потреби знайти співрозмовників, з потреби професійної дискусії та обміну досвідом. Ідея робити інтерв’ю із українськими дизайнерами та аналітиками виникла практично у перші ж дні існування блогу, однак до справи дійшло лише зараз. Отже, розпочинаємо регулярну - маю таку надію - рубрику “Розмова з…”. В першому випуску - розмова з Яриною Михайлишин, журналістом даних, яка робить візуалізації для видань &amp;ldquo;Тексти”, “День” та “Українська правда”.</description>
-			<content type="html"><![CDATA[<p><em>“Текстура” виникла не в останню чергу з потреби знайти співрозмовників, з потреби професійної дискусії та обміну досвідом. Ідея робити інтерв’ю із українськими дизайнерами та аналітиками виникла практично у перші ж дні існування блогу, однак до справи дійшло лише зараз. Отже, розпочинаємо регулярну - маю таку надію - рубрику “Розмова з…”. В першому випуску - розмова з <a href="https://www.facebook.com/yaryna.mykhyalyshyn">Яриною Михайлишин</a>, журналістом даних, яка робить візуалізації для видань &ldquo;<a href="http://texty.org.ua/">Тексти</a>”, “<a href="http://incognita.day.kiev.ua/infohraphics">День</a>” та “<a href="http://www.pravda.com.ua/">Українська правда</a>”.</em></p>
-<p><strong>Як Ви себе самоідентифікуєте? Дизайнер? Аналітик? Візуальний журналіст?</strong></p>
-<p>Питання самоідентифікації завжди дуже делікатне. Мабуть, журналіст даних. Мій журналістський бекграунд доволі помітний. Ще на етапі роботи з даними я завжди намагаюсь зрозуміти що буде цікаво і корисно для читача, які запити аудиторії. На які питання ми можемо відповісти з конкретними даними і на які питання потрібно дати відповідь, можливо, затративши ще більше часу на пошук додаткової інформації.</p>
-<p><strong>Наскільки я розумію, Ваша освіта аж ніяк не пов’язана із дизайном чи візуалізацією? Як і коли Ви почали займатись інфографікою?</strong></p>
-<p>Так, в мене журналістська освіта. Але я не вважаю це дивним. Радше навпаки, це саме те середовище, де я вперше дізналась про інфографіку. Медіа на сьогодні, мабуть, один з найбільших ринків. Зрештою, найкращі світові зразки візуалізації сьогодні створюють переважно в нйюс-румах, для самих журналістів  чи для поширення ними. Отож я вперше побачила інфографіку в англомовних медіа. Її ставало все більше  і більше,  було зрозуміло, що це якась нова хвиля, що скоро стане трендом. Тоді матеріалів стосовно самої інфографіки чи її засад було значно менше, ніж сьогодні, але мені пощастило потрапити на першу школу інфографіки від “Текстів”. Там все і почалось.  </p>
-<p><strong>Опишіть свою еволюцію у інфографіці та візуалізації? Ваші роботи, як мені здається, доволі впізнавані - як сформувався стиль, метод роботи? Чи були взірці, яким хтілося наслідувати? Були наставники, які давали поради?</strong></p>
-<p>Не знаю, чи мій стиль вже сформований, він лише на шляху до цього. Взірці, звісно, були: роботи The Guardian, NYT, FiveThirtyEight, студій Accurat, Density Design, Сolumn Five та багато інших. Хорошим джерелом натхнення була і залишається бібліотека Visualizing.org, щорічна збірка Best American Infographics, непогані підбірки публікуються на Visualloop. Своїм наставником вважаю Анатолія Бондаренко.</p>
-<p><strong>Який інструментарій ви використовуєте? Наскільки я можу розуміти, це і стандартний набір графічного дизайнера, і програмування?</strong></p>
-<p>Інструментів сьогодні більш, ніж достатньо, вистачало б часу їх всі освоїти =) Для простіших статичних робіт достатньо і векторного редактора. Для більш цікавих використовую бібліотеку D3.js, рідше Tableau, іноді поєднання статичних інфографік з можливостями  HTML та СSS. Для карт є свої підходи: дизайн розробляю в Tilemill, інтерактивність додаю через Сarto DB чи ті ж таки Tilemill, D3.</p>
-<p><strong>І, знову до теми освіти, в нас же ніде не вчать робити інфографіку, окрім хіба нечастих семінарів “Текстів”? Де Ви освоювали ту ж саму картографію? Книжки, онлайн-курси?</strong></p>
-<p>Не варто недооцінювати силу “нечастих семінарів “Текстів”. Геній Анатолія Бондаренка полягає ще й у тому, що за три дні семінарів він вміє надихнути та зацікавити інфографікою настільки, що ви будете займатись цим все життя. Насправді, як і в будь-якій справі, тут дуже важлива самоосвіта та наполегливість. Отримавши на тих таких семінарах кілька десятків посилань на хороші джерела, онлайн уроки чи курси, навчання - це вже питання особистої відповідальності та часу. Стосовно конкретних книжок: хорошою основою для розуміння інформаційного дизайну була бібліографія Тафті, згодом ще кілька засадничих книжок по кольору й шрифтах. D3 почала вчити на основі книжки <a href="http://chimera.labs.oreilly.com/books/1230000000345">Скотта Мюрея </a> уроків <a href="https://github.com/mbostock/d3/wiki/Tutorials">Майка Бостока</a> та ще одного курсу на <a href="https://code.tutsplus.com/courses/beautiful-data-with-d3">Tuts+</a>. До речі, хороший підбір матеріалів по D3 зібраний <a href="https://engineering.eventbrite.com/d3-js-resources-to-level-up/">тут</a>. Стосовно курсів: на Coursera.org можна знайти цілу підбірку курсів по аналізу даних, статистиці та програмуванню, резурси для вивчення останнього – взагалі тема для окремого посту. Крім того є курси MOOC, уроки від тих таки Carto DB та десятків інших. Тепер, коли візуалізація фактично стала мейнстримом, sky is a limit. </p>
-<p><a href="http://texty.org.ua/d/static/map01/"><em>Одна з останніх робіт Ярини для видання “Тексти” - інтерактивна карта, що підсумовує рік російської окупації Криму та війни на Сході України</em></a></p>
-<p><strong>Що ще хтілось би опанувати?</strong></p>
-<p>Зараз вдосконалюю свої навики в D3. Це дуже потужний інструмент, є над чим працювати. Цікаво спробувати Vega й Graph-Tool, більше попрацювати з R.</p>
-<p><strong>Ви займаєтесь і збором даних, і візуалізацією, а подекуди і пишете тексти. Такий собі універсальний журналіст. Це вимушена міра, викликана браком фахівців чи ж просто звикли повністю відповідати за продукт?</strong></p>
-<p>Думаю і те, і те. Точніше друге поступово стало наслідком першого. Хоча іноді це банально залежить від масштабів проекту: є речі з якими ти можеш впоратись сам, є речі над якими краще працювати в команді.</p>
-<p><strong>Як знаходите ідеї для візуалізацій? Працюєте з редактором, який пропонує певні теми чи придумуєте самі?</strong></p>
-<p>Це дуже ситуативно. Загалом я намагаюсь слідкувати за інфопростором й релізами даних, тому часто  пропоную теми сама. Іноді просто натраляю на який новий інструмент, який хочеться випробувати і для нього шукаю актуальну тему. Часто отримую пропозиції від редакторів. З цієї перспективи це доволі вільний процес обміну думками та ідеями й не бачу причин його якось обмежувати.</p>
-<p><em><a href="http://texty.org.ua/d/static/refinance/">Ще одна візуалізація для видання “Тексти”, що досліджує обсяги рефінансування банків</a></em></p>
-<p><strong>З якого роду темами чи даними вам подобається працювати? А з чим навпаки не подобається? Чи були випадки, коли Ви відмовлялись від замовлень, бо тема вам не цікава або ж дані непевні?</strong></p>
-<p>Немає нецікавих тем, є більш чи менш актуальні. Також є неповні та поверхневі дані, які навпрядчи скажуть щось нове, які не містять відповіді на конкретні питання і з яких не вийде цікавої історії. Тому я рідко відмовляюся від тем, але буває відмовляюсь від проекту, тому що для нього не вистарчає даних, або вони сумнівні чи недостатньо релевантні.</p>
-<p><strong>З якими темами хтілось би попрацювати, але поки не було можливості або даних?</strong></p>
-<p>Відкриті дані для України досі слабке місце. Але я знаю, що хлопці з data.gov.ua  та інших організацій працюють над тим, щоб покращити ситуацію. Засмучує, що досі немає офіційної звітності щодо втрат в АТО, хотілося б також більшої відкритості в енергетичній сфері.  </p>
-<p><strong>Як побудований робочий процес? Чи малюєте скетчі? Чи часто переробляєте свої візуалізації?</strong></p>
-<p>Думаю, особливого алгоритму немає. Спочатку малюю скетчі, аналізую, потім працюю над візуалізацією. Якщо в процесі з’являються нові ідеї, або помічаю слабкі місця – доводиться переробляти.</p>
-<p><strong>Які наріжні принципи роботи з візуалізацією? Який рецепт хорошої інфографіки?</strong></p>
-<p>Я не вірю в універсальні рецепти успіху.  Але, якщо узагальнити, я б порівняла вдалу візуалізацію з чимось схожим на цибулину – кілька шарів, усі невід’ємні та рівні між собою.</p>
-<p>Серед них я б виокремила правдивість, розуміння та простоту.  Перш за все, донесена інформація повинна бути правдивою. Гадаю, додаткових пояснень тут не потрібно. Але просто правдивого факту недостаньо. Для правдивих фактів не потрібно візуалізації, для них вистачає довідників. Донесена інформація повинна забезпечувати  краще розуміння певного процесу чи явища, показувати динаміку, зміни, контекст. Іншими словами повинна давати читачу більше знань та розуміння предмету. Зрештою, візуалізація повинна бути достатньо простою та елегантною для ефективного сприйняття.</p>
-<p><strong>Чи стежите ви за тим, що роблять українські видання у сфері інфографіки? Або ж просто за якимись конкретними дизайнерами чи аналітиками? Можете когось відзначити? Що думаєте про стан професії?</strong></p>
-<p>Мені подобається, що дедалі більше видань роблять інтерактивні візуалізації чи лонгріди з їхніми елементами. Можливо, вони ще далеко не ідеальні, але це вже рух у правильному напрямку.</p>
-<p><strong>Чи є потреба у професійній розмові із колегами? У дискурсі навколо інфографіки? І про що б хтіли поговорити із іншими дизайнерами/аналітиками/візуалізаторами?</strong></p>
-<p>Звісно. Думаю нам бракує майданчиків для дискусії, зустрічей та конференцій. Сподіваюсь, скоро вони з’являються. Також було б круто створити свою гілку  спільноти <a href="http://hackshackers.com/">Hack/Hackers</a>, коли журналісти спільно з програмістами працюють над вирішенням конкретних проблем. Думаю, це теж ще попереду.</p>
-<p><strong>Чи стежите за роботою якихось іноземних видань чи студій? Чиї роботи подобаються? І чим саме подобаються?</strong></p>
-<p>Постійно стежу, чи принаймні намагаюсь. Переважно за роботами вже згаданих мною видань та студій, список інших можна переглянути в моєму <a href="https://twitter.com/iarynam/lists/dataviz">Twitter-list</a>.  </p>
-<p><strong>Покажіть свою улюблену візуалізацію, зроблену кимсь іншим? Поясніть, чим вона Вам подобається?</strong></p>
-<p>Їх десятки, якщо не сотні. Тому я виберу візуалізацію на тему, мабуть, найбільш актуальну сьогодні. Проект <a href="http://drones.pitchinteractive.com/">Drone Attacks</a> створений  Pitch Interactive в 2013 році –  чудовий приклад хорошого дизайну, функціональності, вдало підібраної форми та метафори. Форма, вибрана для відображення своєрідного стовпчикового графіка  нагадує ураження ракетами, що підкреслює тему візуалізації та посилює емоційне враження.  Орієнтація графіка донизу ніби наголошує, що мова йде про втрати, а не здобутки. Верхній графік відображає основні цифри, а опція фільтрів дає можливість дослідити дані самотужки.</p>
-<p><em><a href="http://www.drones.pitchinteractive.com/">Out of Sight, Out of Mind. Візуалізація атак дронів у Пакистані у 2004-2014 роках. Pitch Interactive</a></em></p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Теорія: Абстрактне і конкретне у візуалізації</title>
-			<link>https://texturainua.github.io/posts/ed/visual-reduction/</link>
-			<pubDate>Tue, 17 Feb 2015 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/ed/visual-reduction/</guid>
-			<description>Книгу Скота Макклауда Understanding Comics бачив у кількох списках рекомендованої літератури з інфографіки. А зараз ось натрапив на згадку її в лекції Стівена Ф&#39;ю.
- Мова про те, що спрощення зображення здатне підсилити повідомлення. Реалістичне зображення не обов&#39;язково найкраще підходить для комунікації в інфографіці, а редуковане - зосереджує увагу читача на певних деталях.
-Подібну думку зустрічав ще й в &amp;ldquo;Изобразительной статистике&amp;rdquo; - там зокрема згадується значення абстракціонізму для Ізотайпу (зведення фігур до простих геометричних форм - іконки Нейрата і Арнтца).</description>
-			<content type="html"><![CDATA[<p><em>Книгу Скота Макклауда Understanding Comics бачив у кількох списках рекомендованої літератури з інфографіки. А зараз ось натрапив на згадку її в лекції Стівена Ф'ю.</em></p>
-<figure class="big">
-    <img src="https://66.media.tumblr.com/6fa9814305b2f988c8f0733472be8db2/tumblr_inline_pk0ntbyT6D1rzz11c_1280.jpg"/> 
-</figure>
-
-<p>Мова про те, що спрощення зображення здатне підсилити повідомлення. Реалістичне зображення не обов'язково найкраще підходить для комунікації в інфографіці, а редуковане - зосереджує увагу читача на певних деталях.</p>
-<p>Подібну думку зустрічав ще й в &ldquo;Изобразительной статистике&rdquo; - там зокрема згадується значення абстракціонізму для Ізотайпу (зведення фігур до простих геометричних форм - іконки Нейрата і Арнтца).</p>
-<figure class="big*">
-    <img src="https://66.media.tumblr.com/b7fe5e742c1fccdacbf66a0e6717790f/tumblr_inline_pk0ntc8WMg1rzz11c_1280.jpg"/> 
-</figure>
-
-<p>На додачу до картинки з лекції Ф'ю знайшов ще одну з книги Макклауда. Тут він стверджує - чим більший рівень абстракції зображення, тим універсальнішим воно стає.</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Візуалізація: Температура у Києві у 2010-2014 роках</title>
-			<link>https://texturainua.github.io/posts/viz/calendarheat/</link>
-			<pubDate>Tue, 06 Jan 2015 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/viz/calendarheat/</guid>
-			<description>Візуалізація температури у Києві у 2010-2014 роках, зроблена за допомоги бібліотеки calendarheat для R та Inkscape.
- середня температура у Києві у 2010-2014 роках
-  </description>
-			<content type="html"><![CDATA[<p><em>Візуалізація температури у Києві у 2010-2014 роках, зроблена за допомоги бібліотеки calendarheat для R та Inkscape.</em></p>
-<figure class="big">
-    <img src="/img/weather_calendar_kyiv.png"
-         alt="середня температура у Києві у 2010-2014 роках"/> <figcaption>
-            <p>середня температура у Києві у 2010-2014 роках</p>
-        </figcaption>
-</figure>
-
-]]></content>
-		</item>
-		
-		<item>
-			<title>Посилання: Handmade Data Visualization</title>
-			<link>https://texturainua.github.io/posts/links/handmade-dataviz/</link>
-			<pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/links/handmade-dataviz/</guid>
-			<description>Італійський візуальний журналіст Адріано Аттус робить хендмейд візуалізації даних
- handmade data visualization
-  **Дивитись більше** </description>
-			<content type="html"><![CDATA[<p><em>Італійський візуальний журналіст Адріано Аттус робить хендмейд візуалізації даних</em></p>
-<figure class="big">
-    <img src="https://payload.cargocollective.com/1/8/261435/4196366/Moda24_Infotografica31low_o.jpg"
-         alt="handmade data visualization"/> <figcaption>
-            <p>handmade data visualization</p>
-        </figcaption>
-</figure>
-
-<h3 id="centerдивитись-більшеhttpadrianoattusithandmade-data-visualizationcenter"><!-- raw HTML omitted -->**<a href="http://adriano.attus.it/Handmade-Data-Visualization">Дивитись більше</a>**<!-- raw HTML omitted --></h3>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Відео: The Art of Data Visualization</title>
-			<link>https://texturainua.github.io/posts/video/art-of-dataviz/</link>
-			<pubDate>Fri, 28 Nov 2014 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/video/art-of-dataviz/</guid>
-			<description>Коротенький фільм про візуалізацію даних. Серед спікерів - Едвард Тафті та Джер Торп.</description>
-			<content type="html"><![CDATA[<p><em>Коротенький фільм про візуалізацію даних. Серед спікерів - Едвард Тафті та Джер Торп.</em></p>
-<!-- raw HTML omitted -->
-]]></content>
-		</item>
-		
-		<item>
-			<title>Посилання: List of Physical Visualizations</title>
-			<link>https://texturainua.github.io/posts/links/physical-dataviz/</link>
-			<pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/links/physical-dataviz/</guid>
-			<description>Проект, який ставить собі за мету зібрати всі приклади фізичних, матеріальних візуалізацій - з давніх давен і до сьогодні.
- physical data visualizations
-  **Дивитись більше** </description>
-			<content type="html"><![CDATA[<p><em>Проект, який ставить собі за мету зібрати всі приклади фізичних, матеріальних візуалізацій - з давніх давен і до сьогодні.</em></p>
-<figure class="big">
-    <img src="http://iibawards-prod.s3.amazonaws.com/projects/images/000/002/515/page.jpg"
-         alt="physical data visualizations"/> <figcaption>
-            <p>physical data visualizations</p>
-        </figcaption>
-</figure>
-
-<h3 id="center-дивитись-більшеhttpdataphysorglistcenter"><!-- raw HTML omitted --> **<a href="http://dataphys.org/list/">Дивитись більше</a>**<!-- raw HTML omitted --></h3>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Відео: The Joy of Stats</title>
-			<link>https://texturainua.github.io/posts/video/joy-of-stats/</link>
-			<pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/video/joy-of-stats/</guid>
-			<description>The Joy Of Stats - дуже хороша документальна стрічка від ВВС 4, в якій голова фонду Gapminder Ганс Рослінг захопливо розповідає про статистику</description>
-			<content type="html"><![CDATA[<p><em>The Joy Of Stats - дуже хороша документальна стрічка від ВВС 4, в якій голова фонду Gapminder Ганс Рослінг захопливо розповідає про статистику</em></p>
-<!-- raw HTML omitted -->
-]]></content>
-		</item>
-		
-		<item>
-			<title>Відео: Journalism in the Age of Data</title>
-			<link>https://texturainua.github.io/posts/video/journalism-age-of-data/</link>
-			<pubDate>Sat, 07 Dec 2013 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/video/journalism-age-of-data/</guid>
-			<description>Документальний фільм про журналістику даних Journalism in the Age of Data</description>
-			<content type="html"><![CDATA[<p><em>Документальний фільм про журналістику даних Journalism in the Age of Data</em></p>
-<!-- raw HTML omitted -->
-]]></content>
-		</item>
-		
-		<item>
-			<title>Посилання: Посібник з журналістики даних</title>
-			<link>https://texturainua.github.io/posts/ed/data-journalism-handbook/</link>
-			<pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
-			
-			<guid>https://texturainua.github.io/posts/ed/data-journalism-handbook/</guid>
-			<description>Журналістика даних: Посібник
-  Посібник з журналістики даних - книга, що має на меті дати загальне уявлення про роботу журналістів із даними, пошук історій в даних та їх представлення за допомоги візуалізації.
-Історія Data Journalism Handbook розпочалась у 2011 році під час семінару MozFest у Лондоні, до створення посібника долучились кілька десятків спеціалістів з журналістики даних і візуалізації даних з різних видань, компаній і організацій: The Guardian, BBC, Bloomberg News, ProPublica, New York Times, Washington Post, Financial Times, Deutsche Welle, O’Reilly Media, Open Knowledge Foundation і т.</description>
-			<content type="html"><![CDATA[<figure class="right">
-    <img src="http://texty.org.ua/action/file/download?file_guid=40160"
-         alt="Журналістика даних: Посібник"/> <figcaption>
-            <p>Журналістика даних: Посібник</p>
-        </figcaption>
-</figure>
-
-<p><em><a href="http://texty.org.ua/pg/chapter/newsmaker/read/40161/">Посібник з журналістики даних</a> - книга, що має на меті дати загальне уявлення про роботу журналістів із даними, пошук історій в даних та їх представлення за допомоги візуалізації.</em></p>
-<p>Історія Data Journalism Handbook розпочалась у 2011 році під час семінару MozFest у Лондоні, до створення посібника долучились кілька десятків спеціалістів з журналістики даних і візуалізації даних з різних видань, компаній і організацій: The Guardian, BBC, Bloomberg News, ProPublica, New York Times, Washington Post, Financial Times, Deutsche Welle, O’Reilly Media, Open Knowledge Foundation і т.д. Посібник було видано у 2012 році.</p>
-<blockquote>
-<p>Що робить журналістику даних відмінною від інших видів журналістики? Мабуть, це нові можливості, що відкриваються завдяки поєднанню традиційного &ldquo;чуття на новини&rdquo; та здатності розповісти переконливу історію за допомогою самого лише масштабу та діапазону цифрових даних, які зараз є в нашому розпорядженні.</p>
-</blockquote>
-<p>Окрім загальної розповіді про те, що таке журналістика даних та чому медіа мають вчитися працювати із даними, Посібник пропонує ряд історій успіху від провідних міжнародних видань. Тут вони розповідають про свої загальні принципи роботи з даними та конкретні проекти з журналістики даних. Окрім того, у посібнику є кілька глав, котрі пояснюють, як отримати, інтерпретувати та комунікувати дані.</p>
-<blockquote>
-<p>Журналістика даних – це ще один спосіб пильно вдивлятися в світ і помічати сили, які слід узяти до уваги. І коли сьогодні все більші обсяги даних стають доступними, як ніколи важливим є те, щоб журналісти розумілися на техніці журналістики даних. Це має бути інструмент в інструментарії кожного журналіста: чи то він сам навчиться, як безпосередньо працювати з даними, чи співпрацюватиме з тим, хто вміє це робити.</p>
-</blockquote>
-<h3 id="centerчитатиhttptextyorguapgchapternewsmakerread40161center"><!-- raw HTML omitted -->**<a href="http://texty.org.ua/pg/chapter/newsmaker/read/40161/">Читати!</a>**<!-- raw HTML omitted --></h3>
-]]></content>
-		</item>
-		
-	</channel>
+    </item>
+    
+  </channel>
 </rss>

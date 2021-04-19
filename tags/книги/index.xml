@@ -6,22 +6,19 @@
     <description>Recent content in книги on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://texturainua.github.io/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>© 2021, Андрій Газін</copyright>
+    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://texturainua.github.io/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Що читати: Data Points</title>
       <link>https://texturainua.github.io/posts/ed/data-points/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://texturainua.github.io/posts/ed/data-points/</guid>
-      <description>Огляд книги Data Points від автора популярного блогу про візуалізацію даних FlowingData Нейтана Яу.
-Хто автор
+      <description>Хто автор
 Нейтан Яу - автор популярного блогу про візуалізацію даних FlowingData, фахівець зі статистики та візуалізації даних, та свого роду літописець візуалізації даних в інтернеті.
  Data Points
-  Впродовж останніх десяти років він методично збирає та описує у своєму блозі найцікавіші приклади аналізу та візуалізації даних зі всього світу. Він також робить цікаві візуалізації даних із використанням R та D3.</description>
+  Впродовж останніх десяти років він методично збирає та описує у своєму блозі найцікавіші приклади аналізу та візуалізації даних зі всього світу. Він також робить цікаві візуалізації даних із використанням R та D3.
+Нейтан є автором двох книжок з візуалізації даних, що вийшли у видавництві Wiley.</description>
     </item>
     
     <item>

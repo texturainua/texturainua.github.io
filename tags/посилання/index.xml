@@ -6,21 +6,16 @@
     <description>Recent content in посилання on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Tue, 11 Feb 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://texturainua.github.io/tags/%D0%BF%D0%BE%D1%81%D0%B8%D0%BB%D0%B0%D0%BD%D0%BD%D1%8F/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>© 2021, Андрій Газін</copyright>
+    <lastBuildDate>Tue, 11 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://texturainua.github.io/tags/%D0%BF%D0%BE%D1%81%D0%B8%D0%BB%D0%B0%D0%BD%D0%BD%D1%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Датасет: Пасажиропотік на міжнародному та внутрішньому сполученнях</title>
       <link>https://texturainua.github.io/posts/data/passengers/</link>
       <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://texturainua.github.io/posts/data/passengers/</guid>
-      <description>Цікавий набір даних для аналізу та візуалізації від Укрзалізниці
-На Єдиному державному порталі відкритих даних публікують інформацію про пасажиропотік на міжнародному та внутрішньому залізничному сполученнях. Наразі оприлюднені дані з вересня 2018 року і до січня 2020 року включно.
- пасажирські перевезення на залізниці у 2019 році
-  В кожному файлі міститься інформація про:  Номер поїзда Вид сполучення (внутрішнє чи міжнародне) Дату відправлення поїзда Станцію відправлення Станцію призначення Тип вагона (плацкарт, купе, люкс) Тип документа (повний, пільговий, дитячий) Кількість пасажирів  Що ми можемо дізнатися з цього набору даних?</description>
+      <description>На Єдиному державному порталі відкритих даних публікують інформацію про пасажиропотік на міжнародному та внутрішньому залізничному сполученнях. Наразі оприлюднені дані з вересня 2018 року і до січня 2020 року включно.
+В кожному файлі міститься інформація про:  Номер поїзда Вид сполучення (внутрішнє чи міжнародне) Дату відправлення поїзда Станцію відправлення Станцію призначення Тип вагона (плацкарт, купе, люкс) Тип документа (повний, пільговий, дитячий) Кількість пасажирів  Що ми можемо дізнатися з цього набору даних?</description>
     </item>
     
     <item>
@@ -29,9 +24,10 @@
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://texturainua.github.io/posts/links/handmade-dataviz/</guid>
-      <description>Італійський візуальний журналіст Адріано Аттус робить хендмейд візуалізації даних
- handmade data visualization
-  **Дивитись більше** </description>
+      <description>  handmade data visualization
+     handmade data visualization
+     handmade data visualization
+  Дивитись більше </description>
     </item>
     
     <item>
@@ -40,9 +36,8 @@
       <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>https://texturainua.github.io/posts/links/physical-dataviz/</guid>
-      <description>Проект, який ставить собі за мету зібрати всі приклади фізичних, матеріальних візуалізацій - з давніх давен і до сьогодні.
- physical data visualizations
-  **Дивитись більше** </description>
+      <description> physical data visualizations
+  Дивитись більше </description>
     </item>
     
   </channel>

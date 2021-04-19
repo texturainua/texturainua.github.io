@@ -6,19 +6,15 @@
     <description>Recent content in nodebox on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Sat, 12 Oct 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://texturainua.github.io/tags/nodebox/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>© 2021, Андрій Газін</copyright>
+    <lastBuildDate>Sat, 12 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://texturainua.github.io/tags/nodebox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generative art: Ad Astra</title>
       <link>https://texturainua.github.io/posts/viz/ad-astra-generative/</link>
       <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://texturainua.github.io/posts/viz/ad-astra-generative/</guid>
-      <description>Візуалізація монологу з фільму Ad Astra за допомоги nodebox.
-Фільм Ad Astra завершується коротким монологом головного героя:
+      <description>Фільм Ad Astra завершується коротким монологом головного героя:
  I’m steady, calm. I slept well, no bad dreams. I am active and engaged. I’m aware of my surroundings and those in my immediate sphere. I’m attentive. I am focused on the essentials, to the exclusion of all else. I’m unsure of the future, but I’m not concerned. I will rely on those closest to me, and I will share their burdens, as they share mine.</description>
     </item>
     

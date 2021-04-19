@@ -6,19 +6,15 @@
     <description>Recent content in вибори on -текстура-</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
-    <lastBuildDate>Sat, 22 Jun 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://texturainua.github.io/tags/%D0%B2%D0%B8%D0%B1%D0%BE%D1%80%D0%B8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>© 2021, Андрій Газін</copyright>
+    <lastBuildDate>Sat, 22 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://texturainua.github.io/tags/%D0%B2%D0%B8%D0%B1%D0%BE%D1%80%D0%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Візуалізація: Результати другого туру виборів Президента України 2019 року, geowaffle chart</title>
       <link>https://texturainua.github.io/posts/viz/geowaffle/</link>
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://texturainua.github.io/posts/viz/geowaffle/</guid>
-      <description>Спроба поєднати waffle chart із geofacet.
- geowaffle chart
+      <description>geowaffle chart
   Як я вже писав раніше, geofaceting дозволяє впорядковувати панелі із графіками таким чином, що їхнє розташування буде відтворювати розташування регіонів, країн, штатів, областей, міст на карті.
 Створені в такий спосіб візуалізації поєднують в собі властивості карти та графіку, вони дозволяють створювати small multiples із великою кількістю даних і при цьому надають можливість простежувати регіональні тренди.
 Разом з тим waffle charts - це доволі непогана альтернатива секторним діаграмам (простіше пай-чартам).</description>

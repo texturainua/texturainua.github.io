@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gallery on -текстура-</title>
+    <link>https://texturainua.github.io/tags/gallery/</link>
+    <description>Recent content in gallery on -текстура-</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    <copyright>© 2021, Андрій Газін</copyright>
+    <lastBuildDate>Mon, 19 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://texturainua.github.io/tags/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://texturainua.github.io/posts/interactives/sketches-gallery/</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://texturainua.github.io/posts/interactives/sketches-gallery/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
